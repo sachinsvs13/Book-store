@@ -1,7 +1,6 @@
-const { Timestamp } = require("mongodb");
 const mongoose = require("mongoose");
 
-const bookSchema = mongoose.Schema(
+const bookSchema = new mongoose.Schema(
   {
     name: {
       type: String,
@@ -78,9 +77,42 @@ const bookSchema = mongoose.Schema(
       required: [true, "Released must be mentioned"],
       trim: true,
     },
+    averageRating: {
+      type: Number,
+    },
+    binding: {
+      type: String,
+      required: [true, "binding must be mentioned"],
+      trim: true,
+    },
     // Decide weather to add review or not
+    review: [
+      {
+        title: {
+          type: String,
+        },
+        description: {
+          type: String,
+        },
+        name: {
+          type: String,
+        },
+        upVote: {
+          type: Number,
+        },
+        downVote: {
+          type: Number,
+        },
+        recommend: {
+          type: Boolean,
+        },
+        rating: {
+          type: Number,
+        },
+      },
+    ],
   },
   { timestamps: true },
 );
 
-module.exports = mongoose.model("book", bookSchema);
+module.exports = mongoose.model("Book", bookSchema);

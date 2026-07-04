@@ -1,4 +1,6 @@
-const getAllBooks = (req, res) => {
+const Book = require("../model/book");
+
+const getAllBooks = async (req, res) => {
   res.send("All book");
 };
 
