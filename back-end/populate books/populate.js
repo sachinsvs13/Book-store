@@ -1,7 +1,7 @@
-const connect = require("./DB/connection");
+const connect = require("../DB/connection");
 require("dotenv").config();
-const Book = require("./model/book");
-const jsonBooks = require("./Books.json");
+const Book = require("../model/book");
+const jsonBooks = require("../assets/Books.json");
 const connectBD = async () => {
   try {
     await connect(process.env.MONGO_DB);

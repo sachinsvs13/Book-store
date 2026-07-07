@@ -12,6 +12,12 @@ const bookSchema = new mongoose.Schema(
       required: [true, "Price must be mentioned"],
       trim: true,
     },
+    images: [
+      {
+        type: String,
+        required: [true, "Image must be mentioned"],
+      },
+    ],
     author: {
       type: String,
       required: [true, "Author must be mentioned"],
@@ -32,13 +38,13 @@ const bookSchema = new mongoose.Schema(
       required: [true, "Publisher Imprint must be mentioned"],
       trim: true,
     },
-    ISBN10: {
-      type: Number,
+    isbn10: {
+      type: String,
       required: [true, "ISBN10 must be mentioned"],
       trim: true,
     },
-    ISBN13: {
-      type: Number,
+    isbn13: {
+      type: String,
       required: [true, "ISBN13 must be mentioned"],
       trim: true,
     },
@@ -53,12 +59,12 @@ const bookSchema = new mongoose.Schema(
       trim: true,
     },
     weight: {
-      type: Number,
+      type: String,
       required: [true, "Weight must be mentioned"],
       trim: true,
     },
-    dimension: {
-      type: Number,
+    dimensions: {
+      type: String,
       required: [true, "Dimension must be mentioned"],
       trim: true,
     },
@@ -72,8 +78,8 @@ const bookSchema = new mongoose.Schema(
       required: [true, "Description must be mentioned"],
       trim: true,
     },
-    released: {
-      type: Date,
+    releasedYear: {
+      type: Number,
       required: [true, "Released must be mentioned"],
       trim: true,
     },
@@ -86,7 +92,7 @@ const bookSchema = new mongoose.Schema(
       trim: true,
     },
     // Decide weather to add review or not
-    review: [
+    reviews: [
       {
         title: {
           type: String,

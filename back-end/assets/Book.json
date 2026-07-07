@@ -1,0 +1,54 @@
+[
+    {
+        "name": "To Kill a Mockingbird",
+        "price": 22.7,
+        "author": "Harper Lee",
+        "images": [          
+            "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+            "https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg"
+        ],
+        "genre": "Fiction",
+        "publisher": "HarperCollins",
+        "publisherImprint": "Harper Perennial",
+        "isbn10": "0061120081",
+        "isbn13": "9780061120084",
+        "pages": 336,
+        "language": "English",
+        "weight": "210 g",
+        "dimensions": "5.1 x 1.5 x 8.0 inches",
+        "description": "\"To Kill a Mockingbird\" by Harper Lee is a fiction title originally released in 1960, published by HarperCollins under the Harper Perennial imprint.",
+        "releasedYear": 1960,
+        "binding": "Paperback",
+        "averageRating": 4.4,
+        "returnable": false,
+        "reviews": [
+          {
+            "title": "A must-read",
+            "description": "This book made me laugh, cry, and think all at once.",
+            "name": "Alex M.",
+            "upvote": 81,
+            "downvote": 44,
+            "recommend": true,
+            "rating": 4
+          },
+          {
+            "title": "One of my favorites now",
+            "description": "This book made me laugh, cry, and think all at once.",
+            "name": "Kevin L.",
+            "upvote": 172,
+            "downvote": 6,
+            "recommend": true,
+            "rating": 4
+          },
+          {
+            "title": "Hard to get through",
+            "description": "I found the plot predictable and the characters a bit flat.",
+            "name": "Fatima H.",
+            "upvote": 309,
+            "downvote": 16,
+            "recommend": false,
+            "rating": 1
+          }
+        ]
+      }
+]
