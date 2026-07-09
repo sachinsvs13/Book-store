@@ -1,9 +1,5 @@
 const { StatusCodes } = require("http-status-codes");
-const {
-  UnauthenticatedError,
-  NotFoundError,
-  BadRequestError,
-} = require("../errors");
+const { UnauthenticatedError, BadRequestError } = require("../errors");
 const User = require("../model/user");
 
 const getAllUsers = async (req, res) => {
@@ -17,18 +13,34 @@ const registerUser = async (req, res) => {
   res.status(StatusCodes.CREATED).json({ user, token });
 };
 
-const loginUser = (req, res) => {
-  res.send("All users");
+const loginUser = async (req, res) => {
+  const { email, password } = req.body;
+  if (!email || !password) {
+    throw new BadRequestError("Please provide email and password");
+  }
+  const user = await User.findOne({ email });
+  if (!user) {
+    throw new UnauthenticatedError("Invalid Credentials");
+  }
+  const isMatch = await user.comparePassword(password);
+  if (!isMatch) {
+    throw new UnauthenticatedError("Invalid Credentials");
+  }
+  const token = user.createJWT();
+  res.status(StatusCodes.OK).json({ user, token });
 };
 
 const deleteUser = async (req, res) => {
   const { id: userId } = req.params;
   const user = await User.findByIdAndDelete({ _id: userId });
-  res.status(StatusCodes.OK).json({ msg: "User deleted" });
   if (!user) {
-    throw new NotFoundError("not found");
+    throw new UnauthenticatedError("Invalid Credentials");
   }
+  res.status(StatusCodes.OK).json({ msg: "User deleted" });
 };
+
+// Later add Forgotten password
+// update user for Forgotten password
 
 module.exports = {
   getAllUsers,

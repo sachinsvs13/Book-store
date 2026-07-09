@@ -14,22 +14,36 @@ const getAllBooks = async (req, res) => {
 const getBook = async (req, res) => {
   const { id: bookId } = req.params;
   const book = await Book.findOne({ _id: bookId });
-  res.status(StatusCodes.OK).json({ book });
   if (!book) {
     throw new NotFoundError(`No id found with ${bookId}`);
   }
+  res.status(StatusCodes.OK).json({ book });
 };
 
-const deleteBook = (req, res) => {
-  res.send("All book");
+const createBook = async (req, res) => {
+  const book = await Book.create({ ...req.body });
+  res.status(StatusCodes.CREATED).json({ book });
 };
 
-const updateBook = (req, res) => {
-  res.send("All book");
+const updateBook = async (req, res) => {
+  const { id: bookId } = req.params;
+  const book = await Book.findByIdAndUpdate({ _id: bookId }, req.body, {
+    new: true,
+    runValidators: true,
+  });
+  if (!book) {
+    throw new NotFoundError(`No id found with ${bookId}`);
+  }
+  res.status(StatusCodes.OK).json({ book });
 };
 
-const createBook = (req, res) => {
-  res.send("All book");
+const deleteBook = async (req, res) => {
+  const { id: bookId } = req.params;
+  const book = await Book.findByIdAndDelete({ _id: bookId });
+  if (!book) {
+    throw new NotFoundError(`No id found with ${bookId}`);
+  }
+  res.status(StatusCodes.OK).json({ msg: "Book deleted successfully!!!" });
 };
 
 module.exports = {

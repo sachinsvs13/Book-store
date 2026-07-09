@@ -8,9 +8,11 @@ const {
   deleteUser,
 } = require("../Controller/user.js");
 
-router.get("/", getAllUsers);
+const { auth, authRoles } = require("../middleware/authentication.js");
+
+router.get("/", auth, authRoles("admin"), getAllUsers);
 router.post("/register", registerUser);
 router.post("/login", loginUser);
-router.delete("/:id", deleteUser);
+router.delete("/:id", auth, authRoles("admin"), deleteUser);
 
 module.exports = router;

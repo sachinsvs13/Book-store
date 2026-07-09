@@ -9,10 +9,12 @@ const {
   deleteBook,
 } = require("../Controller/book");
 
+const { auth, authRoles } = require("../middleware/authentication");
+
 router.get("/", getAllBooks);
-router.post("/", createBook);
-router.delete("/:id", deleteBook);
+router.post("/", auth, authRoles("admin"), createBook);
+router.delete("/:id", auth, authRoles("admin"), deleteBook);
 router.get("/:id", getBook);
-router.patch("/:id", updateBook);
+router.patch("/:id", auth, authRoles("admin"), updateBook);
 
 module.exports = router;
