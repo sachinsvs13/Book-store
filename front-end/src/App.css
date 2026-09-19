@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe5ec;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  border-bottom: 1px solid #fb4573;
+}
+
+.logo-container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #fb4573;
+  margin: 0.5em 1em;
+}
+
+.slogan {
+  padding: 1.2em 1.5em;
+}
+
+.people-slogan {
+  display: block;
+  line-height: 1.5em;
+  color: #fb4573;
+}
+
+.books-search {
+  padding: 0.5em 3em;
+  width: 50%;
+  background-image: url("./assets/search-img.jpg");
+  background-size: 1.5rem;
+  background-position: 0.3rem;
+  background-repeat: no-repeat;
+  border: 1px solid #fb4573;
+  border-radius: 3rem;
+  outline: none;
+}
+
+.btns-container {
+  display: flex;
+  padding-top: 0.5rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: #fb4573;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn:nth-child(2) {
+  font-size: 1.8rem;
+}
+
+.btn:last-child {
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+
+.favorites-amount {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  font-size: 0.8rem;
+}
+
+.cart-amount {
+  position: absolute;
+  top: -12px;
+  left: 30px;
+  font-size: 1rem;
+}
+
+.login-info {
+  display: none;
+}
+
+.btn:hover + .login-info {
+  display: inline-block;
+}
