@@ -23,41 +23,46 @@ export default function Header() {
         placeholder="Search By title, Author, Publisher or ISBN"
       />
       <div className="btns-container">
-        <Link to={"/login"} className="btn">
-          <FaUser />
-        </Link>
-        <section className="login-info">
-          <Link className="login-container">
-            <button className="login-btn">Login in</button>
+        <div className="profile-container">
+          <Link to={"/login"} className="icons">
+            <FaUser />
           </Link>
-          <Link>
-            <p className="sign-in-container">
-              New to Books? <span className="sign-in">Sign in</span>
-            </p>
-          </Link>
-          <ul>
-            <Link>
-              <li className="options">Personal setting</li>
+          <section className="login-info">
+            <Link className="login-container" to={"/login"}>
+              <button className="login-btn">Login in</button>
             </Link>
-            <Link>
-              <li className="options">Your orders</li>
+            <Link className="profile-sign-in" to={"/sign-in"}>
+              <p className="sign-in-container">
+                New to Books? <span className="sign-in">Sign in</span>
+              </p>
             </Link>
-            <Link>
-              <li className="options">Your wishlist</li>
-            </Link>
-            <Link>
-              <li className="options">your address</li>
-            </Link>
-            <Link>
-              <li className="options">Change password</li>
-            </Link>
-          </ul>
-        </section>
-        <Link to={"favorites"} className="btn">
+            <div className="setting-options-container">
+              <ul className="settings-options">
+                <Link to={"/setting"}>
+                  <li className="options">Personal setting</li>
+                </Link>
+                <Link to={"/orders"}>
+                  <li className="options">Your orders</li>
+                </Link>
+                <Link to={"/wishlist"}>
+                  <li className="options">Your wishlist</li>
+                </Link>
+                <Link to={"/address"}>
+                  <li className="options">your address</li>
+                </Link>
+                <Link to={"/Change-password"}>
+                  <li className="options">Change password</li>
+                </Link>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <Link to={"/favorites"} className="icons">
           <span className="favorites-amount">0</span>
           <FaRegHeart />
         </Link>
-        <Link to={"cart"} className="btn">
+        <Link to={"/cart"} className="icons">
           <span className="cart-amount">0</span>
           <AiOutlineShoppingCart />
         </Link>

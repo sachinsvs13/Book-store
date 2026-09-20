@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
 
-export default function Home() {
+export default function Address() {
   return (
-    <main>
+    <div>
       <Outlet />
-    </main>
+      Address
+    </div>
   );
 }

@@ -1,0 +1,167 @@
+#root {
+  --FORM-HEADING: #fb4573;
+  --BACKGROUND-IMAGE: url("../assets/Books.jpg");
+  --FORM-BACKGROUND-COLOR: #ffe5ec;
+  --FORM-INPUT-BORDER: 1px solid #fb4573;
+  --FORM-PLACEHOLDER-COLOR: black;
+  --FORM-CHECKBOX-BORDER: 1px solid black;
+  --FORM-SIGNED-IN-COLOR: rgb(47, 38, 38);
+  --FORM-FORGOT-PASSWORD-COLOR: #fb4573;
+  --FORM-SUBMIT-BTN-BACKGROUND-COLOR: #fb4573;
+  --FORM-LINK-BTN-BACKGROUND-COLOR: #f08c00;
+  --FORM-SUBMIT-BTN-COLOR: #ffe5ec;
+  --FORM-LINK-BTN-COLOR: #ffe5ec;
+  --FORM-FOCUS-BORDER: 1px solid #f08c00;
+  --FORM-BOX-SHADOW: 1px 1px 3px 1px #000000;
+  --BACKGROUND-COLOR: #ffe5ec;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  min-height: 100dvh;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+    var(--BACKGROUND-IMAGE);
+  background-color: var(--BACKGROUND-COLOR);
+  background-size: cover;
+  background-position: center;
+
+  .form-controller {
+    box-shadow: var(--FORM-BOX-SHADOW);
+    background-color: var(--FORM-BACKGROUND-COLOR);
+    /* border: 1px solid #ff1717; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    width: 400px;
+
+    h1 {
+      font-size: 24px;
+      font-weight: 200;
+      letter-spacing: 1px;
+      margin-top: 10px;
+      color: var(--FORM-HEADING);
+    }
+
+    .input-container {
+      display: flex;
+      align-items: center;
+
+      .input {
+        margin: 1rem;
+        border: none;
+        background-color: transparent;
+        border-bottom: var(--FORM-INPUT-BORDER);
+        outline: none;
+        padding-right: 4rem;
+      }
+      input:focus {
+        border-bottom: var(--FORM-FOCUS-BORDER);
+      }
+      input::placeholder {
+        color: var(--FORM-PLACEHOLDER-COLOR);
+      }
+    }
+    .error-container {
+      font-size: 12px;
+    }
+
+    .options-container {
+      display: flex;
+      align-items: center;
+      /* May change margin-top */
+      margin-top: 0.3rem;
+
+      .signed-in-container {
+        input[type="checkbox"] {
+          appearance: none;
+          position: relative;
+          top: 5px;
+          padding: 0;
+          margin: 0 0.5rem 0 0;
+          width: 20px;
+          height: 20px;
+          border: var(--FORM-CHECKBOX-BORDER);
+          cursor: pointer;
+        }
+        input[type="checkbox"]::before {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          white-space: pre;
+          content: " ";
+        }
+        input[type="checkbox"]:checked::before {
+          content: "\2713";
+        }
+        .signed-in {
+          font-size: 12px;
+          color: var(--FORM-SIGNED-IN);
+        }
+      }
+      .forget-password-container {
+        padding-left: 2rem;
+        margin-top: 0.3rem;
+
+        .forget-password-btn {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          color: var(--FORM-FORGOT-PASSWORD);
+          font-size: 10px;
+        }
+      }
+    }
+
+    .btn {
+      letter-spacing: 0.5px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .submit-btn {
+      background-color: var(--FORM-SUBMIT-BTN-BACKGROUND-COLOR);
+      padding: 0.5rem 7rem;
+      margin: 2rem 0 1rem;
+      color: var(--FORM-SUBMIT-BTN-COLOR);
+    }
+    .submit-btn:hover {
+      opacity: 0.8;
+    }
+
+    .link-btn {
+      padding: 0.5rem 7.3rem;
+      margin: 1rem 0;
+      background-color: var(--FORM-LINK-BTN-BACKGROUND-COLOR);
+      color: var(--FORM-LINK-BTN-COLOR);
+    }
+
+    .link-btn:hover {
+      opacity: 0.8;
+    }
+
+    .msg-container {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+
+      hr {
+        width: 60px;
+        height: 0.5px;
+        border-color: gray;
+      }
+      p {
+        padding: 0 0.5rem;
+        font-size: 12px;
+      }
+    }
+  }
+}
