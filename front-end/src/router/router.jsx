@@ -10,6 +10,7 @@ import ChangePassword from "../pages/ChangePassword";
 import Favorites from "../pages/Favorites";
 import Cart from "../pages/Cart";
 import Header from "../components/Header";
+import LoginHeader from "../components/LoginHeader";
 
 const router = createBrowserRouter([
   {
@@ -20,10 +21,12 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginIn />,
+    children: [{ index: true, Component: LoginHeader }],
   },
   {
     path: "/sign-in",
     element: <SignIn />,
+    children: [{ index: true, Component: LoginHeader }],
   },
   {
     path: "/setting",

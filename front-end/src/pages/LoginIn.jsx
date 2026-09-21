@@ -2,9 +2,10 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { RiLockPasswordFill } from "react-icons/ri";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import { VscErrorCompact } from "react-icons/vsc";
 import "../Styles/login.css";
+import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
 
 export default function LoginIn() {
   const [userData, setUserData] = useState({
@@ -13,6 +14,7 @@ export default function LoginIn() {
   });
   const [error, setError] = useState();
   const [errorMessage, setErrorMessage] = useState();
+  const [passwordSeen, setPasswordSeen] = useState(false);
 
   const navigate = useNavigate();
 
@@ -43,12 +45,17 @@ export default function LoginIn() {
   }, [error]);
 
   return (
-    <>
+    <main>
+      <Outlet />
       <div className="form-container">
         <form className="form-controller" onSubmit={handleSubmitUserLoginData}>
           <h1>Login</h1>
           <div className="input-container">
-            {error?.status ? <VscErrorCompact color="red" /> : <MdEmail />}
+            {error?.status && userData.email === "" ? (
+              <VscErrorCompact color="red" />
+            ) : (
+              <MdEmail />
+            )}
             <input
               className={`${error ? "error-input " : "input"}`}
               type="email"
@@ -61,7 +68,7 @@ export default function LoginIn() {
             />
           </div>
           <div className="input-container">
-            {error?.status ? (
+            {error?.status && userData.password === "" ? (
               <VscErrorCompact color="red" />
             ) : (
               <RiLockPasswordFill />
@@ -69,7 +76,7 @@ export default function LoginIn() {
 
             <input
               className={`${error ? "error-input " : "input"}`}
-              type="password"
+              type={passwordSeen ? "text" : "password"}
               name="password"
               placeholder="Password"
               value={userData.password}
@@ -77,6 +84,17 @@ export default function LoginIn() {
                 setUserData({ ...userData, password: e.target.value })
               }
             />
+            {passwordSeen ? (
+              <IoEyeOutline
+                className="password-seen"
+                onClick={() => setPasswordSeen(false)}
+              />
+            ) : (
+              <IoEyeOffOutline
+                className="password-seen"
+                onClick={() => setPasswordSeen(true)}
+              />
+            )}
           </div>
           <div className="error-container">
             {errorMessage && <span className="error">{errorMessage}</span>}
@@ -116,6 +134,6 @@ export default function LoginIn() {
           </Link>
         </form>
       </div>
-    </>
+    </main>
   );
 }
