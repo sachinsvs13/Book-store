@@ -87,7 +87,6 @@ header {
   right: -100px;
   width: 15rem;
   display: none;
-
   background-color: #ffc2d1;
 }
 
@@ -99,6 +98,7 @@ header {
   border-width: 0 10px 10px;
   border-style: solid;
   border-color: transparent transparent #ffc2d1 transparent;
+  /* border-color: #ffc2d1; */
 }
 
 .profile-container:hover .login-info {

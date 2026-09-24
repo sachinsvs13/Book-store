@@ -7,7 +7,6 @@ import Orders from "../pages/Orders";
 import Wishlist from "../pages/Wishlist";
 import Address from "../pages/Address";
 import ChangePassword from "../pages/ChangePassword";
-import Favorites from "../pages/Favorites";
 import Cart from "../pages/Cart";
 import Header from "../components/Header";
 import LoginHeader from "../components/LoginHeader";
@@ -51,11 +50,6 @@ const router = createBrowserRouter([
   {
     path: "/change-password",
     element: <ChangePassword />,
-    children: [{ index: true, Component: Header }],
-  },
-  {
-    path: "/favorites",
-    element: <Favorites />,
     children: [{ index: true, Component: Header }],
   },
   {

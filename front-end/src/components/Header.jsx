@@ -58,7 +58,7 @@ export default function Header() {
           </section>
         </div>
 
-        <Link to={"/favorites"} className="icons">
+        <Link to={"/wishlist"} className="icons">
           <span className="favorites-amount">0</span>
           <FaRegHeart />
         </Link>
