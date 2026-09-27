@@ -2,30 +2,39 @@
   margin: 5rem;
 }
 
+.your-wishlist-h2 {
+  color: #ff2f63;
+  border-bottom: 2px solid red;
+  width: 8%;
+}
+
 .empty-wishlist-container {
   background-color: #ffb6c8;
   height: 60dvh;
   display: flex;
   justify-content: center;
   text-align: center;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .empty-wishlist {
   /* position: relative; */
+  /* width: 100%; */
 }
 
-.lists-h2 {
+.wishlists-h2 {
   font-size: 4rem;
   padding-top: 3rem;
   color: #ff2f63;
 }
 
-.lists-h3 {
+.wishlists-h3 {
   font-size: 2.5rem;
   color: #ff2f63;
 }
 
-.create-list-btn {
+.create-wishlist-btn {
   padding: 0.6rem 2rem;
   background-color: #fb4573;
   color: #ffe5ec;
@@ -36,11 +45,17 @@
   cursor: pointer;
 }
 
-.create-list-btn:hover {
+.create-wishlist-btn:hover {
   opacity: 0.8;
 }
 
-.new-list-container {
+.create-wishlist-line {
+  background-color: #fb4573;
+  height: 1px;
+  border: none;
+}
+
+.new-wishlist-container {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -53,18 +68,76 @@
   background-color: rgba(0, 0, 0, 0.384);
 }
 
-.new-list {
+.new-wishlist {
+  width: 30%;
+  z-index: 100;
+}
+
+.new-wishlist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
   background-color: #fb4573;
 }
 
-.list-uses-container {
+.new-wishlist-close-p {
+  cursor: pointer;
+  color: rgb(70, 0, 0);
+}
+
+.new-wishlist-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: left;
+  gap: 0.5rem;
+  padding: 2rem;
+  background-color: #ffb6c8;
+}
+
+.new-wishlist-input {
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+}
+
+.new-wishlist-input:focus {
+  outline: 1px solid red;
+}
+
+.new-wishlist-btn-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.new-wishlist-cancel-btn,
+.new-wishlist-create-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fb4573;
+  cursor: pointer;
+  color: #ffe5ec;
+  margin: 0.5rem;
+}
+
+.new-wishlist-cancel-btn:hover,
+.new-wishlist-create-btn:hover {
+  opacity: 0.8;
+}
+
+.wishlist-uses-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding: 2rem;
   gap: 5rem;
 }
 
-.list-uses {
+.wishlist-uses {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -72,7 +145,7 @@
   gap: 1rem;
 }
 
-.list-logo {
+.wishlist-logo {
   font-size: 5rem;
   color: #ff2f63;
 }

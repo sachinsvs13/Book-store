@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+.hidden {
+  display: none;
+}
+
 /* NORMAL CLASS */
 * {
   margin: 0;
@@ -180,3 +184,131 @@ header {
   left: 30px;
   font-size: 1rem;
 }
+
+.books-section {
+  /* margin-bottom: 1rem; */
+}
+
+.books-header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  margin: 5rem 2.7rem;
+  margin-bottom: 0;
+}
+
+.books-section-h1 {
+  color: #fb4573;
+}
+
+.page-turn-container {
+  display: flex;
+  align-items: center;
+}
+
+.start-page-btn {
+  background-color: transparent;
+  border: none;
+  color: #f61950;
+  font-weight: 600;
+  margin-top: 0.1rem;
+  cursor: pointer;
+}
+
+.page-p {
+  border-right: 1px solid red;
+  padding: 0 1rem;
+}
+
+.arrow-icon-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.arrow-icon {
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: #fb4573;
+}
+
+.arrow-icon-disable {
+  cursor: not-allowed;
+  border: 1px solid grey;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: grey;
+}
+
+.arrow-icon:hover {
+  opacity: 0.8;
+  border: none;
+  transform: scale(1.1);
+}
+
+.see-all-btn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.all-book-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.book-container {
+  background-color: #ffffff;
+  width: 190px;
+  height: 340px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #fb4573;
+  text-align: center;
+}
+
+.book-container:hover {
+  box-shadow: 1px 1px 3px #fb4573;
+}
+
+.book-img {
+  height: 200px;
+  object-fit: contain;
+}
+
+.book-details {
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.book-name-h2 {
+  font-size: 1rem;
+}
+
+.book-author-span {
+  font-size: 0.8rem;
+  color: rgb(63, 63, 63);
+}
+
+.average-rating-container {
+  display: flex;
+  margin: 0.3rem 0;
+}
+
+.average-rating-icon {
+  color: gold;
+}
+
+.book-average-rating-span {
+  padding-left: 0.3rem;
+}
+
+/* .book-price-span {
+  padding-bottom: 5rem;
+} */
