@@ -271,6 +271,8 @@ header {
   padding: 1rem;
   border: 1px solid #fb4573;
   text-align: center;
+  cursor: pointer;
+  position: relative;
 }
 
 .book-container:hover {
@@ -280,6 +282,27 @@ header {
 .book-img {
   height: 200px;
   object-fit: contain;
+}
+
+.quick-view-btn {
+  position: absolute;
+  top: 57%;
+  right: 10%;
+  padding: 0.3rem 2rem;
+  background-color: #ffdae3;
+  border: 1px solid #fb4573;
+  color: #f61950;
+  font-weight: 600;
+  cursor: pointer;
+  display: none;
+}
+
+.quick-view-btn:hover {
+  transform: scale(1.05);
+}
+
+.book-container:hover .quick-view-btn {
+  display: block;
 }
 
 .book-details {
@@ -309,6 +332,99 @@ header {
   padding-left: 0.3rem;
 }
 
-/* .book-price-span {
-  padding-bottom: 5rem;
-} */
+.book-quick-view-container {
+  width: 100dvw;
+  height: 100dvh;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.301);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-quick-view {
+  position: relative;
+  background-color: #ffe2ea;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.cancel-btn {
+  text-align: right;
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.book-quick-view-details {
+  display: flex;
+  padding: 2rem;
+}
+
+.book-buy-container {
+  text-align: center;
+}
+
+.quantity-container {
+  padding: 1rem 1rem 2rem;
+}
+
+.quantity-input {
+  width: 2rem;
+  height: 1.5rem;
+}
+
+.decrease-btn,
+.increase-btn {
+  padding: 0.2rem 0.5rem;
+  margin: 0 1rem;
+  color: black;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.add-to-cart-btn,
+.add-to-wishlist-btn {
+  background-color: #fb4573;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: #ffe5ec;
+}
+
+.add-to-cart-btn:hover,
+.add-to-wishlist-btn:hover,
+.book-view-btn:hover {
+  opacity: 0.8;
+}
+
+.book-info-container {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-name-h2 {
+  padding: 0.5rem 0;
+}
+
+.book-info {
+  color: rgb(55, 55, 55);
+  padding-bottom: 1rem;
+}
+
+.book-view-btn {
+  background-color: #fb4573;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  margin: auto 10rem;
+  cursor: pointer;
+  color: #ffe5ec;
+}

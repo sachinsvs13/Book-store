@@ -10,11 +10,17 @@ import ChangePassword from "../pages/ChangePassword";
 import Cart from "../pages/Cart";
 import Header from "../components/Header";
 import LoginHeader from "../components/LoginHeader";
+import Book from "../pages/Book";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    children: [{ index: true, Component: Header }],
+  },
+  {
+    path: "/:id",
+    element: <Book />,
     children: [{ index: true, Component: Header }],
   },
   {
