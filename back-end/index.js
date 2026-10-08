@@ -7,12 +7,10 @@ const bookRouter = require("./Router/book");
 const userRouter = require("./Router/user");
 const errorHandlerMiddleware = require("./middleware/error-handler");
 const notFoundMiddleware = require("./middleware/not-found");
-
-app.get("/", (req, res) => {
-  res.send("hello");
-});
+const cors = require("cors");
 
 app.use(express.json());
+app.use(cors());
 
 // Routes
 app.use("/api/v1/books", bookRouter);

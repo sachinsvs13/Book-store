@@ -385,7 +385,7 @@ header {
 .btn-container {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1.5rem;
 }
 
 .add-to-cart-btn,
@@ -419,12 +419,15 @@ header {
   padding-bottom: 1rem;
 }
 
+.book-view-link {
+  margin: auto;
+}
+
 .book-view-btn {
   background-color: #fb4573;
   border: none;
   padding: 0.5rem 2rem;
   border-radius: 2rem;
-  margin: auto 10rem;
   cursor: pointer;
   color: #ffe5ec;
 }

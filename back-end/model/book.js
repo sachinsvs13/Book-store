@@ -91,6 +91,26 @@ const bookSchema = new mongoose.Schema(
       required: [true, "binding must be mentioned"],
       trim: true,
     },
+    trending: {
+      type: Boolean,
+      required: [true, "Trending must be mentioned"],
+      trim: true,
+    },
+    bestSeller: {
+      type: Boolean,
+      required: [true, "Best seller must be mentioned"],
+      trim: true,
+    },
+    newArrivals: {
+      type: Boolean,
+      required: [true, "New Arrival must be mentioned"],
+      trim: true,
+    },
+    awardWinning: {
+      type: Boolean,
+      required: [true, "Award Winning must be mentioned"],
+      trim: true,
+    },
     // Decide weather to add review or not
     reviews: [
       {

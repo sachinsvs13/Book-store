@@ -7,7 +7,37 @@ const {
 } = require("../errors");
 
 const getAllBooks = async (req, res) => {
-  const book = await Book.find({});
+  // Have to add other query later
+  const {
+    author,
+    title,
+    genre,
+    sort,
+    fields,
+    bestSeller,
+    trending,
+    newArrivals,
+    awardWinning,
+  } = req.query;
+  const queryObject = {};
+  if (trending) {
+    queryObject.trending = trending === "true" ? true : false;
+  }
+  if (bestSeller) {
+    queryObject.bestSeller = bestSeller === "true" ? true : false;
+  }
+  if (newArrivals) {
+    queryObject.newArrivals = newArrivals === "true" ? true : false;
+  }
+  if (awardWinning) {
+    queryObject.awardWinning = awardWinning === "true" ? true : false;
+  }
+
+  const page = Number(req.query.page) || 1;
+  const limit = Number(req.query.limit);
+  const skip = (page - 1) * limit;
+
+  const book = await Book.find(queryObject).limit(Number(limit)).skip(skip);
   res.status(StatusCodes.OK).json({ book, total: book.length });
 };
 

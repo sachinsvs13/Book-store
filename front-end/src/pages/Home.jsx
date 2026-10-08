@@ -247,7 +247,7 @@ export default function Home() {
                       {releasedYear}
                     </p>
                     <p className="book-description">{description}</p>
-                    <Link to={`/${_id}`}>
+                    <Link to={`/${_id}`} className="book-view-link">
                       <button className="book-view-btn">
                         View Product Details
                       </button>
