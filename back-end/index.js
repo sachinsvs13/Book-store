@@ -5,6 +5,7 @@ const port = process.env.PORT || 3000;
 const connectDB = require("./DB/connection");
 const bookRouter = require("./Router/book");
 const userRouter = require("./Router/user");
+const authorRouter = require("./Router/author");
 const errorHandlerMiddleware = require("./middleware/error-handler");
 const notFoundMiddleware = require("./middleware/not-found");
 const cors = require("cors");
@@ -15,6 +16,7 @@ app.use(cors());
 // Routes
 app.use("/api/v1/books", bookRouter);
 app.use("/api/v1/users", userRouter);
+app.use("/api/v1/authors", authorRouter);
 
 app.use(errorHandlerMiddleware);
 app.use(notFoundMiddleware);
