@@ -6,6 +6,8 @@ const connectDB = require("./DB/connection");
 const bookRouter = require("./Router/book");
 const userRouter = require("./Router/user");
 const authorRouter = require("./Router/author");
+const cartRouter = require("./Router/cart");
+const adminRouter = require("./Router/admin");
 const errorHandlerMiddleware = require("./middleware/error-handler");
 const notFoundMiddleware = require("./middleware/not-found");
 const cors = require("cors");
@@ -17,6 +19,8 @@ app.use(cors());
 app.use("/api/v1/books", bookRouter);
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/authors", authorRouter);
+app.use("/api/v1/cart", cartRouter);
+app.use("/api/v1/admin", adminRouter);
 
 app.use(errorHandlerMiddleware);
 app.use(notFoundMiddleware);

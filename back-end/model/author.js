@@ -6,6 +6,7 @@ const authorSchema = new mongoose.Schema({
     required: [true, "Author name must mention"],
     trim: true,
   },
+
   description: {
     type: String,
     required: [true, "Description must mention"],
@@ -54,6 +55,11 @@ const authorSchema = new mongoose.Schema({
       },
     },
   ],
+  image: {
+    type: String,
+    required: [true, "Author image URL must mention"],
+    trim: true,
+  },
 });
 
 module.exports = mongoose.model("Author", authorSchema);

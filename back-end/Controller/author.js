@@ -7,7 +7,13 @@ const {
 } = require("../errors");
 
 const getAllAuthor = async (req, res) => {
-  const author = await Author.find({});
+  const { name } = req.query;
+  const queryObject = {};
+  if (name) {
+    queryObject.name = name;
+  }
+
+  const author = await Author.find(queryObject);
   res.status(StatusCodes.OK).json({ author, total: author.length });
 };
 
@@ -22,7 +28,6 @@ const getSingleAuthor = async (req, res) => {
 
 const createAuthor = async (req, res) => {
   const author = await Author.create({ ...req.body });
-
   res.status(StatusCodes.CREATED).json({ author });
 };
 

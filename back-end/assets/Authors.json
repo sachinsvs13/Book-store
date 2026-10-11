@@ -16,7 +16,8 @@
         "price": 22.7,
         "averageRating": 4.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Photo_portrait_of_Harper_Lee_%28To_Kill_a_Mockingbird_dust_jacket%2C_1960%29.jpg/330px-Photo_portrait_of_Harper_Lee_%28To_Kill_a_Mockingbird_dust_jacket%2C_1960%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "John Updike",
@@ -35,7 +36,8 @@
         "price": 30.94,
         "averageRating": 4.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/John_Updike%2C_author_at_PEN_Congress%2C_cropped.jpg/330px-John_Updike%2C_author_at_PEN_Congress%2C_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Joseph Heller",
@@ -54,7 +56,8 @@
         "price": 34.92,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Joseph_Heller_circa_1979.jpg/330px-Joseph_Heller_circa_1979.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "J.D. Salinger",
@@ -73,7 +76,8 @@
         "price": 9.97,
         "averageRating": 4.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg/330px-J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Anthony Burgess",
@@ -92,7 +96,8 @@
         "price": 32.18,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Anthony_Burgess_appearing_on_%22After_Dark%22%2C_21_May_1988.jpg/330px-Anthony_Burgess_appearing_on_%22After_Dark%22%2C_21_May_1988.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Ken Kesey",
@@ -111,7 +116,8 @@
         "price": 18.26,
         "averageRating": 3.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Ken_Kesey_%28One_Flew_Over_the_Cuckoo%27s_Nest_photo%29.jpg/330px-Ken_Kesey_%28One_Flew_Over_the_Cuckoo%27s_Nest_photo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Rachel Carson",
@@ -130,7 +136,8 @@
         "price": 27.11,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Rachel-Carson.jpg/330px-Rachel-Carson.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Sylvia Plath",
@@ -149,7 +156,8 @@
         "price": 10.65,
         "averageRating": 4.3
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Sylvia_Plath.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Frank Herbert",
@@ -168,7 +176,8 @@
         "price": 24.75,
         "averageRating": 4.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Frank_Herbert_1984_%28square%29.jpg/330px-Frank_Herbert_1984_%28square%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Truman Capote",
@@ -187,7 +196,8 @@
         "price": 31.75,
         "averageRating": 3.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Truman_Capote_by_Jack_Mitchell.jpg/330px-Truman_Capote_by_Jack_Mitchell.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Jean Rhys",
@@ -206,7 +216,8 @@
         "price": 11.99,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Jean_Rhys_circa_1921.webp/330px-Jean_Rhys_circa_1921.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Gabriel Garcia Marquez",
@@ -230,7 +241,8 @@
         "price": 11.09,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Gabriel_Garcia_Marquez.jpg/330px-Gabriel_Garcia_Marquez.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Arthur C. Clarke",
@@ -249,7 +261,8 @@
         "price": 31.78,
         "averageRating": 4.6
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Arthur_C._Clarke_1965_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Kurt Vonnegut",
@@ -268,7 +281,8 @@
         "price": 13.47,
         "averageRating": 4.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg/330px-Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Mario Puzo",
@@ -287,7 +301,8 @@
         "price": 26.01,
         "averageRating": 3.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Mario_Puzo_1972_%28cropped%29.jpg/330px-Mario_Puzo_1972_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "John Fowles",
@@ -306,7 +321,8 @@
         "price": 33.97,
         "averageRating": 4.4
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/66/John_Fowles.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Richard Bach",
@@ -325,7 +341,8 @@
         "price": 30.84,
         "averageRating": 4.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Richardbachsignature.png/330px-Richardbachsignature.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Hunter S. Thompson",
@@ -344,7 +361,8 @@
         "price": 18.9,
         "averageRating": 4.5
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Hunter_S._Thompson%2C_Las_Vegas_1971.jpg/330px-Hunter_S._Thompson%2C_Las_Vegas_1971.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Richard Adams",
@@ -363,7 +381,8 @@
         "price": 20.37,
         "averageRating": 4.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Richard_Adams_20081116.jpg/330px-Richard_Adams_20081116.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Stephen King",
@@ -407,7 +426,8 @@
         "price": 22.57,
         "averageRating": 3.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/330px-Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Peter Benchley",
@@ -426,7 +446,8 @@
         "price": 9.92,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Jaws_%281974%29_back_cover_featuring_a_portrait_photograph_of_Peter_Benchley_by_Alex_Gotfryd%2C_first_edition.jpg/330px-Jaws_%281974%29_back_cover_featuring_a_portrait_photograph_of_Peter_Benchley_by_Alex_Gotfryd%2C_first_edition.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "E. L. Doctorow",
@@ -445,7 +466,8 @@
         "price": 18.62,
         "averageRating": 4.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Doctorow_at_the_PEN_Congress_%28cropped%29.jpg/330px-Doctorow_at_the_PEN_Congress_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Colleen McCullough",
@@ -464,7 +486,8 @@
         "price": 30.86,
         "averageRating": 4.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Colleen_McCullough_%281977%29.jpg/330px-Colleen_McCullough_%281977%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "William Styron",
@@ -483,7 +506,8 @@
         "price": 32.16,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/William_Styron%2C_author%2C_cropped_%282%29.jpg/330px-William_Styron%2C_author%2C_cropped_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Douglas Adams",
@@ -502,7 +526,8 @@
         "price": 34.19,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Douglas_adams_portrait_cropped.jpg/330px-Douglas_adams_portrait_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Rosamunde Pilcher",
@@ -521,7 +546,8 @@
         "price": 30.06,
         "averageRating": 4.8
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Rosamunde+Pilcher&size=400&background=8C2F39&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Jostein Gaarder",
@@ -540,7 +566,8 @@
         "price": 24.72,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Jostein_Gaarder_Leipziger_Buchmesse_2017.jpg/330px-Jostein_Gaarder_Leipziger_Buchmesse_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Bret Easton Ellis",
@@ -559,7 +586,8 @@
         "price": 25.38,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Ellis.jpg/330px-Ellis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "John Grisham",
@@ -593,7 +621,8 @@
         "price": 28.02,
         "averageRating": 3.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/JohnGrisham-byPhilipRomano.jpg/330px-JohnGrisham-byPhilipRomano.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Michael Crichton",
@@ -627,7 +656,8 @@
         "price": 10.81,
         "averageRating": 4.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/MichaelCrichton_2.jpg/330px-MichaelCrichton_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Stephen Hawking",
@@ -646,7 +676,8 @@
         "price": 22.77,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Amy Tan",
@@ -665,7 +696,8 @@
         "price": 8.09,
         "averageRating": 4.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amy_Tan_2018_%28cropped%29.jpg/330px-Amy_Tan_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Toni Morrison",
@@ -694,7 +726,8 @@
         "price": 28.48,
         "averageRating": 4.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Toni_Morrison.jpg/330px-Toni_Morrison.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Margaret Atwood",
@@ -713,7 +746,8 @@
         "price": 10.48,
         "averageRating": 3.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Margaret_Atwood_%283x4_cropped%29.jpg/330px-Margaret_Atwood_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "William Gibson",
@@ -732,7 +766,8 @@
         "price": 13.67,
         "averageRating": 4.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/William_Gibson_60th_birthday_portrait_%283x4_cropped%29.jpg/330px-William_Gibson_60th_birthday_portrait_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Umberto Eco",
@@ -751,7 +786,8 @@
         "price": 17.44,
         "averageRating": 4.5
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Italiaanse_schrijver_Umberto_Eco%2C_portret.jpg/330px-Italiaanse_schrijver_Umberto_Eco%2C_portret.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "John Kennedy Toole",
@@ -770,7 +806,8 @@
         "price": 29.82,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/1954_Yearbook_photo_of_John_Kennedy_Toole.jpg/330px-1954_Yearbook_photo_of_John_Kennedy_Toole.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Sophie Kinsella",
@@ -789,7 +826,8 @@
         "price": 19.42,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Sophie_Kinsella.jpg/330px-Sophie_Kinsella.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Helen Fielding",
@@ -808,7 +846,8 @@
         "price": 29.68,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/HF-purple-with-chair.jpg/330px-HF-purple-with-chair.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Robert James Waller",
@@ -827,7 +866,8 @@
         "price": 19.1,
         "averageRating": 4.8
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Robert_James_Waller.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "James Redfield",
@@ -846,7 +886,8 @@
         "price": 7.78,
         "averageRating": 3.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/James_Redfield_signature_%28cropped%29.jpg/330px-James_Redfield_signature_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Dan Brown",
@@ -870,7 +911,8 @@
         "price": 34.62,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/N%C3%A1v%C5%A1t%C4%9Bva_Dana_Browna_v_NK_%C4%8CR_17._-_18._2025_03_%28cropped%29.jpg/330px-N%C3%A1v%C5%A1t%C4%9Bva_Dana_Browna_v_NK_%C4%8CR_17._-_18._2025_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "J. K. Rowling",
@@ -899,7 +941,8 @@
         "price": 25.27,
         "averageRating": 4.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/330px-J._K._Rowling_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Chuck Palahniuk",
@@ -918,7 +961,8 @@
         "price": 32.11,
         "averageRating": 4.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Chuck_Palahniuk_%2821962%29_%28cropped%29.jpg/330px-Chuck_Palahniuk_%2821962%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Yann Martel",
@@ -937,7 +981,8 @@
         "price": 24.2,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Yann_martel_2007-10-25_Seattle_WA_USA.jpg/330px-Yann_martel_2007-10-25_Seattle_WA_USA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Khaled Hosseini",
@@ -961,7 +1006,8 @@
         "price": 30.37,
         "averageRating": 4.5
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Khaled_Hosseini%2C_2013_%28cropped%29.jpg/330px-Khaled_Hosseini%2C_2013_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Mark Haddon",
@@ -980,7 +1026,8 @@
         "price": 31.62,
         "averageRating": 4.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/MarkHaddon-byPhilipRomano.jpg/330px-MarkHaddon-byPhilipRomano.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Elizabeth Gilbert",
@@ -999,7 +1046,8 @@
         "price": 34.98,
         "averageRating": 4.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Elizabeth_Gilbert_at_TED.jpg/330px-Elizabeth_Gilbert_at_TED.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Paulo Coelho",
@@ -1018,7 +1066,8 @@
         "price": 33.79,
         "averageRating": 4.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Paulo_Coelho%2C_June_2024.jpg/330px-Paulo_Coelho%2C_June_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Frank McCourt",
@@ -1037,7 +1086,8 @@
         "price": 25.86,
         "averageRating": 4.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Frank_mccourt_20060912_%28cropped%29.jpg/330px-Frank_mccourt_20060912_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Charles Frazier",
@@ -1056,7 +1106,8 @@
         "price": 28.95,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Charles+Frazier&size=400&background=37474F&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Arthur Golden",
@@ -1075,7 +1126,8 @@
         "price": 9.39,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Arthur+Golden&size=400&background=0F6E7A&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Bernhard Schlink",
@@ -1094,7 +1146,8 @@
         "price": 28.95,
         "averageRating": 4.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bernhard_Schlink%2C_2018_%28cropped%29.jpg/330px-Bernhard_Schlink%2C_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Alice Sebold",
@@ -1113,7 +1166,8 @@
         "price": 23.63,
         "averageRating": 3.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Alice_Sebold_1_by_David_Shankbone.jpg/330px-Alice_Sebold_1_by_David_Shankbone.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Zadie Smith",
@@ -1132,7 +1186,8 @@
         "price": 29.73,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Zadie_Smith_NBCC_2011_Shankbone_%28cropped%29.jpg/330px-Zadie_Smith_NBCC_2011_Shankbone_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Ian McEwan",
@@ -1151,7 +1206,8 @@
         "price": 33.33,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/IanMcEwan_EIBF2025_i481.jpg/330px-IanMcEwan_EIBF2025_i481.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Jonathan Franzen",
@@ -1170,7 +1226,8 @@
         "price": 8.74,
         "averageRating": 3.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Jonathan_Franzen_2011_Shankbone_2.JPG/330px-Jonathan_Franzen_2011_Shankbone_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Jeffrey Eugenides",
@@ -1189,7 +1246,8 @@
         "price": 33.05,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Nick_Cave_and_Jeffrey_Eugenides_%28cropped%29.jpg/330px-Nick_Cave_and_Jeffrey_Eugenides_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Kazuo Ishiguro",
@@ -1219,7 +1277,8 @@
         "price": 34.48,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/MKr377543_Kazuo_Ishiguro_%28A_Pale_View_of_Hills%2C_Cannes_2025%29.jpg/330px-MKr377543_Kazuo_Ishiguro_%28A_Pale_View_of_Hills%2C_Cannes_2025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Cormac McCarthy",
@@ -1243,7 +1302,8 @@
         "price": 13.55,
         "averageRating": 4.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Cormac_McCarthy_%28Child_of_God_author_portrait_-_high-res%29.jpg/330px-Cormac_McCarthy_%28Child_of_God_author_portrait_-_high-res%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Audrey Niffenegger",
@@ -1262,7 +1322,8 @@
         "price": 22.76,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/AudreyNiffenegger.jpg/330px-AudreyNiffenegger.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Sara Gruen",
@@ -1281,7 +1342,8 @@
         "price": 31.09,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Sara+Gruen&size=400&background=3D405B&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Stieg Larsson",
@@ -1300,7 +1362,8 @@
         "price": 30.02,
         "averageRating": 3.5
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Stieg_Larsson.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Markus Zusak",
@@ -1319,7 +1382,8 @@
         "price": 31.0,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Markus_Zusak_2019_%28cropped%29.jpg/330px-Markus_Zusak_2019_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Stephenie Meyer",
@@ -1338,7 +1402,8 @@
         "price": 28.62,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Stephenie_Meyer_by_Gage_Skidmore.jpg/330px-Stephenie_Meyer_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Suzanne Collins",
@@ -1367,7 +1432,8 @@
         "price": 23.06,
         "averageRating": 4.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Suzanne_Collins_David_Shankbone_2010.jpg/330px-Suzanne_Collins_David_Shankbone_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Kathryn Stockett",
@@ -1386,7 +1452,8 @@
         "price": 34.75,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Kathryn_Stockett_at_University_of_Alabama.jpg/330px-Kathryn_Stockett_at_University_of_Alabama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Gillian Flynn",
@@ -1405,7 +1472,8 @@
         "price": 32.69,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Gillian_Flynn_2014_%28cropped%29.jpg/330px-Gillian_Flynn_2014_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "John Green",
@@ -1424,7 +1492,8 @@
         "price": 34.08,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Let%27s_Talk_about_Money_-_Vlogbrothers_YouTube_at_0009_%28cropped%29.png/330px-Let%27s_Talk_about_Money_-_Vlogbrothers_YouTube_at_0009_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Veronica Roth",
@@ -1443,7 +1512,8 @@
         "price": 33.36,
         "averageRating": 5.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Veronica_Roth_March_18%2C_2014_%28cropped%29.jpg/330px-Veronica_Roth_March_18%2C_2014_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Paula Hawkins",
@@ -1462,7 +1532,8 @@
         "price": 14.36,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Paula_Hawkins_G%C3%B6teborg_Book_Fair_2015.jpg/330px-Paula_Hawkins_G%C3%B6teborg_Book_Fair_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Anthony Doerr",
@@ -1486,7 +1557,8 @@
         "price": 31.9,
         "averageRating": 3.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Anthony_Doerr_%282015%29.jpg/330px-Anthony_Doerr_%282015%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Andy Weir",
@@ -1510,7 +1582,8 @@
         "price": 33.28,
         "averageRating": 4.5
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Andy_Weir_by_Gage_Skidmore.jpg/330px-Andy_Weir_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "E. L. James",
@@ -1529,7 +1602,8 @@
         "price": 30.05,
         "averageRating": 4.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/E._L._James_-_2019_%28cropped%29.jpg/330px-E._L._James_-_2019_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Cheryl Strayed",
@@ -1548,7 +1622,8 @@
         "price": 23.82,
         "averageRating": 3.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Cheryl_Strayed_2012.jpg/330px-Cheryl_Strayed_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Liane Moriarty",
@@ -1567,7 +1642,8 @@
         "price": 27.33,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Liane_Moriarty_on_GBH.jpg/330px-Liane_Moriarty_on_GBH.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Donna Tartt",
@@ -1591,7 +1667,8 @@
         "price": 26.77,
         "averageRating": 3.1
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Donna_Tartt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Maria Semple",
@@ -1610,7 +1687,8 @@
         "price": 21.86,
         "averageRating": 3.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Maria_Semple_at_2013_L.A._Times_Festival_of_Books.jpg/330px-Maria_Semple_at_2013_L.A._Times_Festival_of_Books.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Emily St. John Mandel",
@@ -1629,7 +1707,8 @@
         "price": 8.04,
         "averageRating": 4.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Emily_St_John_Mandel_-_2017.jpg/330px-Emily_St_John_Mandel_-_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Kristin Hannah",
@@ -1658,7 +1737,8 @@
         "price": 16.03,
         "averageRating": 4.8
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Kristin+Hannah&size=400&background=7A3E65&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Fredrik Backman",
@@ -1682,7 +1762,8 @@
         "price": 11.43,
         "averageRating": 4.5
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Fredrik_Backman%2C_Bokm%C3%A4ssan_2013_1_%28cropped%29.jpg/330px-Fredrik_Backman%2C_Bokm%C3%A4ssan_2013_1_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Colson Whitehead",
@@ -1701,7 +1782,8 @@
         "price": 21.64,
         "averageRating": 4.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Colson_whitehead_2014.jpg/330px-Colson_whitehead_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Tara Westover",
@@ -1720,7 +1802,8 @@
         "price": 31.91,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Tara_Westover_receives_the_National_Humanities_Medal_on_March_21%2C_2023%2C_in_the_East_Room_of_the_White_House_-_P20230321ES-0780_%28cropped%29.jpg/330px-Tara_Westover_receives_the_National_Humanities_Medal_on_March_21%2C_2023%2C_in_the_East_Room_of_the_White_House_-_P20230321ES-0780_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Michelle Obama",
@@ -1739,7 +1822,8 @@
         "price": 25.81,
         "averageRating": 3.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Michelle_Obama_2013_official_portrait.jpg/330px-Michelle_Obama_2013_official_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Yuval Noah Harari",
@@ -1768,7 +1852,8 @@
         "price": 22.96,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/330px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Daniel Kahneman",
@@ -1787,7 +1872,8 @@
         "price": 12.14,
         "averageRating": 3.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Daniel_Kahneman_%283283955327%29_%28cropped%29.jpg/330px-Daniel_Kahneman_%283283955327%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Mark Manson",
@@ -1806,7 +1892,8 @@
         "price": 24.54,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Mark-manson-headshot-2018-1.jpg/330px-Mark-manson-headshot-2018-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "James Clear",
@@ -1825,7 +1912,8 @@
         "price": 25.49,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/James_Clear_in_2010.jpg/330px-James_Clear_in_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Delia Owens",
@@ -1844,7 +1932,8 @@
         "price": 28.02,
         "averageRating": 5.0
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Delia+Owens&size=400&background=6B4226&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Celeste Ng",
@@ -1863,7 +1952,8 @@
         "price": 9.1,
         "averageRating": 3.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Celeste_Ng_at_2018_National_Book_Festival_%28cropped%29.jpg/330px-Celeste_Ng_at_2018_National_Book_Festival_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Alex Michaelides",
@@ -1882,7 +1972,8 @@
         "price": 30.22,
         "averageRating": 4.7
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Alex+Michaelides&size=400&background=1F3A5F&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Madeline Miller",
@@ -1906,7 +1997,8 @@
         "price": 29.1,
         "averageRating": 3.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Madeline_Miller_-_Kolkata_2013-02-03_4377_Cropped.JPG/330px-Madeline_Miller_-_Kolkata_2013-02-03_4377_Cropped.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Sally Rooney",
@@ -1925,7 +2017,8 @@
         "price": 31.18,
         "averageRating": 3.2
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Sally_Rooney_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Taylor Jenkins Reid",
@@ -1949,7 +2042,8 @@
         "price": 28.71,
         "averageRating": 4.4
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Taylor+Jenkins+Reid&size=400&background=5B2A86&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Colleen Hoover",
@@ -1974,7 +2068,8 @@
         "price": 10.66,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Colleen_Hoover_Video_Call.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Matt Haig",
@@ -1993,7 +2088,8 @@
         "price": 19.59,
         "averageRating": 3.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Matt_Haig_at_Ed_Book_Fest_26_01.jpg/330px-Matt_Haig_at_Ed_Book_Fest_26_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "V. E. Schwab",
@@ -2012,7 +2108,8 @@
         "price": 24.82,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/V._E._Schwab_at_the_2025_Edinburgh_International_Book_Festival-22_%28cropped%29.jpg/330px-V._E._Schwab_at_the_2025_Edinburgh_International_Book_Festival-22_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Brit Bennett",
@@ -2031,7 +2128,8 @@
         "price": 19.27,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/BritBennett.jpg/330px-BritBennett.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Maggie O'Farrell",
@@ -2050,7 +2148,8 @@
         "price": 14.92,
         "averageRating": 3.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/MaggieOFarrell_EIBF2025_i280.jpg/330px-MaggieOFarrell_EIBF2025_i280.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Bonnie Garmus",
@@ -2069,7 +2168,8 @@
         "price": 13.51,
         "averageRating": 4.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bonnie_Garmus_with_her_dog_99.png/330px-Bonnie_Garmus_with_her_dog_99.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Gabrielle Zevin",
@@ -2088,7 +2188,8 @@
         "price": 27.86,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Gabrielle_Zevin_2024.jpg/330px-Gabrielle_Zevin_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Rebecca Yarros",
@@ -2117,7 +2218,8 @@
         "price": 21.44,
         "averageRating": 5.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NBF2024-rebecca-yarros.jpg/330px-NBF2024-rebecca-yarros.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "R. F. Kuang",
@@ -2136,7 +2238,8 @@
         "price": 16.56,
         "averageRating": 3.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Rf_kuang_2023_1.jpg/330px-Rf_kuang_2023_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Abraham Verghese",
@@ -2155,7 +2258,8 @@
         "price": 30.5,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Dr_Abraham_Verghese_in_2023_06.jpg/330px-Dr_Abraham_Verghese_in_2023_06.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Barbara Kingsolver",
@@ -2174,7 +2278,8 @@
         "price": 12.67,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Barbara_Kingsolver_%2848684513758%29_%28cropped%29.jpg/330px-Barbara_Kingsolver_%2848684513758%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Hernan Diaz",
@@ -2193,7 +2298,8 @@
         "price": 26.48,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Hern%C3%A1n_Hormiga_D%C3%ADaz_%281987%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Percival Everett",
@@ -2212,7 +2318,8 @@
         "price": 7.09,
         "averageRating": 4.5
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Percival_Everett%2C_author%2C_at_the_2024_National_Book_Awards_finalist_reading_2_%28cropped%29.jpg/330px-Percival_Everett%2C_author%2C_at_the_2024_National_Book_Awards_finalist_reading_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Emily Henry",
@@ -2231,7 +2338,8 @@
         "price": 16.34,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Emily+Henry&size=400&background=8C2F39&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Freida McFadden",
@@ -2255,7 +2363,8 @@
         "price": 34.25,
         "averageRating": 4.5
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Freida+McFadden&size=400&background=1F3A5F&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Mel Robbins",
@@ -2274,7 +2383,8 @@
         "price": 10.19,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Mel+Robbins&size=400&background=5B2A86&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Dav Pilkey",
@@ -2293,7 +2403,8 @@
         "price": 29.78,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Dav_Pilkey_2019.jpg/330px-Dav_Pilkey_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Brian Christian",
@@ -2312,7 +2423,8 @@
         "price": 34.09,
         "averageRating": 3.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Brian_Christian_in_2019%2C_Photograph_by_Eileen_Meny_%28cropped%29.jpg/330px-Brian_Christian_in_2019%2C_Photograph_by_Eileen_Meny_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Peter Attia",
@@ -2331,7 +2443,8 @@
         "price": 25.41,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Peter_Attia_4473.jpg/330px-Peter_Attia_4473.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Bessel van der Kolk",
@@ -2350,7 +2463,8 @@
         "price": 8.05,
         "averageRating": 4.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bessel_van_der_Kolk_2022.jpg/330px-Bessel_van_der_Kolk_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Susan Cain",
@@ -2369,7 +2483,8 @@
         "price": 16.87,
         "averageRating": 5.0
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/SusanCainPortrait_250px_20120305.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Steven D. Levitt and Stephen J. Dubner",
@@ -2388,7 +2503,8 @@
         "price": 11.05,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Steven_Levitt%2C_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Malcolm Gladwell",
@@ -2417,7 +2533,8 @@
         "price": 20.73,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Malcolm_Gladwell%2C_author%2C_at_SXSW_2025_02_%28cropped%29.jpg/330px-Malcolm_Gladwell%2C_author%2C_at_SXSW_2025_02_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Jim Collins",
@@ -2436,7 +2553,8 @@
         "price": 12.92,
         "averageRating": 4.3
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Jim+Collins&size=400&background=6B4226&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Eric Ries",
@@ -2455,7 +2573,8 @@
         "price": 23.29,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Eric_Ries2.jpg/330px-Eric_Ries2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Peter Thiel",
@@ -2474,7 +2593,8 @@
         "price": 9.67,
         "averageRating": 3.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Peter_Thiel_by_Gage_Skidmore.jpg/330px-Peter_Thiel_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Robert Kiyosaki",
@@ -2493,7 +2613,8 @@
         "price": 19.19,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Robert_Kiyosaki_%2853864555330%29_%28cropped%29.jpg/330px-Robert_Kiyosaki_%2853864555330%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Benjamin Graham",
@@ -2512,7 +2633,8 @@
         "price": 30.43,
         "averageRating": 3.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Benjamin_Graham_%281894-1976%29_portrait_on_23_March_1950.jpg/330px-Benjamin_Graham_%281894-1976%29_portrait_on_23_March_1950.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Carl Sagan",
@@ -2531,7 +2653,8 @@
         "price": 28.29,
         "averageRating": 3.6
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Carl_Sagan_Planetary_Society.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Richard Dawkins",
@@ -2550,7 +2673,8 @@
         "price": 20.6,
         "averageRating": 4.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Dinner_with_Richard_Dawkins_and_CFI..._like_a_candle_in_the_dark.jpg/330px-Dinner_with_Richard_Dawkins_and_CFI..._like_a_candle_in_the_dark.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Jared Diamond",
@@ -2569,7 +2693,8 @@
         "price": 34.15,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Jared_Diamond_author_academic.jpg/330px-Jared_Diamond_author_academic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Howard Zinn",
@@ -2588,7 +2713,8 @@
         "price": 18.12,
         "averageRating": 4.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Howard_Zinn%2C_2009_%28cropped%29.jpg/330px-Howard_Zinn%2C_2009_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Anne Frank",
@@ -2607,7 +2733,8 @@
         "price": 17.68,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Anne_Frank_passport_photo%2C_May_1942_%28cropped%29.jpg/330px-Anne_Frank_passport_photo%2C_May_1942_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Viktor Frankl",
@@ -2626,7 +2753,8 @@
         "price": 10.78,
         "averageRating": 3.3
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Viktor_Frankl2.jpg/330px-Viktor_Frankl2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Eckhart Tolle",
@@ -2645,7 +2773,8 @@
         "price": 21.89,
         "averageRating": 4.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Eckhart_Tolle_front.jpg/330px-Eckhart_Tolle_front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Walter Isaacson",
@@ -2664,7 +2793,8 @@
         "price": 32.22,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Walter_Isaacson_VF_2012_Shankbone_2.JPG/330px-Walter_Isaacson_VF_2012_Shankbone_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Nelson Mandela",
@@ -2683,7 +2813,8 @@
         "price": 10.0,
         "averageRating": 4.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/330px-Nelson_Mandela_1994.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Jon Krakauer",
@@ -2707,7 +2838,8 @@
         "price": 33.66,
         "averageRating": 3.1
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Author_Jon_Krakauer_Highlights_Governor_Wolf%E2%80%99s_%E2%80%9CIt%E2%80%99s_On_Us_PA%E2%80%9D_Campaign%2C_Need_to_Address_Campus_Sexual_Assault_%28cropped%29.jpg/330px-Author_Jon_Krakauer_Highlights_Governor_Wolf%E2%80%99s_%E2%80%9CIt%E2%80%99s_On_Us_PA%E2%80%9D_Campaign%2C_Need_to_Address_Campus_Sexual_Assault_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Stephen Chbosky",
@@ -2726,7 +2858,8 @@
         "price": 8.55,
         "averageRating": 3.5
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Stephen_Chbosky%2C_Jericho_Panel_at_Comic_Con_SD_2006_cropped.jpg/330px-Stephen_Chbosky%2C_Jericho_Panel_at_Comic_Con_SD_2006_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Kate Atkinson",
@@ -2745,7 +2878,8 @@
         "price": 28.41,
         "averageRating": 3.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/KateAtkinson2007.png/330px-KateAtkinson2007.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Erin Morgenstern",
@@ -2764,7 +2898,8 @@
         "price": 12.05,
         "averageRating": 3.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Erin_morgenstern_2011.jpg/330px-Erin_morgenstern_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Neil Gaiman",
@@ -2783,7 +2918,8 @@
         "price": 31.27,
         "averageRating": 4.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Kyle-cassidy-neil-gaiman-April-2013.jpg/330px-Kyle-cassidy-neil-gaiman-April-2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Terry Pratchett and Neil Gaiman",
@@ -2802,7 +2938,8 @@
         "price": 14.77,
         "averageRating": 4.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/10.12.12TerryPratchettByLuigiNovi1.jpg/330px-10.12.12TerryPratchettByLuigiNovi1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Patrick Rothfuss",
@@ -2821,7 +2958,8 @@
         "price": 26.55,
         "averageRating": 4.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Patrick-rothfuss-2014-kyle-cassidy.jpg/330px-Patrick-rothfuss-2014-kyle-cassidy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "George R. R. Martin",
@@ -2840,7 +2978,8 @@
         "price": 11.72,
         "averageRating": 3.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/George_R._R._Martin_%2854743316729%29_%28cropped%29.jpg/330px-George_R._R._Martin_%2854743316729%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Brandon Sanderson",
@@ -2864,7 +3003,8 @@
         "price": 32.92,
         "averageRating": 3.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Brandon_Sanderson_by_Gage_Skidmore.jpg/330px-Brandon_Sanderson_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Orson Scott Card",
@@ -2883,7 +3023,8 @@
         "price": 17.45,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Orson_Scott_Card_at_BYU_Symposium_20080216_closeup.jpg/330px-Orson_Scott_Card_at_BYU_Symposium_20080216_closeup.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Ursula K. Le Guin",
@@ -2902,7 +3043,8 @@
         "price": 32.8,
         "averageRating": 4.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ursula_Le_Guin_%283551195631%29_-_Restoration.jpg/330px-Ursula_Le_Guin_%283551195631%29_-_Restoration.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Isaac Asimov",
@@ -2921,7 +3063,8 @@
         "price": 10.0,
         "averageRating": 3.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/330px-Isaac.Asimov01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Philip K. Dick",
@@ -2940,7 +3083,8 @@
         "price": 26.48,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Philip_K_Dick_in_early_1960s_Arthur_Knight_%283x4_cropped%29.jpg/330px-Philip_K_Dick_in_early_1960s_Arthur_Knight_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Haruki Murakami",
@@ -2969,7 +3113,8 @@
         "price": 30.55,
         "averageRating": 3.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Conversatorio_Haruki_Murakami_%2812_de_12%29_%2845747009452%29_%28cropped%29.jpg/330px-Conversatorio_Haruki_Murakami_%2812_de_12%29_%2845747009452%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Milan Kundera",
@@ -2988,7 +3133,8 @@
         "price": 10.3,
         "averageRating": 3.4
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Milan_Kundera_redux.jpg/330px-Milan_Kundera_redux.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Patrick Suskind",
@@ -3007,7 +3153,8 @@
         "price": 12.12,
         "averageRating": 4.5
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Patrick+Suskind&size=400&background=8C2F39&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Anne Rice",
@@ -3026,7 +3173,8 @@
         "price": 19.4,
         "averageRating": 3.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Anne_Rice.jpg/330px-Anne_Rice.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Thomas Harris",
@@ -3050,7 +3198,8 @@
         "price": 24.19,
         "averageRating": 4.4
       }
-    ]
+    ],
+    "image": "https://ui-avatars.com/api/?name=Thomas+Harris&size=400&background=1F3A5F&color=ffffff&bold=true&format=png"
   },
   {
     "name": "Scott Turow",
@@ -3069,7 +3218,8 @@
         "price": 26.3,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Scott_Turow_at_National_Book_Festival_2025.jpg/330px-Scott_Turow_at_National_Book_Festival_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Tom Clancy",
@@ -3093,7 +3243,8 @@
         "price": 26.96,
         "averageRating": 4.2
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Clancy_at_Burns_Library_cropped.jpg/330px-Tom_Clancy_at_Burns_Library_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "James Patterson",
@@ -3112,7 +3263,8 @@
         "price": 21.33,
         "averageRating": 3.7
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/James_Patterson_at_the_Library_of_Congress_National_Book_Festival_on_August_24%2C_2024_%28cropped%29.jpg/330px-James_Patterson_at_the_Library_of_Congress_National_Book_Festival_on_August_24%2C_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Robert Ludlum",
@@ -3131,7 +3283,8 @@
         "price": 34.69,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/Robert_Ludlum_%281927-2001%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Arthur Hailey",
@@ -3150,7 +3303,8 @@
         "price": 10.89,
         "averageRating": 5.0
       }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/Arthur_Hailey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "name": "Alice Walker",
@@ -3169,7 +3323,8 @@
         "price": 7.4,
         "averageRating": 4.6
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Alice_Walker.jpg/330px-Alice_Walker.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "John Irving",
@@ -3193,7 +3348,8 @@
         "price": 14.19,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/John_Irving_at_Cologne_2010_%287108%29.jpg/330px-John_Irving_at_Cologne_2010_%287108%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Don DeLillo",
@@ -3212,7 +3368,8 @@
         "price": 15.06,
         "averageRating": 3.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Don_delillo_nyc_02-cropped.jpg/330px-Don_delillo_nyc_02-cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "David Foster Wallace",
@@ -3231,7 +3388,8 @@
         "price": 21.55,
         "averageRating": 4.9
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/David_Foster_Wallace_in_2006.jpg/330px-David_Foster_Wallace_in_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Irvine Welsh",
@@ -3250,7 +3408,8 @@
         "price": 33.35,
         "averageRating": 4.0
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Irvine_Welsh_2024_i109.jpg/330px-Irvine_Welsh_2024_i109.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "name": "Nick Hornby",
@@ -3274,6 +3433,7 @@
         "price": 26.71,
         "averageRating": 3.8
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Nick_Hornby_01_%28cropped%29.jpg/330px-Nick_Hornby_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
 ]
