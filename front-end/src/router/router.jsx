@@ -11,6 +11,7 @@ import Cart from "../pages/Cart";
 import Header from "../components/Header";
 import LoginHeader from "../components/LoginHeader";
 import Book from "../pages/Book";
+import Books from "../pages/books";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/:id",
-    element: <Book />,
+    element: <Books />,
     children: [{ index: true, Component: Header }],
   },
   {

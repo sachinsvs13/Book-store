@@ -223,7 +223,7 @@ export default function Home() {
                 <div className="book-quick-view-details">
                   <div className="book-buy-container">
                     <img src={images[1]} alt={name} className="book-img" />
-                    <div className="quantity-container">
+                    <div className="quantity-quick-container">
                       <button className="decrease-btn">-</button>
                       <input
                         type="number"

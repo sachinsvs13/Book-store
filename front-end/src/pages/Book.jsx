@@ -1,10 +1,15 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Outlet, useParams } from "react-router-dom";
 import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa6";
+import { FaStarHalfAlt } from "react-icons/fa";
+
 import "../Styles/book.css";
 export default function Book() {
   const [singleBook, setSingleBook] = useState([]);
+  const [singleBookObj, setSingleBookObj] = useState({});
+  const [showMoreDescription, setShowMoreDescription] = useState(false);
+  const [authorData, setAuthorData] = useState();
   const { id } = useParams();
   const [error, setError] = useState();
   const [loading, setLoading] = useState({
@@ -13,6 +18,9 @@ export default function Book() {
     newArrivals: true,
     awardWinning: true,
   });
+  const [metaDataIndex, setMetaDataIndex] = useState([0, 1, 2, 3, 4]);
+  const [indexNumber, setIndexNumber] = useState(0);
+
   const [quickView, setQuickView] = useState(false);
   const [bookCategories, setBookCategories] = useState([
     {
@@ -48,18 +56,41 @@ export default function Book() {
     fetchBooks();
   }, [bookCategories.map((category) => category.page).join(",")]);
 
+  console.log(bookCategories);
+
   useEffect(() => {
     const handleSingleBook = async () => {
       try {
         const res = await axios.get(`http://localhost:3000/api/v1/books/${id}`);
         const data = res.data.book;
         setSingleBook([data]);
+        console.log("hello world");
       } catch (error) {
         console.log(error);
       }
     };
     handleSingleBook();
   }, []);
+
+  useEffect(() => {
+    const fetchAuthor = async () => {
+      try {
+        const res = await axios.post(`http://localhost:3000/api/v1/authors/`, {
+          name: singleBookObj.author,
+        });
+        const data = await res.data.author;
+        console.log("hello world");
+        // console.log(singleBookObj);
+        console.log("hello world");
+
+        setAuthorData(data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    fetchAuthor();
+  }, [singleBookObj]);
+  console.log(authorData);
 
   // useEffect(() => {
   //   if (quickView) {
@@ -71,17 +102,15 @@ export default function Book() {
   //   return () => (document.body.style.overflow = "auto");
   // }, [quickView]);
 
-  const handleSingleBook = async (id) => {
-    try {
-      const res = await axios.get(`http://localhost:3000/api/v1/books/${id}`);
-      const data = res.data.book;
-      setSingleBook([data]);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  console.log(singleBook);
+  // const handleSingleBook = async (id) => {
+  //   try {
+  //     const res = await axios.get(`http://localhost:3000/api/v1/books/${id}`);
+  //     const data = res.data.book;
+  //     setSingleBook([data]);
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
 
   return (
     <main>
@@ -108,8 +137,7 @@ export default function Book() {
           reviews,
           _id,
         } = book;
-
-        console.log(
+        setSingleBookObj({
           author,
           averageRating,
           binding,
@@ -129,86 +157,235 @@ export default function Book() {
           returnable,
           reviews,
           _id,
-        );
+        });
+
+        const starArray = Array.from({
+          // length: singleBook[0].averageRating > 4 ? 5 : 4,
+          // Have to change it to 5 when the average rating is 4.5 or more
+          length: Math.ceil(averageRating),
+        });
+
+        const dataItem = [
+          {
+            name: "ISBN-10",
+            icon: <FaStar className="book-meta-icon" />,
+            info: isbn10,
+          },
+          {
+            name: "ISBN-13",
+            icon: <FaStar className="book-meta-icon" />,
+            info: isbn13,
+          },
+
+          {
+            name: "Page Number",
+            icon: <FaStar className="book-meta-icon" />,
+            info: pages,
+          },
+          {
+            name: "Language",
+            icon: <FaStar className="book-meta-icon" />,
+            info: language,
+          },
+          {
+            name: "Binding",
+            icon: <FaStar className="book-meta-icon" />,
+            info: binding,
+          },
+          {
+            name: "Imprint",
+            icon: <FaStar className="book-meta-icon" />,
+            info: publisherImprint,
+          },
+          {
+            name: "Dimensions",
+            icon: <FaStar className="book-meta-icon" />,
+            info: dimensions,
+          },
+          {
+            icon: <FaStar className="book-meta-icon" />,
+            info: "See all details",
+          },
+        ];
+        const handleLeftAdd = () => {
+          setMetaDataIndex((prev) => prev.map((item) => item - 1));
+          if (metaDataIndex.map((data, index) => index === indexNumber)) {
+            // console.log(index)
+            setMetaDataIndex((prev) =>
+              prev.map((data, index) => {
+                if (index === indexNumber) {
+                  return dataItem.length - 1;
+                } else {
+                  return data;
+                }
+              }),
+            );
+            console.log(indexNumber);
+            setIndexNumber((prev) => prev + 1);
+            if (indexNumber === 7) {
+              setIndexNumber(0);
+            }
+          }
+        };
+        const handleRightAdd = () => {
+          setMetaDataIndex((prev) => prev.map((item) => item + 1));
+          if (metaDataIndex.map((data) => data === 7)) {
+            setMetaDataIndex((prev) =>
+              prev.map((data, index) => {
+                if (index === dataItem.length - 1) {
+                  return index + 1;
+                } else {
+                  return data;
+                }
+              }),
+            );
+          }
+          // if (metaData === data.length - 1) {
+          //   setMetaData(0);
+          // }
+        };
 
         return (
           <section className="book-section" key={_id}>
-            <div className="book-img-container">
-              <img src={images} alt="" className="book-img" />
-              <h2 className="author-h2">Authors</h2>
-              <div className="author-container">
-                <img src={images} alt="" className="author-img" />
-                <Link>{author}</Link>
-              </div>
-            </div>
-            <div className="book-details-container">
-              <h2 className="book-name-h2">{name}</h2>
-              <span className="book-binding-span">{binding}</span>
-              <span className="book-released-year-span">{releasedYear}</span>
-              <p className="book-info-p">
-                By: {author} (author) | publisher: {publisher}| Publisher
-                Imprint: {publisherImprint}
-              </p>
-              <h4 className="book-average-rating-h4">
-                {averageRating} <FaStar />| {reviews}
-                review
-              </h4>
-              <p className="book-price-p">$ {price}</p>
-              <p className="book-available-p">Available</p>
-              <p className="book-ship-within-p">Ships in 1-2 Business days</p>
-              <h3 className="book-about-h3">About the Book</h3>
-              <p className="book-description-p">{description}</p>
-              <div className="book-meta-details-container">
-                <div className="book-meta-details">
-                  <h4 className="book-meta-name">ISBN-10</h4>
-                  <FaStar className="book-meta-icon" />
-                  <h4 className="book-meta-info">{isbn13}</h4>
+            <section className="book-info-section">
+              <div className="book-img-container">
+                <img src={images[0]} alt="" className="book-single-img" />
+                <h2 className="author-h2">Authors</h2>
+                <div className="author-container">
+                  <img src={images[1]} alt="" className="author-img" />
+                  <Link>{author}</Link>
                 </div>
               </div>
-            </div>
-            <div className="quantity-container">
-              <span className="quantity-span">Quantity : </span>
-              <select name="" id="" className="quantity-select">
-                <option value="1" className="quantity-option" defaultValue={1}>
-                  1
-                </option>
-                <option value="2" className="quantity-option">
-                  2
-                </option>
-                <option value="3" className="quantity-option">
-                  3
-                </option>
-                <option value="4" className="quantity-option">
-                  4
-                </option>
-                <option value="5" className="quantity-option">
-                  5
-                </option>
-                <option value="6" className="quantity-option">
-                  6
-                </option>
-                <option value="7" className="quantity-option">
-                  7
-                </option>
-                <option value="8" className="quantity-option">
-                  8
-                </option>
-                <option value="9" className="quantity-option">
-                  9
-                </option>
-                <option value="10" className="quantity-option">
-                  10
-                </option>
-              </select>
-              <button className="add-to-cart-btn">Add to Cart</button>
-              <button className="Buy-now-btn">Buy now</button>
-              <button className="add-to-wishlist-btn">Add to Wishlist</button>
-            </div>
+              <div className="book-details-container">
+                <h2 className="book-single-name-h2">
+                  {name}
+                  <span className="book-binding-span"> ({binding}) </span>
+                  <span className="book-released-year-span">
+                    | Released year : {releasedYear}
+                  </span>
+                </h2>
+                <p className="book-info-p">
+                  By: <Link>{author}</Link> (author) | publisher:{" "}
+                  <Link>{publisher}</Link> | Publisher Imprint:{" "}
+                  {publisherImprint}
+                </p>
+                <h4 className="book-average-rating-h4">
+                  {averageRating}{" "}
+                  {starArray.map((_, index) => {
+                    return (
+                      <React.Fragment key={index}>
+                        {index === starArray.length - 1 ? (
+                          <FaStarHalfAlt className="star-icon" />
+                        ) : (
+                          <FaStar className="star-icon" />
+                        )}
+                      </React.Fragment>
+                    );
+                  })}
+                  | {reviews.length} review
+                </h4>
+                <span className="book-price-span">$ {price}</span>
+                <span className="book-available-span">Available</span>
+                <span className="book-ship-within-span">
+                  Ships in 1-2 Business days
+                </span>
+                <div className="book-about-container">
+                  <h3 className="book-about-h3">About the Book</h3>
+                  <p
+                    className={`${showMoreDescription ? "book-more-description-p" : "book-description-p"}`}
+                  >
+                    {showMoreDescription
+                      ? description
+                      : description.substring(0, 240)}
+                  </p>
+                  <button
+                    className="show-btn"
+                    onClick={() => setShowMoreDescription(!showMoreDescription)}
+                  >
+                    {`${showMoreDescription ? "Read less" : "Read more"}`}
+                  </button>
+                </div>
+                <div className="book-meta-details-container">
+                  <FaArrowLeft onClick={handleLeftAdd} />
+                  {dataItem.map((data, index) => {
+                    const { name, icon, info } = data;
+
+                    if (metaDataIndex.includes(index)) {
+                      return (
+                        <div className="book-meta-details" key={index}>
+                          <h4 className="book-meta-name">{name}</h4>
+                          {icon}
+                          <h4 className="book-meta-info">{info}</h4>
+                        </div>
+                      );
+                    }
+                  })}
+                  <FaArrowRight onClick={handleRightAdd} />
+                </div>
+              </div>
+              <div className="quantity-main-container">
+                <div className="quantity-container">
+                  <span className="quantity-span">
+                    Quantity :
+                    <select name="" id="" className="quantity-select">
+                      <option
+                        value="1"
+                        className="quantity-option"
+                        defaultValue={1}
+                      >
+                        1
+                      </option>
+                      <option value="2" className="quantity-option">
+                        2
+                      </option>
+                      <option value="3" className="quantity-option">
+                        3
+                      </option>
+                      <option value="4" className="quantity-option">
+                        4
+                      </option>
+                      <option value="5" className="quantity-option">
+                        5
+                      </option>
+                      <option value="6" className="quantity-option">
+                        6
+                      </option>
+                      <option value="7" className="quantity-option">
+                        7
+                      </option>
+                      <option value="8" className="quantity-option">
+                        8
+                      </option>
+                      <option value="9" className="quantity-option">
+                        9
+                      </option>
+                      <option value="10" className="quantity-option">
+                        10
+                      </option>
+                    </select>
+                  </span>
+                  <button
+                    className="add-to-cart-btn"
+                    style={{ backgroundColor: "#ff2e62" }}
+                  >
+                    Add to Cart
+                  </button>
+                  <button className="Buy-now-btn">Buy now</button>
+                  <button className="add-to-wishlist-btn">
+                    Add to Wishlist
+                  </button>
+                </div>
+              </div>
+            </section>
+
             {bookCategories.map((item, index) => {
               const { name, page, bookData } = item;
               return (
                 <section className="books-section" key={index}>
-                  <div className="books-header-container">
+                  <div
+                    className="books-header-container"
+                    style={{ marginLeft: "0px" }}
+                  >
                     <h1 className="books-section-h1">{name}</h1>
                     <div className="page-turn-container">
                       <button
@@ -288,10 +465,10 @@ export default function Book() {
                           />
                           <button
                             className="quick-view-btn"
-                            onClick={() => (
-                              handleSingleBook(_id),
+                            onClick={() =>
+                              // handleSingleBook(_id),
                               setQuickView(true)
-                            )}
+                            }
                           >
                             QUICK VIEW
                           </button>
