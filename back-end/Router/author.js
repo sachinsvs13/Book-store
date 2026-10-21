@@ -5,6 +5,6 @@ const { getAllAuthor, getSingleAuthor } = require("../Controller/author");
 
 router.get("/", getAllAuthor);
 
-router.get("/:id", getSingleAuthor);
+router.post("{/:id}", getSingleAuthor);
 
 module.exports = router;

@@ -300,6 +300,7 @@ header {
   font-weight: 600;
   cursor: pointer;
   display: none;
+  transition: all 0.5s;
 }
 
 .quick-view-btn:hover {
@@ -324,7 +325,7 @@ header {
   color: rgb(63, 63, 63);
 }
 
-.average-rating-container {
+.average-rating-book-container {
   display: flex;
   margin: 0.3rem 0;
 }

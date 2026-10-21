@@ -19,7 +19,23 @@ const getAllAuthor = async (req, res) => {
 
 const getSingleAuthor = async (req, res) => {
   const { id: authorId } = req.params;
-  const author = await Author.findById({ _id: authorId });
+  const { name: authorName } = req.body || {};
+
+  const orConditions = [];
+  if (authorId) {
+    orConditions.push({ _id: authorId });
+  }
+
+  if (authorName) {
+    orConditions.push({ name: authorName });
+  }
+  if (orConditions.length === 0) {
+    return res.status(400).json({ error: "Please provide an ID or a name." });
+  }
+
+  const author = await Author.findOne({
+    $or: orConditions,
+  });
   if (!author) {
     throw new NotFoundError(`No id found with ${authorId}`);
   }

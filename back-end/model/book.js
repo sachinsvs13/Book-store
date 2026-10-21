@@ -12,12 +12,10 @@ const bookSchema = new mongoose.Schema(
       required: [true, "Price must be mentioned"],
       trim: true,
     },
-    images: [
-      {
-        type: String,
-        required: [true, "Image must be mentioned"],
-      },
-    ],
+    image: {
+      type: String,
+      required: [true, "Image must be mentioned"],
+    },
     author: {
       type: String,
       required: [true, "Author must be mentioned"],

@@ -14,12 +14,14 @@
 
 .book-single-img {
   width: 200px;
+  padding-bottom: 1rem;
 }
 
 .author-h2 {
-  border-top: 1px solid grey;
-  padding: 1em 3em;
-  text-align: right;
+  border-top: 1px solid #ffb5c8;
+  padding: 0.5em 0 1rem;
+  text-align: left;
+  color: #fb4573;
 }
 
 .author-container {
@@ -30,8 +32,10 @@
 }
 
 .author-img {
-  width: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .book-details-container {
@@ -76,8 +80,8 @@
 }
 
 .book-about-container {
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid #ffb5c8;
+  border-bottom: 1px solid #ffb5c8;
   padding: 1rem 0;
   margin: 0.5rem 0;
 }
@@ -152,4 +156,230 @@
 
 .Buy-now-btn:hover {
   opacity: 0.8;
+}
+
+.book-product-details-container {
+  margin-top: 1rem;
+  border-top: 1px solid #ffb5c8;
+  padding-top: 1rem;
+}
+
+.book-product-h2 {
+  color: #fb4573;
+  margin-bottom: 1rem;
+}
+
+.book-product-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.book-product-span-container {
+  flex: 1 0 50%;
+  display: flex;
+  gap: 1rem;
+  border-right: 1px solid #ffb5c8;
+  flex-direction: column;
+}
+
+.book-about-author-container {
+  margin-top: 2rem;
+  border-top: 1px solid #ffb5c8;
+  padding: 1rem 0;
+}
+
+.book-about-author-h2 {
+  color: #fb4573;
+  margin-bottom: 2rem;
+}
+
+.book-author-info-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.book-author-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  flex: 1 0 auto;
+  object-fit: cover;
+}
+
+.book-author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.book-author-name-h2 {
+  color: #2162a1;
+}
+
+.shopping-experience-container {
+  border-top: 1px solid #ffb5c8;
+  padding: 5rem 0;
+  margin: 1rem 0;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-experience-h1 {
+  color: #ff0040;
+}
+
+.rating-selection-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 2rem; */
+}
+
+label {
+  padding: 0 2rem 0 0.5rem;
+}
+
+.reviews-container {
+  border-top: 1px solid #ffb5c8;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.review-h2 {
+  color: #ff0040;
+}
+
+.average-review-container {
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  background-color: #ffffff;
+  /* border: 1px solid #fb4573; */
+  box-shadow: 0.5px 1px 3px #fb4573;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.top-reviews-h3 {
+  color: rgb(255, 0, 0);
+}
+
+.write-review-btn {
+  padding: 0.5rem 2rem;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.write-review-btn:hover {
+  opacity: 0.8;
+}
+
+.snapshot-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1 0 50%;
+}
+
+.rating-h2 {
+  color: #ff0040;
+}
+
+.average-rating-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1 0 50%;
+}
+
+.average-rating-h2 {
+  color: #ff0040;
+}
+
+.review-sort-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: white;
+  /* background-color: #ffc2d1; */
+  /* border: 1px solid #fb4573; */
+  box-shadow: 0.5px 1px 3px #fb4573;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  padding: 1rem 1rem 3rem;
+  /* margin: 1rem 0; */
+  border-bottom: 1px solid #ffb5c8;
+}
+
+.review-profile-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-name {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.review-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.review-title-h3 {
+  font-size: 1.5rem;
+  color: #ff0040;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.review-helpful-btn,
+.review-report-btn {
+  padding: 0.3rem 1rem;
+  margin-top: 1rem;
+}
+.review-helpful-btn {
+  border-radius: 5rem;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.review-helpful-btn:hover {
+  background-color: #ffe1e9;
+  opacity: 1;
+}
+
+.border-line {
+  border: 1px solid grey;
+  height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.review-report-btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  color: rgb(54, 54, 54);
 }

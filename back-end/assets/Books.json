@@ -3,10 +3,7 @@
     "name": "To Kill a Mockingbird",
     "price": 22.7,
     "author": "Harper Lee",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
     "genre": "Fiction",
     "publisher": "HarperCollins",
     "publisherImprint": "Harper Perennial",
@@ -59,10 +56,7 @@
     "name": "Rabbit, Run",
     "price": 30.94,
     "author": "John Updike",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780449911655-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780449911655-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780449911655-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Knopf",
@@ -124,10 +118,7 @@
     "name": "Catch-22",
     "price": 34.92,
     "author": "Joseph Heller",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781451626650-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781451626650-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781451626650-L.jpg",
     "genre": "Fiction",
     "publisher": "Simon & Schuster",
     "publisherImprint": "Simon & Schuster",
@@ -171,10 +162,7 @@
     "name": "Franny and Zooey",
     "price": 9.97,
     "author": "J.D. Salinger",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316769495-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316769495-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316769495-L.jpg",
     "genre": "Fiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -227,10 +215,7 @@
     "name": "A Clockwork Orange",
     "price": 32.18,
     "author": "Anthony Burgess",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780393312836-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780393312836-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780393312836-L.jpg",
     "genre": "Science Fiction",
     "publisher": "William Heinemann",
     "publisherImprint": "W. W. Norton",
@@ -283,10 +268,7 @@
     "name": "One Flew Over the Cuckoo's Nest",
     "price": 18.26,
     "author": "Ken Kesey",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780451163967-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780451163967-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780451163967-L.jpg",
     "genre": "Fiction",
     "publisher": "Viking Press",
     "publisherImprint": "Penguin Books",
@@ -339,10 +321,7 @@
     "name": "Silent Spring",
     "price": 27.11,
     "author": "Rachel Carson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780618249060-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780618249060-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780618249060-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Houghton Mifflin",
     "publisherImprint": "Mariner Books",
@@ -395,10 +374,7 @@
     "name": "The Bell Jar",
     "price": 10.65,
     "author": "Sylvia Plath",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780061148514-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780061148514-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780061148514-L.jpg",
     "genre": "Fiction",
     "publisher": "William Heinemann",
     "publisherImprint": "Harper Perennial",
@@ -460,10 +436,7 @@
     "name": "Dune",
     "price": 24.75,
     "author": "Frank Herbert",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780441172719-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Chilton Books",
     "publisherImprint": "Ace Books",
@@ -507,10 +480,7 @@
     "name": "In Cold Blood",
     "price": 31.75,
     "author": "Truman Capote",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780679745587-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780679745587-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780679745587-L.jpg",
     "genre": "True Crime",
     "publisher": "Random House",
     "publisherImprint": "Vintage",
@@ -563,10 +533,7 @@
     "name": "Wide Sargasso Sea",
     "price": 11.99,
     "author": "Jean Rhys",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780393352566-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780393352566-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780393352566-L.jpg",
     "genre": "Fiction",
     "publisher": "Andre Deutsch",
     "publisherImprint": "W. W. Norton",
@@ -610,10 +577,7 @@
     "name": "One Hundred Years of Solitude",
     "price": 26.51,
     "author": "Gabriel Garcia Marquez",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780060883287-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780060883287-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780060883287-L.jpg",
     "genre": "Fiction",
     "publisher": "Harper & Row",
     "publisherImprint": "Harper Perennial",
@@ -684,10 +648,7 @@
     "name": "2001: A Space Odyssey",
     "price": 31.78,
     "author": "Arthur C. Clarke",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780451457998-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780451457998-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780451457998-L.jpg",
     "genre": "Science Fiction",
     "publisher": "New American Library",
     "publisherImprint": "Roc",
@@ -740,10 +701,7 @@
     "name": "Slaughterhouse-Five",
     "price": 13.47,
     "author": "Kurt Vonnegut",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780385333849-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780385333849-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780385333849-L.jpg",
     "genre": "Fiction",
     "publisher": "Delacorte Press",
     "publisherImprint": "Dial Press",
@@ -787,10 +745,7 @@
     "name": "The Godfather",
     "price": 26.01,
     "author": "Mario Puzo",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780451205766-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780451205766-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780451205766-L.jpg",
     "genre": "Fiction",
     "publisher": "G. P. Putnam's Sons",
     "publisherImprint": "Signet",
@@ -861,10 +816,7 @@
     "name": "The French Lieutenant's Woman",
     "price": 33.97,
     "author": "John Fowles",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316290998-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316290998-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316290998-L.jpg",
     "genre": "Fiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -926,10 +878,7 @@
     "name": "Jonathan Livingston Seagull",
     "price": 30.84,
     "author": "Richard Bach",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780743278904-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780743278904-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780743278904-L.jpg",
     "genre": "Fiction",
     "publisher": "Macmillan",
     "publisherImprint": "Scribner",
@@ -991,10 +940,7 @@
     "name": "Fear and Loathing in Las Vegas",
     "price": 18.9,
     "author": "Hunter S. Thompson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780679785897-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780679785897-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780679785897-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Random House",
     "publisherImprint": "Vintage",
@@ -1056,10 +1002,7 @@
     "name": "Watership Down",
     "price": 20.37,
     "author": "Richard Adams",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780743277709-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780743277709-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780743277709-L.jpg",
     "genre": "Fantasy",
     "publisher": "Rex Collings",
     "publisherImprint": "Scribner",
@@ -1130,10 +1073,7 @@
     "name": "Carrie",
     "price": 14.4,
     "author": "Stephen King",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307743664-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307743664-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307743664-L.jpg",
     "genre": "Horror",
     "publisher": "Doubleday",
     "publisherImprint": "Anchor Books",
@@ -1204,10 +1144,7 @@
     "name": "Jaws",
     "price": 9.92,
     "author": "Peter Benchley",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345441136-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345441136-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345441136-L.jpg",
     "genre": "Thriller",
     "publisher": "Doubleday",
     "publisherImprint": "Ballantine Books",
@@ -1278,10 +1215,7 @@
     "name": "Ragtime",
     "price": 18.62,
     "author": "E. L. Doctorow",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780375753639-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780375753639-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780375753639-L.jpg",
     "genre": "Fiction",
     "publisher": "Random House",
     "publisherImprint": "Modern Library",
@@ -1334,10 +1268,7 @@
     "name": "The Shining",
     "price": 17.71,
     "author": "Stephen King",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307743657-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
     "genre": "Horror",
     "publisher": "Doubleday",
     "publisherImprint": "Anchor Books",
@@ -1381,10 +1312,7 @@
     "name": "The Thorn Birds",
     "price": 30.86,
     "author": "Colleen McCullough",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780380018644-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780380018644-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780380018644-L.jpg",
     "genre": "Fiction",
     "publisher": "Harper & Row",
     "publisherImprint": "Avon",
@@ -1446,10 +1374,7 @@
     "name": "Sophie's Choice",
     "price": 32.16,
     "author": "William Styron",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780679736372-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780679736372-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780679736372-L.jpg",
     "genre": "Fiction",
     "publisher": "Random House",
     "publisherImprint": "Vintage",
@@ -1529,10 +1454,7 @@
     "name": "The Hitchhiker's Guide to the Galaxy",
     "price": 34.19,
     "author": "Douglas Adams",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345391803-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345391803-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345391803-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Pan Books",
     "publisherImprint": "Del Rey",
@@ -1585,10 +1507,7 @@
     "name": "The Shell Seekers",
     "price": 30.06,
     "author": "Rosamunde Pilcher",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780312368497-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780312368497-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780312368497-L.jpg",
     "genre": "Fiction",
     "publisher": "St. Martin's Press",
     "publisherImprint": "St. Martin's Griffin",
@@ -1659,10 +1578,7 @@
     "name": "The Stand",
     "price": 29.03,
     "author": "Stephen King",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307743688-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
     "genre": "Horror",
     "publisher": "Doubleday",
     "publisherImprint": "Anchor Books",
@@ -1742,10 +1658,7 @@
     "name": "Sophie's World",
     "price": 24.72,
     "author": "Jostein Gaarder",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780425152251-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780425152251-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780425152251-L.jpg",
     "genre": "Fiction",
     "publisher": "Aschehoug",
     "publisherImprint": "Berkley",
@@ -1816,10 +1729,7 @@
     "name": "American Psycho",
     "price": 25.38,
     "author": "Bret Easton Ellis",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780679735779-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780679735779-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780679735779-L.jpg",
     "genre": "Fiction",
     "publisher": "Vintage Books",
     "publisherImprint": "Vintage",
@@ -1881,10 +1791,7 @@
     "name": "The Firm",
     "price": 9.27,
     "author": "John Grisham",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780440214204-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780440214204-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780440214204-L.jpg",
     "genre": "Thriller",
     "publisher": "Doubleday",
     "publisherImprint": "Dell",
@@ -1955,10 +1862,7 @@
     "name": "Jurassic Park",
     "price": 15.1,
     "author": "Michael Crichton",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345538987-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345538987-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345538987-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Ballantine Books",
@@ -2011,10 +1915,7 @@
     "name": "A Brief History of Time",
     "price": 22.77,
     "author": "Stephen Hawking",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780553380163-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Bantam Books",
     "publisherImprint": "Bantam",
@@ -2076,10 +1977,7 @@
     "name": "The Joy Luck Club",
     "price": 8.09,
     "author": "Amy Tan",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780143038092-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780143038092-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780143038092-L.jpg",
     "genre": "Fiction",
     "publisher": "G. P. Putnam's Sons",
     "publisherImprint": "Penguin Books",
@@ -2159,10 +2057,7 @@
     "name": "Beloved",
     "price": 21.21,
     "author": "Toni Morrison",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781400033416-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781400033416-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781400033416-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -2224,10 +2119,7 @@
     "name": "The Handmaid's Tale",
     "price": 10.48,
     "author": "Margaret Atwood",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780385490818-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
     "genre": "Fiction",
     "publisher": "McClelland and Stewart",
     "publisherImprint": "Anchor Books",
@@ -2289,10 +2181,7 @@
     "name": "Neuromancer",
     "price": 13.67,
     "author": "William Gibson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780441569595-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Ace Books",
     "publisherImprint": "Ace Books",
@@ -2336,10 +2225,7 @@
     "name": "The Name of the Rose",
     "price": 17.44,
     "author": "Umberto Eco",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780156001311-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780156001311-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780156001311-L.jpg",
     "genre": "Fiction",
     "publisher": "Bompiani",
     "publisherImprint": "Harcourt",
@@ -2383,10 +2269,7 @@
     "name": "A Confederacy of Dunces",
     "price": 29.82,
     "author": "John Kennedy Toole",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780802130204-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780802130204-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780802130204-L.jpg",
     "genre": "Fiction",
     "publisher": "Louisiana State University Press",
     "publisherImprint": "Grove Press",
@@ -2439,10 +2322,7 @@
     "name": "Sophie Kinsella's Shopaholic",
     "price": 19.42,
     "author": "Sophie Kinsella",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780440241416-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780440241416-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780440241416-L.jpg",
     "genre": "Fiction",
     "publisher": "Black Swan",
     "publisherImprint": "Dell",
@@ -2522,10 +2402,7 @@
     "name": "Bridget Jones's Diary",
     "price": 29.68,
     "author": "Helen Fielding",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780140280098-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780140280098-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780140280098-L.jpg",
     "genre": "Fiction",
     "publisher": "Picador",
     "publisherImprint": "Penguin Books",
@@ -2587,10 +2464,7 @@
     "name": "The Bridges of Madison County",
     "price": 19.1,
     "author": "Robert James Waller",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780446364161-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780446364161-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780446364161-L.jpg",
     "genre": "Fiction",
     "publisher": "Warner Books",
     "publisherImprint": "Grand Central",
@@ -2634,10 +2508,7 @@
     "name": "The Celestine Prophecy",
     "price": 7.78,
     "author": "James Redfield",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780446671002-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780446671002-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780446671002-L.jpg",
     "genre": "Fiction",
     "publisher": "Satori Publishing",
     "publisherImprint": "Warner Books",
@@ -2690,10 +2561,7 @@
     "name": "The Da Vinci Code",
     "price": 10.93,
     "author": "Dan Brown",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307474278-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307474278-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307474278-L.jpg",
     "genre": "Thriller",
     "publisher": "Doubleday",
     "publisherImprint": "Anchor Books",
@@ -2773,10 +2641,7 @@
     "name": "Angels & Demons",
     "price": 34.62,
     "author": "Dan Brown",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781416524793-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781416524793-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781416524793-L.jpg",
     "genre": "Thriller",
     "publisher": "Pocket Books",
     "publisherImprint": "Atria Books",
@@ -2829,10 +2694,7 @@
     "name": "Harry Potter and the Sorcerer's Stone",
     "price": 29.3,
     "author": "J. K. Rowling",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780590353427-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780590353427-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780590353427-L.jpg",
     "genre": "Fantasy",
     "publisher": "Bloomsbury",
     "publisherImprint": "Scholastic",
@@ -2912,10 +2774,7 @@
     "name": "Harry Potter and the Chamber of Secrets",
     "price": 20.42,
     "author": "J. K. Rowling",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780439064873-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780439064873-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780439064873-L.jpg",
     "genre": "Fantasy",
     "publisher": "Bloomsbury",
     "publisherImprint": "Scholastic",
@@ -2977,10 +2836,7 @@
     "name": "Harry Potter and the Prisoner of Azkaban",
     "price": 25.27,
     "author": "J. K. Rowling",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780439136365-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780439136365-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780439136365-L.jpg",
     "genre": "Fantasy",
     "publisher": "Bloomsbury",
     "publisherImprint": "Scholastic",
@@ -3051,10 +2907,7 @@
     "name": "Fight Club",
     "price": 32.11,
     "author": "Chuck Palahniuk",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780393327342-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780393327342-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780393327342-L.jpg",
     "genre": "Fiction",
     "publisher": "W. W. Norton",
     "publisherImprint": "W. W. Norton",
@@ -3098,10 +2951,7 @@
     "name": "Life of Pi",
     "price": 24.2,
     "author": "Yann Martel",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780156027328-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780156027328-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780156027328-L.jpg",
     "genre": "Fiction",
     "publisher": "Knopf Canada",
     "publisherImprint": "Mariner Books",
@@ -3172,10 +3022,7 @@
     "name": "The Kite Runner",
     "price": 15.62,
     "author": "Khaled Hosseini",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781594480003-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781594480003-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781594480003-L.jpg",
     "genre": "Fiction",
     "publisher": "Riverhead Books",
     "publisherImprint": "Riverhead Books",
@@ -3219,10 +3066,7 @@
     "name": "A Thousand Splendid Suns",
     "price": 30.37,
     "author": "Khaled Hosseini",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781594489501-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781594489501-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781594489501-L.jpg",
     "genre": "Fiction",
     "publisher": "Riverhead Books",
     "publisherImprint": "Riverhead Books",
@@ -3293,10 +3137,7 @@
     "name": "The Curious Incident of the Dog in the Night-Time",
     "price": 31.62,
     "author": "Mark Haddon",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781400032716-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781400032716-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781400032716-L.jpg",
     "genre": "Fiction",
     "publisher": "Jonathan Cape",
     "publisherImprint": "Vintage",
@@ -3376,10 +3217,7 @@
     "name": "Eat, Pray, Love",
     "price": 34.98,
     "author": "Elizabeth Gilbert",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780143038412-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780143038412-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780143038412-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Viking Press",
     "publisherImprint": "Penguin Books",
@@ -3459,10 +3297,7 @@
     "name": "The Alchemist",
     "price": 33.79,
     "author": "Paulo Coelho",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780062315007-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg",
     "genre": "Fiction",
     "publisher": "HarperTorch",
     "publisherImprint": "HarperOne",
@@ -3506,10 +3341,7 @@
     "name": "Angela's Ashes",
     "price": 25.86,
     "author": "Frank McCourt",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780684842505-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780684842505-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780684842505-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Scribner",
     "publisherImprint": "Scribner",
@@ -3553,10 +3385,7 @@
     "name": "Cold Mountain",
     "price": 28.95,
     "author": "Charles Frazier",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780802142792-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780802142792-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780802142792-L.jpg",
     "genre": "Fiction",
     "publisher": "Atlantic Monthly Press",
     "publisherImprint": "Grove Press",
@@ -3636,10 +3465,7 @@
     "name": "Memoirs of a Geisha",
     "price": 9.39,
     "author": "Arthur Golden",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780679781585-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780679781585-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780679781585-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -3683,10 +3509,7 @@
     "name": "The Reader",
     "price": 28.95,
     "author": "Bernhard Schlink",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780375707971-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780375707971-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780375707971-L.jpg",
     "genre": "Fiction",
     "publisher": "Diogenes Verlag",
     "publisherImprint": "Vintage",
@@ -3748,10 +3571,7 @@
     "name": "The Lovely Bones",
     "price": 23.63,
     "author": "Alice Sebold",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316166683-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316166683-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316166683-L.jpg",
     "genre": "Fiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -3822,10 +3642,7 @@
     "name": "White Teeth",
     "price": 29.73,
     "author": "Zadie Smith",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780375703867-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780375703867-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780375703867-L.jpg",
     "genre": "Fiction",
     "publisher": "Hamish Hamilton",
     "publisherImprint": "Vintage",
@@ -3869,10 +3686,7 @@
     "name": "Atonement",
     "price": 33.33,
     "author": "Ian McEwan",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780385721790-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780385721790-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780385721790-L.jpg",
     "genre": "Fiction",
     "publisher": "Jonathan Cape",
     "publisherImprint": "Anchor Books",
@@ -3934,10 +3748,7 @@
     "name": "The Corrections",
     "price": 8.74,
     "author": "Jonathan Franzen",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780312421274-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780312421274-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780312421274-L.jpg",
     "genre": "Fiction",
     "publisher": "Farrar, Straus and Giroux",
     "publisherImprint": "Picador",
@@ -3999,10 +3810,7 @@
     "name": "Middlesex",
     "price": 33.05,
     "author": "Jeffrey Eugenides",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780312427733-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780312427733-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780312427733-L.jpg",
     "genre": "Fiction",
     "publisher": "Farrar, Straus and Giroux",
     "publisherImprint": "Picador",
@@ -4073,10 +3881,7 @@
     "name": "Never Let Me Go",
     "price": 25.29,
     "author": "Kazuo Ishiguro",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781400078776-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781400078776-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781400078776-L.jpg",
     "genre": "Fiction",
     "publisher": "Faber and Faber",
     "publisherImprint": "Vintage",
@@ -4147,10 +3952,7 @@
     "name": "The Road",
     "price": 18.27,
     "author": "Cormac McCarthy",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307387899-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -4221,10 +4023,7 @@
     "name": "No Country for Old Men",
     "price": 13.55,
     "author": "Cormac McCarthy",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780375706677-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780375706677-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780375706677-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -4268,10 +4067,7 @@
     "name": "The Time Traveler's Wife",
     "price": 22.76,
     "author": "Audrey Niffenegger",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780156029438-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780156029438-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780156029438-L.jpg",
     "genre": "Fiction",
     "publisher": "MacAdam/Cage",
     "publisherImprint": "Mariner Books",
@@ -4342,10 +4138,7 @@
     "name": "Water for Elephants",
     "price": 31.09,
     "author": "Sara Gruen",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781565125605-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781565125605-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781565125605-L.jpg",
     "genre": "Fiction",
     "publisher": "Algonquin Books",
     "publisherImprint": "Algonquin Books",
@@ -4425,10 +4218,7 @@
     "name": "The Girl with the Dragon Tattoo",
     "price": 30.02,
     "author": "Stieg Larsson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307949486-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307949486-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307949486-L.jpg",
     "genre": "Thriller",
     "publisher": "Norstedts Forlag",
     "publisherImprint": "Vintage Crime",
@@ -4481,10 +4271,7 @@
     "name": "The Book Thief",
     "price": 31.0,
     "author": "Markus Zusak",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780375842207-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780375842207-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780375842207-L.jpg",
     "genre": "Fiction",
     "publisher": "Picador",
     "publisherImprint": "Knopf Books for Young Readers",
@@ -4537,10 +4324,7 @@
     "name": "Twilight",
     "price": 28.62,
     "author": "Stephenie Meyer",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316015844-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316015844-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316015844-L.jpg",
     "genre": "Fantasy",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Little, Brown Books for Young Readers",
@@ -4593,10 +4377,7 @@
     "name": "The Hunger Games",
     "price": 19.17,
     "author": "Suzanne Collins",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780439023481-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780439023481-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780439023481-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Scholastic Press",
     "publisherImprint": "Scholastic",
@@ -4658,10 +4439,7 @@
     "name": "Catching Fire",
     "price": 15.36,
     "author": "Suzanne Collins",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780439023498-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780439023498-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780439023498-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Scholastic Press",
     "publisherImprint": "Scholastic",
@@ -4705,10 +4483,7 @@
     "name": "Mockingjay",
     "price": 23.06,
     "author": "Suzanne Collins",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780439023511-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780439023511-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780439023511-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Scholastic Press",
     "publisherImprint": "Scholastic",
@@ -4779,10 +4554,7 @@
     "name": "The Help",
     "price": 34.75,
     "author": "Kathryn Stockett",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780425232200-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780425232200-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780425232200-L.jpg",
     "genre": "Fiction",
     "publisher": "Amy Einhorn Books",
     "publisherImprint": "Berkley",
@@ -4835,10 +4607,7 @@
     "name": "Gone Girl",
     "price": 32.69,
     "author": "Gillian Flynn",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307588371-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307588371-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307588371-L.jpg",
     "genre": "Thriller",
     "publisher": "Crown Publishing",
     "publisherImprint": "Broadway Books",
@@ -4900,10 +4669,7 @@
     "name": "The Fault in Our Stars",
     "price": 34.08,
     "author": "John Green",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780142424179-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780142424179-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780142424179-L.jpg",
     "genre": "Fiction",
     "publisher": "Dutton Books",
     "publisherImprint": "Penguin Books",
@@ -4974,10 +4740,7 @@
     "name": "Divergent",
     "price": 33.36,
     "author": "Veronica Roth",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780062024039-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780062024039-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780062024039-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Katherine Tegen Books",
     "publisherImprint": "Katherine Tegen Books",
@@ -5057,10 +4820,7 @@
     "name": "The Girl on the Train",
     "price": 14.36,
     "author": "Paula Hawkins",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781594634024-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781594634024-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781594634024-L.jpg",
     "genre": "Thriller",
     "publisher": "Doubleday",
     "publisherImprint": "Riverhead Books",
@@ -5122,10 +4882,7 @@
     "name": "All the Light We Cannot See",
     "price": 14.21,
     "author": "Anthony Doerr",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781476746586-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781476746586-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781476746586-L.jpg",
     "genre": "Fiction",
     "publisher": "Scribner",
     "publisherImprint": "Scribner",
@@ -5169,10 +4926,7 @@
     "name": "The Martian",
     "price": 8.04,
     "author": "Andy Weir",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780553418026-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780553418026-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780553418026-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Crown Publishing",
     "publisherImprint": "Broadway Books",
@@ -5252,10 +5006,7 @@
     "name": "Fifty Shades of Grey",
     "price": 30.05,
     "author": "E. L. James",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345803481-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345803481-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345803481-L.jpg",
     "genre": "Fiction",
     "publisher": "Vintage Books",
     "publisherImprint": "Vintage",
@@ -5299,10 +5050,7 @@
     "name": "Wild",
     "price": 23.82,
     "author": "Cheryl Strayed",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307476074-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307476074-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307476074-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -5382,10 +5130,7 @@
     "name": "Big Little Lies",
     "price": 27.33,
     "author": "Liane Moriarty",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780425274866-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780425274866-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780425274866-L.jpg",
     "genre": "Fiction",
     "publisher": "Pan Macmillan",
     "publisherImprint": "Amy Einhorn Books",
@@ -5447,10 +5192,7 @@
     "name": "The Goldfinch",
     "price": 34.62,
     "author": "Donna Tartt",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316055444-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316055444-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316055444-L.jpg",
     "genre": "Fiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -5494,10 +5236,7 @@
     "name": "Where'd You Go, Bernadette",
     "price": 21.86,
     "author": "Maria Semple",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316204279-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316204279-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316204279-L.jpg",
     "genre": "Fiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -5550,10 +5289,7 @@
     "name": "Station Eleven",
     "price": 8.04,
     "author": "Emily St. John Mandel",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780804172448-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780804172448-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780804172448-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -5633,10 +5369,7 @@
     "name": "The Nightingale",
     "price": 9.51,
     "author": "Kristin Hannah",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781250080400-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781250080400-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781250080400-L.jpg",
     "genre": "Fiction",
     "publisher": "St. Martin's Press",
     "publisherImprint": "St. Martin's Griffin",
@@ -5698,10 +5431,7 @@
     "name": "A Man Called Ove",
     "price": 27.33,
     "author": "Fredrik Backman",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781476738024-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781476738024-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781476738024-L.jpg",
     "genre": "Fiction",
     "publisher": "Forum",
     "publisherImprint": "Atria Books",
@@ -5745,10 +5475,7 @@
     "name": "The Underground Railroad",
     "price": 21.64,
     "author": "Colson Whitehead",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345804327-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345804327-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345804327-L.jpg",
     "genre": "Fiction",
     "publisher": "Doubleday",
     "publisherImprint": "Anchor Books",
@@ -5819,10 +5546,7 @@
     "name": "Educated",
     "price": 31.91,
     "author": "Tara Westover",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780399590504-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780399590504-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780399590504-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Random House",
     "publisherImprint": "Windmill Books",
@@ -5884,10 +5608,7 @@
     "name": "Becoming",
     "price": 25.81,
     "author": "Michelle Obama",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781524763138-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781524763138-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781524763138-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Crown Publishing",
     "publisherImprint": "Crown",
@@ -5958,10 +5679,7 @@
     "name": "Sapiens",
     "price": 26.88,
     "author": "Yuval Noah Harari",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780062316097-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Harvill Secker",
     "publisherImprint": "Harper Perennial",
@@ -6041,10 +5759,7 @@
     "name": "Homo Deus",
     "price": 25.12,
     "author": "Yuval Noah Harari",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780062464316-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780062464316-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780062464316-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Harvill Secker",
     "publisherImprint": "Harper Perennial",
@@ -6097,10 +5812,7 @@
     "name": "Thinking, Fast and Slow",
     "price": 12.14,
     "author": "Daniel Kahneman",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780374533557-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Farrar, Straus and Giroux",
     "publisherImprint": "Farrar, Straus and Giroux",
@@ -6171,10 +5883,7 @@
     "name": "The Subtle Art of Not Giving a F*ck",
     "price": 24.54,
     "author": "Mark Manson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780062457714-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780062457714-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780062457714-L.jpg",
     "genre": "Nonfiction",
     "publisher": "HarperOne",
     "publisherImprint": "HarperOne",
@@ -6245,10 +5954,7 @@
     "name": "Atomic Habits",
     "price": 25.49,
     "author": "James Clear",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780735211292-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Avery",
     "publisherImprint": "Avery",
@@ -6301,10 +6007,7 @@
     "name": "Where the Crawdads Sing",
     "price": 28.02,
     "author": "Delia Owens",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780735219090-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780735219090-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780735219090-L.jpg",
     "genre": "Fiction",
     "publisher": "G. P. Putnam's Sons",
     "publisherImprint": "G. P. Putnam's Sons",
@@ -6384,10 +6087,7 @@
     "name": "Little Fires Everywhere",
     "price": 9.1,
     "author": "Celeste Ng",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780735224292-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780735224292-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780735224292-L.jpg",
     "genre": "Fiction",
     "publisher": "Penguin Press",
     "publisherImprint": "Penguin Books",
@@ -6467,10 +6167,7 @@
     "name": "The Silent Patient",
     "price": 30.22,
     "author": "Alex Michaelides",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781250301697-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781250301697-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781250301697-L.jpg",
     "genre": "Thriller",
     "publisher": "Celadon Books",
     "publisherImprint": "Celadon Books",
@@ -6550,10 +6247,7 @@
     "name": "Circe",
     "price": 32.82,
     "author": "Madeline Miller",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316556347-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316556347-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316556347-L.jpg",
     "genre": "Fantasy",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -6633,10 +6327,7 @@
     "name": "The Song of Achilles",
     "price": 29.1,
     "author": "Madeline Miller",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780062060624-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780062060624-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780062060624-L.jpg",
     "genre": "Fantasy",
     "publisher": "Ecco",
     "publisherImprint": "Ecco",
@@ -6707,10 +6398,7 @@
     "name": "Normal People",
     "price": 31.18,
     "author": "Sally Rooney",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781984822178-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781984822178-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781984822178-L.jpg",
     "genre": "Fiction",
     "publisher": "Faber and Faber",
     "publisherImprint": "Hogarth",
@@ -6781,10 +6469,7 @@
     "name": "Daisy Jones & The Six",
     "price": 11.4,
     "author": "Taylor Jenkins Reid",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781524798628-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781524798628-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781524798628-L.jpg",
     "genre": "Fiction",
     "publisher": "Ballantine Books",
     "publisherImprint": "Ballantine Books",
@@ -6846,10 +6531,7 @@
     "name": "The Seven Husbands of Evelyn Hugo",
     "price": 28.71,
     "author": "Taylor Jenkins Reid",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781501161933-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781501161933-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781501161933-L.jpg",
     "genre": "Fiction",
     "publisher": "Atria Books",
     "publisherImprint": "Atria Books",
@@ -6920,10 +6602,7 @@
     "name": "It Ends with Us",
     "price": 15.82,
     "author": "Colleen Hoover",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781501110368-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781501110368-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781501110368-L.jpg",
     "genre": "Fiction",
     "publisher": "Atria Books",
     "publisherImprint": "Atria Books",
@@ -6994,10 +6673,7 @@
     "name": "Verity",
     "price": 10.66,
     "author": "Colleen Hoover",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781538724736-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781538724736-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781538724736-L.jpg",
     "genre": "Thriller",
     "publisher": "Grand Central Publishing",
     "publisherImprint": "Grand Central Publishing",
@@ -7041,10 +6717,7 @@
     "name": "The Midnight Library",
     "price": 19.59,
     "author": "Matt Haig",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780525559474-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg",
     "genre": "Fiction",
     "publisher": "Canongate Books",
     "publisherImprint": "Viking",
@@ -7106,10 +6779,7 @@
     "name": "Project Hail Mary",
     "price": 33.28,
     "author": "Andy Weir",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780593135204-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780593135204-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780593135204-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Ballantine Books",
     "publisherImprint": "Ballantine Books",
@@ -7180,10 +6850,7 @@
     "name": "Klara and the Sun",
     "price": 23.53,
     "author": "Kazuo Ishiguro",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780593318171-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780593318171-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780593318171-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Faber and Faber",
     "publisherImprint": "Knopf",
@@ -7263,10 +6930,7 @@
     "name": "The Invisible Life of Addie LaRue",
     "price": 24.82,
     "author": "V. E. Schwab",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780765387561-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780765387561-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780765387561-L.jpg",
     "genre": "Fantasy",
     "publisher": "Tor Books",
     "publisherImprint": "Tor Books",
@@ -7346,10 +7010,7 @@
     "name": "Anxious People",
     "price": 11.43,
     "author": "Fredrik Backman",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781982127752-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781982127752-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781982127752-L.jpg",
     "genre": "Fiction",
     "publisher": "Forum",
     "publisherImprint": "Atria Books",
@@ -7411,10 +7072,7 @@
     "name": "The Vanishing Half",
     "price": 19.27,
     "author": "Brit Bennett",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780525536291-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780525536291-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780525536291-L.jpg",
     "genre": "Fiction",
     "publisher": "Riverhead Books",
     "publisherImprint": "Riverhead Books",
@@ -7476,10 +7134,7 @@
     "name": "Hamnet",
     "price": 14.92,
     "author": "Maggie O'Farrell",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780525657692-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780525657692-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780525657692-L.jpg",
     "genre": "Fiction",
     "publisher": "Tinder Press",
     "publisherImprint": "Knopf",
@@ -7523,10 +7178,7 @@
     "name": "Cloud Cuckoo Land",
     "price": 31.9,
     "author": "Anthony Doerr",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781982168438-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781982168438-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781982168438-L.jpg",
     "genre": "Fiction",
     "publisher": "Scribner",
     "publisherImprint": "Scribner",
@@ -7588,10 +7240,7 @@
     "name": "The Four Winds",
     "price": 15.81,
     "author": "Kristin Hannah",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781250178633-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781250178633-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781250178633-L.jpg",
     "genre": "Fiction",
     "publisher": "St. Martin's Press",
     "publisherImprint": "St. Martin's Press",
@@ -7653,10 +7302,7 @@
     "name": "Lessons in Chemistry",
     "price": 13.51,
     "author": "Bonnie Garmus",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780385547345-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780385547345-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780385547345-L.jpg",
     "genre": "Fiction",
     "publisher": "Doubleday",
     "publisherImprint": "Doubleday",
@@ -7736,10 +7382,7 @@
     "name": "Tomorrow, and Tomorrow, and Tomorrow",
     "price": 27.86,
     "author": "Gabrielle Zevin",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780593321201-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780593321201-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780593321201-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Knopf",
@@ -7783,10 +7426,7 @@
     "name": "Fourth Wing",
     "price": 28.54,
     "author": "Rebecca Yarros",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781649374042-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781649374042-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781649374042-L.jpg",
     "genre": "Fantasy",
     "publisher": "Red Tower Books",
     "publisherImprint": "Entangled Publishing",
@@ -7866,10 +7506,7 @@
     "name": "Iron Flame",
     "price": 7.52,
     "author": "Rebecca Yarros",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781649374172-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781649374172-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781649374172-L.jpg",
     "genre": "Fantasy",
     "publisher": "Red Tower Books",
     "publisherImprint": "Entangled Publishing",
@@ -7922,10 +7559,7 @@
     "name": "Yellowface",
     "price": 16.56,
     "author": "R. F. Kuang",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780063250833-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780063250833-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780063250833-L.jpg",
     "genre": "Fiction",
     "publisher": "William Morrow",
     "publisherImprint": "William Morrow",
@@ -7969,10 +7603,7 @@
     "name": "The Covenant of Water",
     "price": 30.5,
     "author": "Abraham Verghese",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780802162175-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780802162175-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780802162175-L.jpg",
     "genre": "Fiction",
     "publisher": "Grove Press",
     "publisherImprint": "Grove Press",
@@ -8034,10 +7665,7 @@
     "name": "Demon Copperhead",
     "price": 12.67,
     "author": "Barbara Kingsolver",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780063251922-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780063251922-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780063251922-L.jpg",
     "genre": "Fiction",
     "publisher": "Harper",
     "publisherImprint": "Harper",
@@ -8108,10 +7736,7 @@
     "name": "Trust",
     "price": 26.48,
     "author": "Hernan Diaz",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780593420317-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780593420317-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780593420317-L.jpg",
     "genre": "Fiction",
     "publisher": "Riverhead Books",
     "publisherImprint": "Riverhead Books",
@@ -8173,10 +7798,7 @@
     "name": "James",
     "price": 7.09,
     "author": "Percival Everett",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780385550369-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780385550369-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780385550369-L.jpg",
     "genre": "Fiction",
     "publisher": "Doubleday",
     "publisherImprint": "Doubleday",
@@ -8247,10 +7869,7 @@
     "name": "The Women",
     "price": 16.03,
     "author": "Kristin Hannah",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781250290342-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781250290342-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781250290342-L.jpg",
     "genre": "Fiction",
     "publisher": "St. Martin's Press",
     "publisherImprint": "St. Martin's Press",
@@ -8321,10 +7940,7 @@
     "name": "Funny Story",
     "price": 16.34,
     "author": "Emily Henry",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780593441282-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780593441282-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780593441282-L.jpg",
     "genre": "Fiction",
     "publisher": "Berkley",
     "publisherImprint": "Berkley",
@@ -8368,10 +7984,7 @@
     "name": "The Housemaid",
     "price": 19.94,
     "author": "Freida McFadden",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781538742825-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781538742825-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781538742825-L.jpg",
     "genre": "Thriller",
     "publisher": "Bookouture",
     "publisherImprint": "Grand Central Publishing",
@@ -8451,10 +8064,7 @@
     "name": "Onyx Storm",
     "price": 21.44,
     "author": "Rebecca Yarros",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781649377159-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781649377159-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781649377159-L.jpg",
     "genre": "Fantasy",
     "publisher": "Red Tower Books",
     "publisherImprint": "Entangled Publishing",
@@ -8498,10 +8108,7 @@
     "name": "The Let Them Theory",
     "price": 10.19,
     "author": "Mel Robbins",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781401971369-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781401971369-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781401971369-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Hay House",
     "publisherImprint": "Hay House",
@@ -8554,10 +8161,7 @@
     "name": "The Locked Door",
     "price": 34.25,
     "author": "Freida McFadden",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781538725917-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781538725917-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781538725917-L.jpg",
     "genre": "Thriller",
     "publisher": "Bookouture",
     "publisherImprint": "Grand Central Publishing",
@@ -8637,10 +8241,7 @@
     "name": "Dog Man: The Scarlet Shedder",
     "price": 29.78,
     "author": "Dav Pilkey",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781338835492-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781338835492-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781338835492-L.jpg",
     "genre": "Children's",
     "publisher": "Graphix",
     "publisherImprint": "Scholastic",
@@ -8720,10 +8321,7 @@
     "name": "The Alignment Problem",
     "price": 34.09,
     "author": "Brian Christian",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780393868297-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780393868297-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780393868297-L.jpg",
     "genre": "Nonfiction",
     "publisher": "W. W. Norton",
     "publisherImprint": "W. W. Norton",
@@ -8767,10 +8365,7 @@
     "name": "Outlive",
     "price": 25.41,
     "author": "Peter Attia",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780593236598-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780593236598-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780593236598-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Harmony Books",
     "publisherImprint": "Harmony",
@@ -8814,10 +8409,7 @@
     "name": "The Body Keeps the Score",
     "price": 8.05,
     "author": "Bessel van der Kolk",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780143127741-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780143127741-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780143127741-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Viking Press",
     "publisherImprint": "Penguin Books",
@@ -8861,10 +8453,7 @@
     "name": "Quiet",
     "price": 16.87,
     "author": "Susan Cain",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307352156-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307352156-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307352156-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Crown Publishing",
     "publisherImprint": "Broadway Books",
@@ -8926,10 +8515,7 @@
     "name": "Freakonomics",
     "price": 11.05,
     "author": "Steven D. Levitt and Stephen J. Dubner",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780060731328-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780060731328-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780060731328-L.jpg",
     "genre": "Nonfiction",
     "publisher": "William Morrow",
     "publisherImprint": "William Morrow",
@@ -9000,10 +8586,7 @@
     "name": "Outliers",
     "price": 23.47,
     "author": "Malcolm Gladwell",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316017930-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316017930-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316017930-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -9056,10 +8639,7 @@
     "name": "The Tipping Point",
     "price": 9.11,
     "author": "Malcolm Gladwell",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316346627-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316346627-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316346627-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -9130,10 +8710,7 @@
     "name": "Blink",
     "price": 20.73,
     "author": "Malcolm Gladwell",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316010665-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316010665-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316010665-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -9213,10 +8790,7 @@
     "name": "Good to Great",
     "price": 12.92,
     "author": "Jim Collins",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780066620992-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780066620992-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780066620992-L.jpg",
     "genre": "Nonfiction",
     "publisher": "HarperBusiness",
     "publisherImprint": "HarperBusiness",
@@ -9296,10 +8870,7 @@
     "name": "The Lean Startup",
     "price": 23.29,
     "author": "Eric Ries",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307887894-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Crown Business",
     "publisherImprint": "Crown Business",
@@ -9352,10 +8923,7 @@
     "name": "Zero to One",
     "price": 9.67,
     "author": "Peter Thiel",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780804139298-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780804139298-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780804139298-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Crown Business",
     "publisherImprint": "Crown Business",
@@ -9426,10 +8994,7 @@
     "name": "Rich Dad Poor Dad",
     "price": 19.19,
     "author": "Robert Kiyosaki",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781612680194-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Warner Books",
     "publisherImprint": "Plata Publishing",
@@ -9482,10 +9047,7 @@
     "name": "The Intelligent Investor",
     "price": 30.43,
     "author": "Benjamin Graham",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780060555665-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780060555665-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780060555665-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Harper & Row",
     "publisherImprint": "Harper Business",
@@ -9538,10 +9100,7 @@
     "name": "A Brief History of Humankind",
     "price": 22.96,
     "author": "Yuval Noah Harari",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780062316097-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Harvill Secker",
     "publisherImprint": "Harper Perennial",
@@ -9612,10 +9171,7 @@
     "name": "Cosmos",
     "price": 28.29,
     "author": "Carl Sagan",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345539434-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345539434-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345539434-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Random House",
     "publisherImprint": "Ballantine Books",
@@ -9695,10 +9251,7 @@
     "name": "The Selfish Gene",
     "price": 20.6,
     "author": "Richard Dawkins",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780199291151-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Oxford University Press",
     "publisherImprint": "Oxford University Press",
@@ -9769,10 +9322,7 @@
     "name": "Guns, Germs, and Steel",
     "price": 34.15,
     "author": "Jared Diamond",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780393317558-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780393317558-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780393317558-L.jpg",
     "genre": "Nonfiction",
     "publisher": "W. W. Norton",
     "publisherImprint": "W. W. Norton",
@@ -9834,10 +9384,7 @@
     "name": "A People's History of the United States",
     "price": 18.12,
     "author": "Howard Zinn",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780061964008-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780061964008-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780061964008-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Harper & Row",
     "publisherImprint": "Harper Perennial",
@@ -9899,10 +9446,7 @@
     "name": "The Diary of a Young Girl",
     "price": 17.68,
     "author": "Anne Frank",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780553296983-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780553296983-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780553296983-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Contact Publishing",
     "publisherImprint": "Bantam",
@@ -9964,10 +9508,7 @@
     "name": "Man's Search for Meaning",
     "price": 10.78,
     "author": "Viktor Frankl",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780807014295-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780807014295-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780807014295-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Beacon Press",
     "publisherImprint": "Beacon Press",
@@ -10029,10 +9570,7 @@
     "name": "The Power of Now",
     "price": 21.89,
     "author": "Eckhart Tolle",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781577314806-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781577314806-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781577314806-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Namaste Publishing",
     "publisherImprint": "New World Library",
@@ -10103,10 +9641,7 @@
     "name": "Steve Jobs",
     "price": 32.22,
     "author": "Walter Isaacson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781451648539-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781451648539-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781451648539-L.jpg",
     "genre": "Biography",
     "publisher": "Simon & Schuster",
     "publisherImprint": "Simon & Schuster",
@@ -10150,10 +9685,7 @@
     "name": "Long Walk to Freedom",
     "price": 10.0,
     "author": "Nelson Mandela",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316548182-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316548182-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316548182-L.jpg",
     "genre": "Biography",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -10224,10 +9756,7 @@
     "name": "Into the Wild",
     "price": 17.17,
     "author": "Jon Krakauer",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780385486804-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780385486804-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780385486804-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Villard Books",
     "publisherImprint": "Anchor Books",
@@ -10307,10 +9836,7 @@
     "name": "Into Thin Air",
     "price": 33.66,
     "author": "Jon Krakauer",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780385494786-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780385494786-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780385494786-L.jpg",
     "genre": "Nonfiction",
     "publisher": "Villard Books",
     "publisherImprint": "Anchor Books",
@@ -10354,10 +9880,7 @@
     "name": "The Perks of Being a Wallflower",
     "price": 8.55,
     "author": "Stephen Chbosky",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781451696196-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781451696196-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781451696196-L.jpg",
     "genre": "Fiction",
     "publisher": "MTV Books",
     "publisherImprint": "Pocket Books",
@@ -10437,10 +9960,7 @@
     "name": "Life After Life",
     "price": 28.41,
     "author": "Kate Atkinson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316176484-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316176484-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316176484-L.jpg",
     "genre": "Fiction",
     "publisher": "Doubleday",
     "publisherImprint": "Back Bay Books",
@@ -10502,10 +10022,7 @@
     "name": "The Night Circus",
     "price": 12.05,
     "author": "Erin Morgenstern",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307744432-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307744432-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307744432-L.jpg",
     "genre": "Fantasy",
     "publisher": "Doubleday",
     "publisherImprint": "Anchor Books",
@@ -10585,10 +10102,7 @@
     "name": "American Gods",
     "price": 31.27,
     "author": "Neil Gaiman",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780062572110-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780062572110-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780062572110-L.jpg",
     "genre": "Fantasy",
     "publisher": "William Morrow",
     "publisherImprint": "William Morrow",
@@ -10650,10 +10164,7 @@
     "name": "Good Omens",
     "price": 14.77,
     "author": "Terry Pratchett and Neil Gaiman",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780060853983-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780060853983-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780060853983-L.jpg",
     "genre": "Fantasy",
     "publisher": "Victor Gollancz",
     "publisherImprint": "William Morrow",
@@ -10715,10 +10226,7 @@
     "name": "The Name of the Wind",
     "price": 26.55,
     "author": "Patrick Rothfuss",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780756404741-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780756404741-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780756404741-L.jpg",
     "genre": "Fantasy",
     "publisher": "DAW Books",
     "publisherImprint": "DAW Books",
@@ -10789,10 +10297,7 @@
     "name": "A Game of Thrones",
     "price": 11.72,
     "author": "George R. R. Martin",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780553381689-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780553381689-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780553381689-L.jpg",
     "genre": "Fantasy",
     "publisher": "Bantam Spectra",
     "publisherImprint": "Bantam",
@@ -10872,10 +10377,7 @@
     "name": "The Way of Kings",
     "price": 13.57,
     "author": "Brandon Sanderson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780765326355-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780765326355-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780765326355-L.jpg",
     "genre": "Fantasy",
     "publisher": "Tor Books",
     "publisherImprint": "Tor Books",
@@ -10919,10 +10421,7 @@
     "name": "Mistborn: The Final Empire",
     "price": 32.92,
     "author": "Brandon Sanderson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780765350381-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780765350381-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780765350381-L.jpg",
     "genre": "Fantasy",
     "publisher": "Tor Books",
     "publisherImprint": "Tor Books",
@@ -11002,10 +10501,7 @@
     "name": "Ender's Game",
     "price": 17.45,
     "author": "Orson Scott Card",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780812550702-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780812550702-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780812550702-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Tor Books",
     "publisherImprint": "Tor Books",
@@ -11067,10 +10563,7 @@
     "name": "The Left Hand of Darkness",
     "price": 32.8,
     "author": "Ursula K. Le Guin",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780441478125-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780441478125-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780441478125-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Ace Books",
     "publisherImprint": "Ace Books",
@@ -11132,10 +10625,7 @@
     "name": "Foundation",
     "price": 10.0,
     "author": "Isaac Asimov",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780553293357-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Gnome Press",
     "publisherImprint": "Bantam Spectra",
@@ -11206,10 +10696,7 @@
     "name": "Do Androids Dream of Electric Sheep?",
     "price": 26.48,
     "author": "Philip K. Dick",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345404473-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345404473-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345404473-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Doubleday",
     "publisherImprint": "Del Rey",
@@ -11262,10 +10749,7 @@
     "name": "The Wind-Up Bird Chronicle",
     "price": 20.64,
     "author": "Haruki Murakami",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780679775430-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780679775430-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780679775430-L.jpg",
     "genre": "Fiction",
     "publisher": "Shinchosha",
     "publisherImprint": "Vintage International",
@@ -11318,10 +10802,7 @@
     "name": "Norwegian Wood",
     "price": 34.18,
     "author": "Haruki Murakami",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780375704024-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780375704024-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780375704024-L.jpg",
     "genre": "Fiction",
     "publisher": "Kodansha",
     "publisherImprint": "Vintage International",
@@ -11383,10 +10864,7 @@
     "name": "Kafka on the Shore",
     "price": 30.55,
     "author": "Haruki Murakami",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781400079278-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781400079278-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781400079278-L.jpg",
     "genre": "Fiction",
     "publisher": "Shinchosha",
     "publisherImprint": "Vintage International",
@@ -11466,10 +10944,7 @@
     "name": "The Remains of the Day",
     "price": 34.48,
     "author": "Kazuo Ishiguro",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780679731726-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780679731726-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780679731726-L.jpg",
     "genre": "Fiction",
     "publisher": "Faber and Faber",
     "publisherImprint": "Vintage International",
@@ -11540,10 +11015,7 @@
     "name": "Beloved",
     "price": 11.47,
     "author": "Toni Morrison",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781400033416-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781400033416-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781400033416-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -11596,10 +11068,7 @@
     "name": "Love in the Time of Cholera",
     "price": 11.09,
     "author": "Gabriel Garcia Marquez",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780307389732-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780307389732-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780307389732-L.jpg",
     "genre": "Fiction",
     "publisher": "Editorial Oveja Negra",
     "publisherImprint": "Vintage International",
@@ -11643,10 +11112,7 @@
     "name": "The Unbearable Lightness of Being",
     "price": 10.3,
     "author": "Milan Kundera",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780060932138-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780060932138-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780060932138-L.jpg",
     "genre": "Fiction",
     "publisher": "Gallimard",
     "publisherImprint": "Harper Perennial",
@@ -11690,10 +11156,7 @@
     "name": "Perfume",
     "price": 12.12,
     "author": "Patrick Suskind",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780375725849-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780375725849-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780375725849-L.jpg",
     "genre": "Fiction",
     "publisher": "Diogenes Verlag",
     "publisherImprint": "Vintage International",
@@ -11737,10 +11200,7 @@
     "name": "Interview with the Vampire",
     "price": 19.4,
     "author": "Anne Rice",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345337665-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345337665-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345337665-L.jpg",
     "genre": "Horror",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Ballantine Books",
@@ -11793,10 +11253,7 @@
     "name": "Misery",
     "price": 16.51,
     "author": "Stephen King",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780451169525-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780451169525-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780451169525-L.jpg",
     "genre": "Horror",
     "publisher": "Viking Press",
     "publisherImprint": "Anchor Books",
@@ -11876,10 +11333,7 @@
     "name": "It",
     "price": 28.35,
     "author": "Stephen King",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781501142970-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
     "genre": "Horror",
     "publisher": "Viking Press",
     "publisherImprint": "Scribner",
@@ -11941,10 +11395,7 @@
     "name": "Pet Sematary",
     "price": 22.57,
     "author": "Stephen King",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780743412282-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780743412282-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780743412282-L.jpg",
     "genre": "Horror",
     "publisher": "Doubleday",
     "publisherImprint": "Scribner",
@@ -11997,10 +11448,7 @@
     "name": "The Silence of the Lambs",
     "price": 10.45,
     "author": "Thomas Harris",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780312924584-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780312924584-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780312924584-L.jpg",
     "genre": "Thriller",
     "publisher": "St. Martin's Press",
     "publisherImprint": "St. Martin's Press",
@@ -12080,10 +11528,7 @@
     "name": "Red Dragon",
     "price": 24.19,
     "author": "Thomas Harris",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780440206154-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780440206154-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780440206154-L.jpg",
     "genre": "Thriller",
     "publisher": "G. P. Putnam's Sons",
     "publisherImprint": "Berkley",
@@ -12127,10 +11572,7 @@
     "name": "Presumed Innocent",
     "price": 26.3,
     "author": "Scott Turow",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780446403708-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780446403708-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780446403708-L.jpg",
     "genre": "Thriller",
     "publisher": "Farrar, Straus and Giroux",
     "publisherImprint": "Grand Central Publishing",
@@ -12183,10 +11625,7 @@
     "name": "The Hunt for Red October",
     "price": 28.9,
     "author": "Tom Clancy",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780425240336-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780425240336-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780425240336-L.jpg",
     "genre": "Thriller",
     "publisher": "Naval Institute Press",
     "publisherImprint": "Berkley",
@@ -12230,10 +11669,7 @@
     "name": "Patriot Games",
     "price": 26.96,
     "author": "Tom Clancy",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780425239866-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780425239866-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780425239866-L.jpg",
     "genre": "Thriller",
     "publisher": "G. P. Putnam's Sons",
     "publisherImprint": "Berkley",
@@ -12313,10 +11749,7 @@
     "name": "The Pelican Brief",
     "price": 20.88,
     "author": "John Grisham",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780440211471-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780440211471-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780440211471-L.jpg",
     "genre": "Thriller",
     "publisher": "Doubleday",
     "publisherImprint": "Dell",
@@ -12369,10 +11802,7 @@
     "name": "The Client",
     "price": 32.49,
     "author": "John Grisham",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780440214617-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780440214617-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780440214617-L.jpg",
     "genre": "Thriller",
     "publisher": "Doubleday",
     "publisherImprint": "Dell",
@@ -12443,10 +11873,7 @@
     "name": "A Time to Kill",
     "price": 28.02,
     "author": "John Grisham",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780440211457-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780440211457-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780440211457-L.jpg",
     "genre": "Thriller",
     "publisher": "Wynwood Press",
     "publisherImprint": "Dell",
@@ -12499,10 +11926,7 @@
     "name": "Along Came a Spider",
     "price": 21.33,
     "author": "James Patterson",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780446364970-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780446364970-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780446364970-L.jpg",
     "genre": "Thriller",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Grand Central Publishing",
@@ -12573,10 +11997,7 @@
     "name": "The Bourne Identity",
     "price": 34.69,
     "author": "Robert Ludlum",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780553260113-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780553260113-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780553260113-L.jpg",
     "genre": "Thriller",
     "publisher": "Richard Marek Publishers",
     "publisherImprint": "Bantam",
@@ -12629,10 +12050,7 @@
     "name": "Airport",
     "price": 10.89,
     "author": "Arthur Hailey",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780553275607-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780553275607-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780553275607-L.jpg",
     "genre": "Fiction",
     "publisher": "Doubleday",
     "publisherImprint": "Bantam",
@@ -12712,10 +12130,7 @@
     "name": "The Andromeda Strain",
     "price": 21.06,
     "author": "Michael Crichton",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780380000059-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780380000059-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780380000059-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Avon",
@@ -12768,10 +12183,7 @@
     "name": "Congo",
     "price": 31.37,
     "author": "Michael Crichton",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780380713136-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780380713136-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780380713136-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Avon",
@@ -12815,10 +12227,7 @@
     "name": "Sphere",
     "price": 10.81,
     "author": "Michael Crichton",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780380713150-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780380713150-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780380713150-L.jpg",
     "genre": "Science Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Avon",
@@ -12889,10 +12298,7 @@
     "name": "The Color Purple",
     "price": 7.4,
     "author": "Alice Walker",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780156028356-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780156028356-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780156028356-L.jpg",
     "genre": "Fiction",
     "publisher": "Harcourt Brace Jovanovich",
     "publisherImprint": "Mariner Books",
@@ -12945,10 +12351,7 @@
     "name": "Song of Solomon",
     "price": 28.48,
     "author": "Toni Morrison",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781400033430-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781400033430-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781400033430-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -13028,10 +12431,7 @@
     "name": "The World According to Garp",
     "price": 32.68,
     "author": "John Irving",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345417955-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345417955-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345417955-L.jpg",
     "genre": "Fiction",
     "publisher": "E. P. Dutton",
     "publisherImprint": "Modern Library",
@@ -13111,10 +12511,7 @@
     "name": "A Prayer for Owen Meany",
     "price": 14.19,
     "author": "John Irving",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780345417962-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780345417962-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780345417962-L.jpg",
     "genre": "Fiction",
     "publisher": "William Morrow",
     "publisherImprint": "Modern Library",
@@ -13176,10 +12573,7 @@
     "name": "The Secret History",
     "price": 26.77,
     "author": "Donna Tartt",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780452282202-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780452282202-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780452282202-L.jpg",
     "genre": "Fiction",
     "publisher": "Alfred A. Knopf",
     "publisherImprint": "Vintage",
@@ -13241,10 +12635,7 @@
     "name": "White Noise",
     "price": 15.06,
     "author": "Don DeLillo",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780140077023-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780140077023-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780140077023-L.jpg",
     "genre": "Fiction",
     "publisher": "Viking Press",
     "publisherImprint": "Penguin Books",
@@ -13306,10 +12697,7 @@
     "name": "Infinite Jest",
     "price": 21.55,
     "author": "David Foster Wallace",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780316066525-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780316066525-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780316066525-L.jpg",
     "genre": "Fiction",
     "publisher": "Little, Brown and Company",
     "publisherImprint": "Back Bay Books",
@@ -13380,10 +12768,7 @@
     "name": "Trainspotting",
     "price": 33.35,
     "author": "Irvine Welsh",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9780393321012-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780393321012-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9780393321012-L.jpg",
     "genre": "Fiction",
     "publisher": "Secker & Warburg",
     "publisherImprint": "W. W. Norton",
@@ -13454,10 +12839,7 @@
     "name": "High Fidelity",
     "price": 25.02,
     "author": "Nick Hornby",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781594482553-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781594482553-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781594482553-L.jpg",
     "genre": "Fiction",
     "publisher": "Victor Gollancz",
     "publisherImprint": "Riverhead Books",
@@ -13537,10 +12919,7 @@
     "name": "About a Boy",
     "price": 26.71,
     "author": "Nick Hornby",
-    "images": [
-      "https://covers.openlibrary.org/b/isbn/9781594482560-L.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781594482560-M.jpg"
-    ],
+    "image": "https://covers.openlibrary.org/b/isbn/9781594482560-L.jpg",
     "genre": "Fiction",
     "publisher": "Victor Gollancz",
     "publisherImprint": "Riverhead Books",

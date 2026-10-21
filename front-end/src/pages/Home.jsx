@@ -163,11 +163,10 @@ export default function Home() {
             </div>
             <div className="all-book-container">
               {bookData?.map((item) => {
-                const { author, name, _id, images, price, averageRating } =
-                  item;
+                const { author, name, _id, image, price, averageRating } = item;
                 return (
                   <div key={_id} className="book-container">
-                    <img src={images[1]} alt={name} className="book-img" />
+                    <img src={image} alt={name} className="book-img" />
                     <button
                       className="quick-view-btn"
                       onClick={() => (
@@ -184,7 +183,7 @@ export default function Home() {
                           : `${name.substring(0, 15)}...`}
                       </h2>
                       <span className="book-author-span">{author}</span>
-                      <div className="average-rating-container">
+                      <div className="average-rating-book-container">
                         <FaStar className="average-rating-icon" />
                         <span className="book-average-rating-span">
                           {averageRating}
@@ -203,7 +202,7 @@ export default function Home() {
         singleBook.map((book) => {
           const {
             name,
-            images,
+            image,
             author,
             publisher,
             price,
@@ -222,7 +221,7 @@ export default function Home() {
                 </span>
                 <div className="book-quick-view-details">
                   <div className="book-buy-container">
-                    <img src={images[1]} alt={name} className="book-img" />
+                    <img src={image} alt={name} className="book-img" />
                     <div className="quantity-quick-container">
                       <button className="decrease-btn">-</button>
                       <input

@@ -7,6 +7,29 @@ import { FaStarHalfAlt } from "react-icons/fa";
 import "../Styles/book.css";
 export default function Book() {
   const [singleBook, setSingleBook] = useState([]);
+  const {
+    author,
+    averageRating,
+    binding,
+    description,
+    dimensions,
+    genre,
+    images,
+    isbn10,
+    isbn13,
+    language,
+    name,
+    pages,
+    price,
+    publisher,
+    publisherImprint,
+    releasedYear,
+    returnable,
+    reviews,
+    _id,
+  } = singleBook;
+  console.log(singleBook);
+
   const [showMoreDescription, setShowMoreDescription] = useState(false);
   const [authorData, setAuthorData] = useState();
   const { id } = useParams();
@@ -24,11 +47,26 @@ export default function Book() {
   const [bookCategories, setBookCategories] = useState([
     {
       name: "Products related to this product",
-      params: `genre=${singleBook.genre}`,
+      params: `genre=${genre}`,
       page: 1,
       bookData: [],
     },
   ]);
+
+  useEffect(() => {
+    const handleSingleBook = async () => {
+      try {
+        const res = await axios.get(`http://localhost:3000/api/v1/books/${id}`);
+        const data = res.data.book;
+        setSingleBook(data);
+
+        console.log("hello world");
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    handleSingleBook();
+  }, []);
 
   useEffect(() => {
     const fetchBooks = () => {
@@ -42,7 +80,11 @@ export default function Book() {
           setBookCategories((prev) =>
             prev.map((category) =>
               category.name === name
-                ? { ...category, bookData: data }
+                ? {
+                    ...category,
+                    bookData: data,
+                    // params: `genre=${data1.genre}`,
+                  }
                 : category,
             ),
           );
@@ -56,20 +98,6 @@ export default function Book() {
   }, [bookCategories.map((category) => category.page).join(",")]);
 
   console.log(bookCategories);
-
-  useEffect(() => {
-    const handleSingleBook = async () => {
-      try {
-        const res = await axios.get(`http://localhost:3000/api/v1/books/${id}`);
-        const data = res.data.book;
-        setSingleBook(data);
-        console.log("hello world");
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    handleSingleBook();
-  }, []);
 
   useEffect(() => {
     const fetchAuthor = async () => {
@@ -110,28 +138,6 @@ export default function Book() {
   //     console.log(error);
   //   }
   // };
-
-  const {
-    author,
-    averageRating,
-    binding,
-    description,
-    dimensions,
-    genre,
-    images,
-    isbn10,
-    isbn13,
-    language,
-    name,
-    pages,
-    price,
-    publisher,
-    publisherImprint,
-    releasedYear,
-    returnable,
-    reviews,
-    _id,
-  } = singleBook;
 
   //   console.log(images[0]);
 
@@ -559,11 +565,12 @@ export default function Book() {
           />
           <label htmlFor="very-good">Very Good</label>
         </div>
+
         <div className="reviews-container">
           <h1 className="review-h1">Customer Reviews</h1>
           <div className="average-review-container">
             <h4 className="book-average-rating-h4">
-              {singleBook.averageRating} <FaStar />|{singleBook.reviews}
+              {/* {averageRating} <FaStar />|{reviews} */}
               review
             </h4>
           </div>
@@ -587,11 +594,12 @@ export default function Book() {
           <div className="average-rating-container">
             <h1 className="average-rating-h1">Average Customer Rating</h1>
             <h4 className="book-average-rating-h4">
-              {singleBook.averageRating} <FaStar />|{singleBook.reviews}
+              {/* {averageRating} <FaStar />|{reviews} */}
               review
             </h4>
           </div>
         </div>
+
         <div className="review-sort-container">
           <h1 className="reviews-h1">1-4 of 8 Reviews</h1>
           <div className="wishlist-filters-container">
@@ -633,6 +641,7 @@ export default function Book() {
             </select>
           </div>
         </div>
+
         <div className="view-review-container"></div>
       </section>
     </main>
