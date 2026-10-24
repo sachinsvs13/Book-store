@@ -41,7 +41,7 @@ export default function Header() {
                 <Link to={"/setting"}>
                   <li className="options">Personal setting</li>
                 </Link>
-                <Link to={"/orders"}>
+                <Link to={"/cart"}>
                   <li className="options">Your orders</li>
                 </Link>
                 <Link to={"/wishlist"}>

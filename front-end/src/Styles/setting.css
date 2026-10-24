@@ -1,0 +1,121 @@
+.setting-section {
+  margin: 3rem;
+}
+
+.arrow-span {
+  padding: 0 0.5rem;
+}
+
+.setting-profile-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 1.5rem;
+}
+
+.account-setting-section {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  padding-right: 3rem;
+}
+
+.account-setting-container {
+  flex: 1 1 15%;
+}
+
+.account-setting-h2 {
+  padding-bottom: 1rem;
+  color: #fb4573;
+}
+
+.setting-container {
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid #ff7094;
+  border-radius: 0.5rem;
+}
+
+.personal-setting-container {
+  display: flex;
+  align-items: center;
+}
+
+.setting-icon {
+  margin-right: 0.5rem;
+  color: #fb4573;
+}
+
+.personal-info-container {
+  flex: 1 1 80%;
+}
+
+.setting-form-container {
+  border: 1px solid #ff7094;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.personal-info-h2 {
+  color: #fb4573;
+  padding-bottom: 1rem;
+}
+
+.personal-info-form {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem 2rem;
+}
+
+.setting-input-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 40%;
+}
+
+.personal-info-label {
+  padding: 0.5rem 0;
+  font-size: 15px;
+}
+
+.personal-info-input {
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #ff7094;
+  outline: none;
+}
+
+.setting-ctn-container {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.setting-update-btn,
+.setting-cancel-btn {
+  padding: 0.5rem 2rem;
+}
+
+.setting-update-btn {
+  background-color: #fb4573;
+  color: #ffe5ec;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.setting-cancel-btn {
+  color: #fb4573;
+  background-color: white;
+  font-weight: 500;
+  border: 1px solid #ff7094;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.setting-update-btn:hover,
+.setting-cancel-btn:hover {
+  opacity: 0.8;
+}

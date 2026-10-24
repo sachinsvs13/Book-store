@@ -3,7 +3,6 @@ import App from "../App";
 import LoginIn from "../pages/LoginIn";
 import SignIn from "../pages/SignIn";
 import Setting from "../pages/Setting";
-import Orders from "../pages/Orders";
 import Wishlist from "../pages/Wishlist";
 import Address from "../pages/Address";
 import ChangePassword from "../pages/ChangePassword";
@@ -11,7 +10,6 @@ import Cart from "../pages/Cart";
 import Header from "../components/Header";
 import LoginHeader from "../components/LoginHeader";
 import Book from "../pages/Book";
-import Books from "../pages/books";
 
 const router = createBrowserRouter([
   {
@@ -37,11 +35,6 @@ const router = createBrowserRouter([
   {
     path: "/setting",
     element: <Setting />,
-    children: [{ index: true, Component: Header }],
-  },
-  {
-    path: "/orders",
-    element: <Orders />,
     children: [{ index: true, Component: Header }],
   },
   {

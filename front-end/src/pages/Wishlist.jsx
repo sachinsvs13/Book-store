@@ -15,8 +15,10 @@ export default function Wishlist() {
         <section className="wishlist">
           <h2 className="your-wishlist-h2">Your Lists</h2>
           <div className="wishlist-container">
-            <div className="wishlist-name-container">
-              <h2 className="wishlist-name">Shopping List</h2>
+            <div className="all-wishlist-container">
+              <div className="single-wishlist-container">
+                <h2 className="wishlist-name">Shopping List</h2>
+              </div>
             </div>
             <div className="wishlist-item-container">
               <div className="wishlist-item-header">
@@ -24,7 +26,6 @@ export default function Wishlist() {
               </div>
               <div className="wishlist-item">
                 <div className="wishlist-filters-container">
-                  icon icon
                   <input
                     type="search"
                     name=""
@@ -81,24 +82,24 @@ export default function Wishlist() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="wishlist-footer">
-              <div className="wishlist-remove-container">
-                <input
-                  type="checkbox"
-                  name="select-all"
-                  id="select-all"
-                  className="items-select-all-input"
-                />
-                <label htmlFor="select-all" className="select-all-label">
-                  Select All
-                </label>
-                <button className="wishlist-remove-btn">Remove</button>
-              </div>
-              <button className="add-to-cart-btn">Add to Cart</button>
-              <div className="value-container">
-                <p className="total-items-p">Total items : 0</p>
-                <p className="total-value-p">Total value : 0</p>
+              <div className="wishlist-footer">
+                <div className="wishlist-remove-container">
+                  <input
+                    type="checkbox"
+                    name="select-all"
+                    id="select-all"
+                    className="items-select-all-input"
+                  />
+                  <label htmlFor="select-all" className="select-all-label">
+                    Select All
+                  </label>
+                  <button className="wishlist-remove-btn">Remove</button>
+                </div>
+                <button className="add-to-cart-btn">Add to Cart</button>
+                <div className="value-container">
+                  <p className="total-items-p">Total items : 0</p>
+                  <p className="total-value-p">Total value : 0</p>
+                </div>
               </div>
             </div>
           </div>
