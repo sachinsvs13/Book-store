@@ -93,8 +93,29 @@ export default function Book() {
     fetchAuthor();
   }, [singleBook]);
 
+  const addToWishlist = () => {
+    singleBook.map((book) => {
+      const { image, _id, name, author, price } = book;
+
+      const wishlist = JSON.parse(localStorage.getItem("wishlist") || "[]");
+
+      const wishlistObj = {
+        bookImage: image,
+        bookId: _id,
+        bookName: name,
+        bookAuthor: author,
+        bookPrice: price,
+      };
+
+      wishlist.push(wishlistObj);
+
+      localStorage.setItem("wishlist", JSON.stringify(wishlist));
+    });
+  };
+
   const createCartItems = () => {
     const token = localStorage.getItem("token");
+
     if (token) {
       try {
         singleBook.map(async (book) => {
@@ -542,7 +563,10 @@ export default function Book() {
                       Add to Cart
                     </button>
                     <button className="Buy-now-btn">Buy now</button>
-                    <button className="add-to-wishlist-btn">
+                    <button
+                      className="add-to-wishlist-btn"
+                      onClick={addToWishlist}
+                    >
                       Add to Wishlist
                     </button>
                   </div>
@@ -989,7 +1013,7 @@ export default function Book() {
 
                       <h3 className="review-title-h3">{title}</h3>
                       <p className="review-description-p">{description}</p>
-                      <div className="btn-container">
+                      <div className="book-btn-container">
                         <button className="review-helpful-btn">Helpful</button>
                         <p className="border-line"></p>
                         <button className="review-report-btn">Report</button>

@@ -369,7 +369,7 @@ label {
   color: #ff0040;
 }
 
-.btn-container {
+.book-btn-container {
   display: flex;
   flex-direction: row;
   align-items: center;

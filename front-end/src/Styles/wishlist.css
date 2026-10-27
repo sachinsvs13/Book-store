@@ -156,7 +156,6 @@
 
 .wishlist-container {
   background-color: #ffb6c8;
-  height: 60dvh;
   display: flex;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
@@ -167,9 +166,13 @@
 }
 
 .single-wishlist-container {
-  background-color: #ffe5ec;
+  background-color: #ffa2b9;
   padding: 1rem;
   margin-bottom: 1rem;
+  /* border: 1px solid #ff0040; */
+}
+.wishlist-name {
+  color: #000000;
 }
 
 .wishlist-item-container {
@@ -188,7 +191,13 @@
 }
 
 .wishlist-filters-container {
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wishlist-style-icon {
+  cursor: pointer;
+  margin-left: 1rem;
 }
 
 .wishlist-sort {
@@ -209,4 +218,100 @@
   background-size: 1.5rem;
   background-position: 0.3rem;
   background-repeat: no-repeat;
+}
+
+.single-item-container {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #ffa2b9;
+  border-radius: 1rem;
+  align-items: center;
+  border: 1px solid #eee;
+}
+
+.item-img {
+  height: 150px;
+}
+
+.item-container {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item-name {
+  color: #ff2f63;
+}
+
+.item-author-span {
+  color: rgb(52, 52, 52);
+}
+
+.item-price-span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.item-quantity-container {
+  margin: 0.5rem 0;
+}
+
+.item-add-cart-btn {
+  padding: 0.6rem 2rem;
+  background-color: #fb4573;
+  color: #ffe5ec;
+  font-weight: 500;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.item-delete-btn {
+  font-size: 1.3rem;
+  padding: 0.3rem 0.8rem;
+  background-color: #ffb6c8;
+  border: 1px solid #fb4573;
+  color: #ff0040;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.item-add-cart-btn:hover,
+.item-delete-btn:hover {
+  opacity: 0.8;
+}
+
+.wishlist-footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 1rem 3rem 0;
+}
+
+.wishlist-remove-btn,
+.wishlist-add-cart-btn {
+  padding: 0.6rem 2rem;
+  background-color: #fb4573;
+  color: #ffe5ec;
+  font-weight: 500;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.wishlist-remove-btn:hover,
+.wishlist-add-cart-btn:hover {
+  opacity: 0.8;
+}
+
+.value-container {
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+.total-items-p {
+  padding-bottom: 0.5rem;
 }

@@ -44,6 +44,26 @@ export default function Home() {
     },
   ]);
 
+  const addToWishlist = () => {
+    singleBook.map((book) => {
+      const { image, _id, name, author, price } = book;
+
+      const wishlist = JSON.parse(localStorage.getItem("wishlist") || "[]");
+
+      const wishlistObj = {
+        bookImage: image,
+        bookId: _id,
+        bookName: name,
+        bookAuthor: author,
+        bookPrice: price,
+      };
+
+      wishlist.push(wishlistObj);
+
+      localStorage.setItem("wishlist", JSON.stringify(wishlist));
+    });
+  };
+
   useEffect(() => {
     const fetchBooks = async () => {
       await Promise.all(
@@ -210,6 +230,7 @@ export default function Home() {
             description,
             _id,
           } = book;
+
           return (
             <div className="book-quick-view-container">
               <div className="book-quick-view">
