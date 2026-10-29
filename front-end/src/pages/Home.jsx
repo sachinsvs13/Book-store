@@ -2,11 +2,15 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa6";
 
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import QuickView from "../components/QuickView";
+import { useGlobalContext } from "../context/useGlobalContext";
 
 export default function Home() {
+  const { quickView, setQuickView } = useGlobalContext();
+
   const [error, setError] = useState();
   const [loading, setLoading] = useState({
     trending: true,
@@ -15,7 +19,6 @@ export default function Home() {
     awardWinning: true,
   });
   const [singleBook, setSingleBook] = useState([]);
-  const [quickView, setQuickView] = useState(false);
 
   const [bookCategories, setBookCategories] = useState([
     {
@@ -43,26 +46,6 @@ export default function Home() {
       bookData: [],
     },
   ]);
-
-  const addToWishlist = () => {
-    singleBook.map((book) => {
-      const { image, _id, name, author, price } = book;
-
-      const wishlist = JSON.parse(localStorage.getItem("wishlist") || "[]");
-
-      const wishlistObj = {
-        bookImage: image,
-        bookId: _id,
-        bookName: name,
-        bookAuthor: author,
-        bookPrice: price,
-      };
-
-      wishlist.push(wishlistObj);
-
-      localStorage.setItem("wishlist", JSON.stringify(wishlist));
-    });
-  };
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -182,6 +165,7 @@ export default function Home() {
               </div>
             </div>
             <div className="all-book-container">
+              {console.log(window.outerHeight)}
               {bookData?.map((item) => {
                 const { author, name, _id, image, price, averageRating } = item;
                 return (
@@ -218,66 +202,7 @@ export default function Home() {
           </section>
         );
       })}
-      {quickView &&
-        singleBook.map((book) => {
-          const {
-            name,
-            image,
-            author,
-            publisher,
-            price,
-            releasedYear,
-            description,
-            _id,
-          } = book;
-
-          return (
-            <div className="book-quick-view-container">
-              <div className="book-quick-view">
-                <span
-                  className="cancel-btn"
-                  onClick={() => setQuickView(false)}
-                >
-                  X
-                </span>
-                <div className="book-quick-view-details">
-                  <div className="book-buy-container">
-                    <img src={image} alt={name} className="book-img" />
-                    <div className="quantity-quick-container">
-                      <button className="decrease-btn">-</button>
-                      <input
-                        type="number"
-                        className="quantity-input"
-                        value={1}
-                      />
-                      <button className="increase-btn">+</button>
-                    </div>
-                    <div className="btn-container">
-                      <button className="add-to-cart-btn">Add to Cart</button>
-                      <button className="add-to-wishlist-btn">
-                        Add to Wishlist
-                      </button>
-                    </div>
-                  </div>
-                  <div className="book-info-container">
-                    <h2 className="book-price-h2">Price : $ {price}</h2>
-                    <h2 className="book-name-h2">Title : {name}</h2>
-                    <p className="book-info">
-                      By: {author} (author) | publisher: {publisher} | Released:{" "}
-                      {releasedYear}
-                    </p>
-                    <p className="book-description">{description}</p>
-                    <Link to={`/${_id}`} className="book-view-link">
-                      <button className="book-view-btn">
-                        View Product Details
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
+      <QuickView singleBook={singleBook} />
     </main>
   );
 }

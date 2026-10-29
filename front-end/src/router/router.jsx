@@ -10,6 +10,7 @@ import Cart from "../pages/Cart";
 import Header from "../components/Header";
 import LoginHeader from "../components/LoginHeader";
 import Book from "../pages/Book";
+import Home from "../pages/Home";
 
 const router = createBrowserRouter([
   {

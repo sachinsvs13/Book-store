@@ -184,10 +184,20 @@
   padding-bottom: 2rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #ff0040;
+  display: flex;
+  justify-content: space-between;
 }
 
 .wishlist-item-name {
   color: #ff2f63;
+}
+
+.wishlist-item-create-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-right: 1rem;
+  font-weight: 600;
 }
 
 .wishlist-filters-container {
@@ -232,6 +242,11 @@
 
 .item-img {
   height: 150px;
+}
+
+.single-item-btn-container {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .item-container {

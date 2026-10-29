@@ -5,8 +5,15 @@ import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt } from "react-icons/fa";
 
 import "../Styles/book.css";
+import { useGlobalContext } from "../context/useGlobalContext";
+import CreateWishList from "../components/CreateWishList";
+import QuickView from "../components/QuickView";
 export default function Book() {
+  const { isCreatingList, setIsCreatingList, wishListNames } =
+    useGlobalContext();
+
   const [singleBook, setSingleBook] = useState([]);
+  const [selectWishList, SetSelectWishList] = useState(false);
   const [showMoreDescription, setShowMoreDescription] = useState(false);
   const [authorData, setAuthorData] = useState();
   const { id } = useParams();
@@ -93,25 +100,25 @@ export default function Book() {
     fetchAuthor();
   }, [singleBook]);
 
-  const addToWishlist = () => {
-    singleBook.map((book) => {
-      const { image, _id, name, author, price } = book;
+  // const addToWishlist = () => {
+  //   singleBook.map((book) => {
+  //     const { image, _id, name, author, price } = book;
 
-      const wishlist = JSON.parse(localStorage.getItem("wishlist") || "[]");
+  //     const wishlist = JSON.parse(localStorage.getItem("wishlist") || "[]");
 
-      const wishlistObj = {
-        bookImage: image,
-        bookId: _id,
-        bookName: name,
-        bookAuthor: author,
-        bookPrice: price,
-      };
+  //     const wishlistObj = {
+  //       bookImage: image,
+  //       bookId: _id,
+  //       bookName: name,
+  //       bookAuthor: author,
+  //       bookPrice: price,
+  //     };
 
-      wishlist.push(wishlistObj);
+  //     wishlist.push(wishlistObj);
 
-      localStorage.setItem("wishlist", JSON.stringify(wishlist));
-    });
-  };
+  //     localStorage.setItem("wishlist", JSON.stringify(wishlist));
+  //   });
+  // };
 
   const createCartItems = () => {
     const token = localStorage.getItem("token");
@@ -555,20 +562,66 @@ export default function Book() {
                         </option>
                       </select>
                     </span>
-                    <button
-                      className="add-to-cart-btn"
-                      style={{ backgroundColor: "#ff2e62" }}
-                      onClick={createCartItems}
-                    >
-                      Add to Cart
-                    </button>
-                    <button className="Buy-now-btn">Buy now</button>
-                    <button
-                      className="add-to-wishlist-btn"
-                      onClick={addToWishlist}
-                    >
-                      Add to Wishlist
-                    </button>
+                    <div className="book-btn-container">
+                      <button
+                        className="add-to-cart-btn"
+                        style={{ backgroundColor: "#ff2e62" }}
+                        onClick={createCartItems}
+                      >
+                        Add to Cart
+                      </button>
+                      <button className="Buy-now-btn">Buy now</button>
+                      {wishListNames.length ? (
+                        <button
+                          className="add-to-wishlist-btn"
+                          onClick={() => {
+                            SetSelectWishList(!selectWishList);
+                          }}
+                        >
+                          Add to Wishlist
+                        </button>
+                      ) : (
+                        <button
+                          className="add-to-wishlist-btn"
+                          onClick={() => {
+                            // have to add it in the globalContext so it uses both in here and CreateWishList.jsx
+                            SetSelectWishList(!selectWishList);
+                            setIsCreatingList(true);
+                          }}
+                        >
+                          Add to Wishlist
+                        </button>
+                      )}
+
+                      {console.log(wishListNames)}
+                      {console.log(selectWishList)}
+                      {selectWishList && wishListNames.length ? (
+                        <section className="select-WishList-section">
+                          <div className="select-wishlist-header-container">
+                            <h3 className="select-wishlist-header-h3">
+                              Select your wishlist
+                            </h3>
+                            <p
+                              className="select-wishlist-add"
+                              onClick={() => setIsCreatingList(true)}
+                            >
+                              +
+                            </p>
+                          </div>
+                          <div className="select-wishlist-body-container">
+                            {wishListNames.map((list) => {
+                              return (
+                                <div className="select-wishlist-single-container">
+                                  <h3 className="select-wishlist-body-h3">
+                                    {list}
+                                  </h3>
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </section>
+                      ) : null}
+                    </div>
                   </div>
                 </div>
               </section>
@@ -687,67 +740,7 @@ export default function Book() {
                   </section>
                 );
               })}
-              {quickView &&
-                singleBook.map((book) => {
-                  const {
-                    name,
-                    image,
-                    author,
-                    publisher,
-                    price,
-                    releasedYear,
-                    description,
-                    _id,
-                  } = book;
-                  return (
-                    <div className="book-quick-view-container">
-                      <div className="book-quick-view">
-                        <span
-                          className="cancel-btn"
-                          onClick={() => setQuickView(false)}
-                        >
-                          X
-                        </span>
-                        <div className="book-quick-view-details">
-                          <div className="book-buy-container">
-                            <img src={image} alt={name} className="book-img" />
-                            <div className="quantity-container">
-                              <button className="decrease-btn">-</button>
-                              <input
-                                type="number"
-                                className="quantity-input"
-                                value={1}
-                              />
-                              <button className="increase-btn">+</button>
-                            </div>
-                            <div className="btn-container">
-                              <button className="add-to-cart-btn">
-                                Add to Cart
-                              </button>
-                              <button className="add-to-wishlist-btn">
-                                Add to Wishlist
-                              </button>
-                            </div>
-                          </div>
-                          <div className="book-info-container">
-                            <h2 className="book-price-h2">Price : $ {price}</h2>
-                            <h2 className="book-name-h2">Title : {name}</h2>
-                            <p className="book-info">
-                              By: {author} (author) | publisher: {publisher} |
-                              Released: {releasedYear}
-                            </p>
-                            <p className="book-description">{description}</p>
-                            <Link to={`/${_id}`} className="book-view-link">
-                              <button className="book-view-btn">
-                                View Product Details
-                              </button>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
+              <QuickView />
               <div className="book-product-details-container">
                 <h2 className="book-product-h2">Product Details</h2>
                 <div className="book-product-container">
@@ -1013,7 +1006,7 @@ export default function Book() {
 
                       <h3 className="review-title-h3">{title}</h3>
                       <p className="review-description-p">{description}</p>
-                      <div className="book-btn-container">
+                      <div className="review-btn-container">
                         <button className="review-helpful-btn">Helpful</button>
                         <p className="border-line"></p>
                         <button className="review-report-btn">Report</button>

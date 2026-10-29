@@ -145,6 +145,13 @@
   padding: 1rem 1rem 2rem;
 }
 
+.book-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+}
+
 .Buy-now-btn {
   background-color: #ff0040;
   border: none;
@@ -369,7 +376,7 @@ label {
   color: #ff0040;
 }
 
-.book-btn-container {
+.review-btn-container {
   display: flex;
   flex-direction: row;
   align-items: center;

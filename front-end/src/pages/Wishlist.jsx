@@ -7,17 +7,16 @@ import { useEffect, useState } from "react";
 import { IoIosList } from "react-icons/io";
 import { MdGridView } from "react-icons/md";
 import { FaRegTrashCan } from "react-icons/fa6";
+import CreateWishList from "../components/CreateWishList";
+import { useGlobalContext } from "../context/useGlobalContext";
 
 export default function Wishlist() {
-  const [isCreatingList, setIsCreatingList] = useState(false);
-  const [listDefaultName, setListDefaultName] = useState("");
+  // const [isCreatingList, setIsCreatingList] = useState(false);
+  // const [listDefaultName, setListDefaultName] = useState("");
   // const [listNames, setListNames] = useState({
   //   defaultName: "Shopping List",
   // });
-  const [listName, setListName] = useState("Shopping List");
-  const [hasList, setHasList] = useState(
-    JSON.parse(localStorage.getItem("hasList")) || false,
-  );
+  const { hasList, wishListNames, setIsCreatingList } = useGlobalContext();
   const [wishlistItems, setWishlistItems] = useState([]);
 
   const wishlist = () => {
@@ -25,27 +24,10 @@ export default function Wishlist() {
     const wishlistParsed = JSON.parse(wishlist);
     setWishlistItems(wishlistParsed);
   };
-  const listNames = JSON.parse(localStorage.getItem("listNames") || "[]");
-
-  const handleCreateList = (e) => {
-    e.preventDefault();
-    const listNames = JSON.parse(localStorage.getItem("listNames") || "[]");
-    listNames.push(listName);
-    localStorage.setItem("listNames", JSON.stringify(listNames));
-    localStorage.setItem("hasList", true);
-    setHasList(JSON.parse(localStorage.getItem("hasList")));
-    // setHasList();
-  };
-
-  console.log(hasList);
-
-  console.log(listName);
 
   useEffect(() => {
     wishlist();
   }, []);
-
-  console.log(wishlistItems);
 
   return (
     <main>
@@ -55,7 +37,7 @@ export default function Wishlist() {
           <h2 className="your-wishlist-h2">Your Lists</h2>
           <div className="wishlist-container">
             <div className="all-wishlist-container">
-              {listNames.map((list) => (
+              {wishListNames.map((list) => (
                 <div className="single-wishlist-container">
                   <h2 className="wishlist-name">{list}</h2>
                 </div>
@@ -64,6 +46,13 @@ export default function Wishlist() {
             <div className="wishlist-item-container">
               <div className="wishlist-item-header">
                 <h2 className="wishlist-item-name">Shopping List</h2>
+                <button
+                  className={"wishlist-item-create-btn"}
+                  onClick={() => setIsCreatingList(true)}
+                >
+                  Create a List
+                </button>
+                <CreateWishList />
               </div>
               <div className="wishlist-item">
                 <div className="wishlist-filters-container">
@@ -110,7 +99,7 @@ export default function Wishlist() {
                   </div>
                 </div>
                 <div className="all-item-container">
-                  {wishlistItems.map((item) => {
+                  {wishlistItems?.map((item) => {
                     const {
                       bookAuthor,
                       bookId,
@@ -137,7 +126,7 @@ export default function Wishlist() {
                             <button className="increase-btn">+</button>
                           </div> */}
                           <div
-                            className="btn-container"
+                            className="single-item-btn-container"
                             style={{ marginTop: "1rem" }}
                           >
                             <button className="item-add-cart-btn">
@@ -177,7 +166,7 @@ export default function Wishlist() {
             <div className="empty-wishlist">
               <h2 className="wishlists-h2">Lists</h2>
               <h3 className="wishlists-h3">Where books and people meet</h3>
-              <button
+              {/* <button
                 className="create-wishlist-btn"
                 onClick={() => setIsCreatingList(true)}
               >
@@ -231,7 +220,14 @@ export default function Wishlist() {
                     </form>
                   </div>
                 </div>
-              )}
+              )} */}
+              <button
+                className={"create-wishlist-btn"}
+                onClick={() => setIsCreatingList(true)}
+              >
+                Create a List
+              </button>
+              <CreateWishList />
               <hr className="create-wishlist-line" />
               <section className="wishlist-uses-container">
                 <div className="wishlist-uses">
