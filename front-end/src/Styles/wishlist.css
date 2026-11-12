@@ -163,16 +163,22 @@
 
 .all-wishlist-container {
   padding: 1rem 1.5rem;
+  width: clamp(250px, 2vw, 400px);
+}
+
+.active {
+  background-color: #ffa2b9;
+  color: #ff2f63;
 }
 
 .single-wishlist-container {
-  background-color: #ffa2b9;
   padding: 1rem;
   margin-bottom: 1rem;
-  /* border: 1px solid #ff0040; */
+  cursor: pointer;
 }
-.wishlist-name {
-  color: #000000;
+
+.single-wishlist-container:hover {
+  color: #ff2f63;
 }
 
 .wishlist-item-container {

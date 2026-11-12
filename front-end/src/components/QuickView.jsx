@@ -1,7 +1,8 @@
 import { useGlobalContext } from "../context/useGlobalContext";
 import CreateWishList from "../components/CreateWishList";
 import { Link } from "react-router-dom";
-export default function QuickView({ singleBook }) {
+import { useEffect, useRef, useState } from "react";
+export default function QuickView({ singleBook, width, height }) {
   const {
     setIsCreatingList,
     wishListNames,
@@ -10,6 +11,55 @@ export default function QuickView({ singleBook }) {
     quickView,
     setQuickView,
   } = useGlobalContext();
+
+  const boxRef = useRef(null);
+  const [rect, setRect] = useState({ width: 0, height: 0, top: 0 });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (boxRef.current) {
+        const { width, height, top } = boxRef.current.getBoundingClientRect();
+        setRect({ width, height, top });
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll(); // Initialize on mount
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleSelectWishlist = (selectName) => {
+    singleBook.map((book) => {
+      const { image, _id, name, author, price } = book;
+
+      const wishlist = JSON.parse(localStorage.getItem(selectName) || "[]");
+
+      const wishlistObj = {
+        bookImage: image,
+        bookId: _id,
+        bookName: name,
+        bookAuthor: author,
+        bookPrice: price,
+      };
+
+      const uniqueWishlistSet = new Set([
+        ...wishlist.map((item) => JSON.stringify(item)),
+        JSON.stringify(wishlistObj),
+      ]);
+      const uniqueWishlist = Array.from(uniqueWishlistSet).map((item) =>
+        JSON.parse(item),
+      );
+      localStorage.setItem(selectName, JSON.stringify(uniqueWishlist));
+    });
+    setTimeout(() => {
+      SetSelectWishList(!selectWishList);
+      setTimeout(() => {
+        setQuickView(false);
+      }, 250);
+    }, 250);
+  };
+
   return (
     <>
       {quickView &&
@@ -24,9 +74,22 @@ export default function QuickView({ singleBook }) {
             description,
             _id,
           } = book;
+          // console.log(width);
+          // console.log(height);
 
           return (
-            <div className="book-quick-view-container" key={_id}>
+            <div
+              ref={boxRef}
+              className="book-quick-view-container"
+              key={_id}
+              // style={{ width: `${width}px`, height: `${height}px` }}
+              // style={{
+              //   width: `${rect.width}px`,
+              //   height: `${rect.height + Math.round(rect.top)}px`,
+              // }}
+            >
+              Width: {rect.width}px | Height: {rect.height}px | Distance from
+              top: {Math.round(rect.top)}px
               <div className="book-quick-view">
                 <span
                   className="cancel-btn"
@@ -92,7 +155,11 @@ export default function QuickView({ singleBook }) {
                             {wishListNames.map((list) => {
                               return (
                                 <div className="select-wishlist-single-container">
-                                  <h3 className="select-wishlist-body-h3">
+                                  {/* select the wishlist name */}
+                                  <h3
+                                    className="select-wishlist-body-h3"
+                                    onClick={() => handleSelectWishlist(list)}
+                                  >
                                     {list}
                                   </h3>
                                 </div>

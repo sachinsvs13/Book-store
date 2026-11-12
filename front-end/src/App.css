@@ -112,6 +112,7 @@ header {
 
 .profile-container:hover .login-info {
   display: flex;
+  z-index: 100;
   flex-direction: column;
   align-items: center;
 }
@@ -192,6 +193,7 @@ header {
 
 .books-section {
   /* margin-bottom: 1rem; */
+  /* z-index: -1; */
 }
 
 .books-header-container {
@@ -339,8 +341,8 @@ header {
 }
 
 .book-quick-view-container {
-  width: 100%;
-  height: 100%;
+  /* width: 100dvw;
+  height: 100dvh; */
   position: absolute;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.301);

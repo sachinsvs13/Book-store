@@ -8,6 +8,7 @@ export default function CreateWishList({ singleBook }) {
     setListName,
     setWishlistNames,
     SetSelectWishList,
+    setQuickView,
   } = useGlobalContext();
 
   //   const navigate = useNavigate();
@@ -49,6 +50,7 @@ export default function CreateWishList({ singleBook }) {
       localStorage.setItem(listName, JSON.stringify(uniqueWishlist));
     });
     SetSelectWishList(false);
+    setQuickView(false);
 
     //   navigate("/wishlist");
     // setHasList();

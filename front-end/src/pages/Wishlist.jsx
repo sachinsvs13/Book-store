@@ -18,16 +18,51 @@ export default function Wishlist() {
   // });
   const { hasList, wishListNames, setIsCreatingList } = useGlobalContext();
   const [wishlistItems, setWishlistItems] = useState([]);
+  const [wishlistNamesIndex, setWishlistNamesIndex] = useState(0);
+  const [items, setItems] = useState(() => {
+    const wishlist = localStorage.getItem(wishListNames[wishlistNamesIndex]);
+    return wishlist ? JSON.parse(wishlist) : [];
+  });
 
+  const handleDeleteWishlist = (id) => {
+    const wishlist = JSON.parse(localStorage.getItem("wishListNames"));
+
+    const wishlistIndex = wishlist[wishlistNamesIndex];
+
+    const wishlistItems = JSON.parse(localStorage.getItem(wishlistIndex));
+
+    const specificWishlist = wishlistItems.filter((i) => i.bookId !== id);
+
+    localStorage.setItem(wishlistIndex, JSON.stringify(specificWishlist));
+
+    const wishlistItemsUpdate = JSON.parse(localStorage.getItem(wishlistIndex));
+
+    setWishlistItems(wishlistItemsUpdate);
+  };
+
+  // useEffect(() => {
+  //   if (items?.length === 0) {
+  //     localStorage.removeItem(wishListNames[wishlistNamesIndex]);
+  //     const wishlist = JSON.parse(localStorage.getItem("wishListNames"));
+  //     const wishlistIndex = wishlist[wishlistNamesIndex];
+  //     const specificWishlist = wishlist.filter((i) => i !== wishlistIndex);
+  //     localStorage.setItem("wishListNames", JSON.stringify(specificWishlist));
+  //   } else {
+  //     localStorage.setItem(
+  //       wishListNames[wishlistNamesIndex],
+  //       JSON.stringify(items),
+  //     );
+  //   }
+  // }, [items]);
   const wishlist = () => {
-    const wishlist = localStorage.getItem("wishlist");
+    const wishlist = localStorage.getItem(wishListNames[wishlistNamesIndex]);
     const wishlistParsed = JSON.parse(wishlist);
     setWishlistItems(wishlistParsed);
   };
 
   useEffect(() => {
     wishlist();
-  }, []);
+  }, [wishlistNamesIndex]);
 
   return (
     <main>
@@ -37,9 +72,21 @@ export default function Wishlist() {
           <h2 className="your-wishlist-h2">Your Lists</h2>
           <div className="wishlist-container">
             <div className="all-wishlist-container">
-              {wishListNames.map((list) => (
-                <div className="single-wishlist-container">
-                  <h2 className="wishlist-name">{list}</h2>
+              {wishListNames.map((list, index) => (
+                <div
+                  className={
+                    wishlistNamesIndex === index
+                      ? "single-wishlist-container active"
+                      : "single-wishlist-container"
+                  }
+                  key={index}
+                >
+                  <h2
+                    className="wishlist-name"
+                    onClick={() => setWishlistNamesIndex(index)}
+                  >
+                    {list}
+                  </h2>
                 </div>
               ))}
             </div>
@@ -116,15 +163,6 @@ export default function Wishlist() {
                             By : {bookAuthor}
                           </span>
                           <span className="item-price-span">${bookPrice}</span>
-                          {/* <div className="item-quantity-container">
-                            <button className="decrease-btn">-</button>
-                            <input
-                              type="number"
-                              className="quantity-input"
-                              value={1}
-                            ></input>
-                            <button className="increase-btn">+</button>
-                          </div> */}
                           <div
                             className="single-item-btn-container"
                             style={{ marginTop: "1rem" }}
@@ -132,7 +170,10 @@ export default function Wishlist() {
                             <button className="item-add-cart-btn">
                               Add to cart
                             </button>
-                            <button className="item-delete-btn">
+                            <button
+                              className="item-delete-btn"
+                              onClick={() => handleDeleteWishlist(bookId)}
+                            >
                               <FaRegTrashCan className="item-delete-icon" />
                             </button>
                           </div>

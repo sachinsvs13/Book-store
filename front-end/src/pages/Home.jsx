@@ -20,6 +20,11 @@ export default function Home() {
   });
   const [singleBook, setSingleBook] = useState([]);
 
+  const [size, setSize] = useState({
+    width: window.innerHeight,
+    height: window.innerHeight,
+  });
+
   const [bookCategories, setBookCategories] = useState([
     {
       name: "Now trending",
@@ -48,6 +53,22 @@ export default function Home() {
   ]);
 
   useEffect(() => {
+    const handleResize = () => {
+      setSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  console.log(size.width);
+  console.log(size.height);
+
+  useEffect(() => {
     const fetchBooks = async () => {
       await Promise.all(
         bookCategories.map(async ({ name, params, page }) => {
@@ -74,15 +95,15 @@ export default function Home() {
     fetchBooks();
   }, [bookCategories.map((category) => category.page).join(",")]);
 
-  useEffect(() => {
-    if (quickView) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
+  // useEffect(() => {
+  //   if (quickView) {
+  //     document.body.style.overflow = "hidden";
+  //   } else {
+  //     document.body.style.overflow = "auto";
+  //   }
 
-    return () => (document.body.style.overflow = "auto");
-  }, [quickView]);
+  //   return () => (document.body.style.overflow = "auto");
+  // }, [quickView]);
 
   const handleSingleBook = async (id) => {
     try {
@@ -165,7 +186,7 @@ export default function Home() {
               </div>
             </div>
             <div className="all-book-container">
-              {console.log(window.outerHeight)}
+              {/* {console.log(window.outerHeight)} */}
               {bookData?.map((item) => {
                 const { author, name, _id, image, price, averageRating } = item;
                 return (
@@ -202,7 +223,11 @@ export default function Home() {
           </section>
         );
       })}
-      <QuickView singleBook={singleBook} />
+      <QuickView
+        singleBook={singleBook}
+        width={size.width}
+        height={size.height}
+      />
     </main>
   );
 }
