@@ -12,6 +12,10 @@ a {
   display: none;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 /* NORMAL CLASS */
 * {
   margin: 0;
@@ -21,6 +25,10 @@ a {
 
 body {
   background-color: #ffe5ec;
+}
+
+#root {
+  height: 100dvh;
 }
 
 header {

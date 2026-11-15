@@ -118,116 +118,119 @@ export default function Home() {
   console.log(singleBook);
 
   return (
-    <main>
+    <>
       <Outlet />
-      {bookCategories.map((item, index) => {
-        const { name, page, bookData } = item;
-        return (
-          <section className="books-section" key={index}>
-            <div className="books-header-container">
-              <h1 className="books-section-h1">{name}</h1>
-              <div className="page-turn-container">
-                <button
-                  className={`${page > 1 ? "start-page-btn" : "hidden"}`}
-                  onClick={() =>
-                    setBookCategories((prev) =>
-                      prev.map((category, i) =>
-                        index === i ? { ...category, page: 1 } : category,
-                      ),
-                    )
-                  }
-                >
-                  Start over
-                </button>
-                <p className="page-p">Page {page} of 8</p>
-                {page === 1 ? (
-                  <button className="arrow-icon-btn" disabled>
-                    <FaArrowLeft className={"arrow-icon-disable"} />
+      <main>
+        {bookCategories.map((item, index) => {
+          const { name, page, bookData } = item;
+          return (
+            <section className="books-section" key={index}>
+              <div className="books-header-container">
+                <h1 className="books-section-h1">{name}</h1>
+                <div className="page-turn-container">
+                  <button
+                    className={`${page > 1 ? "start-page-btn" : "hidden"}`}
+                    onClick={() =>
+                      setBookCategories((prev) =>
+                        prev.map((category, i) =>
+                          index === i ? { ...category, page: 1 } : category,
+                        ),
+                      )
+                    }
+                  >
+                    Start over
                   </button>
-                ) : (
-                  <button className="arrow-icon-btn">
-                    <FaArrowLeft
-                      className={"arrow-icon"}
-                      onClick={() =>
-                        setBookCategories((prev) =>
-                          prev.map((category, i) =>
-                            index === i
-                              ? { ...category, page: category.page - 1 }
-                              : category,
-                          ),
-                        )
-                      }
-                    />
-                  </button>
-                )}
-
-                {page === 8 ? (
-                  <button className="arrow-icon-btn" disabled>
-                    <FaArrowRight className={"arrow-icon-disable"} />
-                  </button>
-                ) : (
-                  <button className="arrow-icon-btn">
-                    <FaArrowRight
-                      className={"arrow-icon"}
-                      onClick={() =>
-                        setBookCategories((prev) =>
-                          prev.map((category, i) =>
-                            index === i
-                              ? { ...category, page: category.page + 1 }
-                              : category,
-                          ),
-                        )
-                      }
-                    />
-                  </button>
-                )}
-
-                <button className="see-all-btn">See All</button>
-              </div>
-            </div>
-            <div className="all-book-container">
-              {/* {console.log(window.outerHeight)} */}
-              {bookData?.map((item) => {
-                const { author, name, _id, image, price, averageRating } = item;
-                return (
-                  <div key={_id} className="book-container">
-                    <img src={image} alt={name} className="book-img" />
-                    <button
-                      className="quick-view-btn"
-                      onClick={() => (
-                        handleSingleBook(_id),
-                        setQuickView(true)
-                      )}
-                    >
-                      QUICK VIEW
+                  <p className="page-p">Page {page} of 8</p>
+                  {page === 1 ? (
+                    <button className="arrow-icon-btn" disabled>
+                      <FaArrowLeft className={"arrow-icon-disable"} />
                     </button>
-                    <div className="book-details">
-                      <h2 className="book-name-h2">
-                        {name.length <= 20
-                          ? name
-                          : `${name.substring(0, 15)}...`}
-                      </h2>
-                      <span className="book-author-span">{author}</span>
-                      <div className="average-rating-book-container">
-                        <FaStar className="average-rating-icon" />
-                        <span className="book-average-rating-span">
-                          {averageRating}
-                        </span>
+                  ) : (
+                    <button className="arrow-icon-btn">
+                      <FaArrowLeft
+                        className={"arrow-icon"}
+                        onClick={() =>
+                          setBookCategories((prev) =>
+                            prev.map((category, i) =>
+                              index === i
+                                ? { ...category, page: category.page - 1 }
+                                : category,
+                            ),
+                          )
+                        }
+                      />
+                    </button>
+                  )}
+
+                  {page === 8 ? (
+                    <button className="arrow-icon-btn" disabled>
+                      <FaArrowRight className={"arrow-icon-disable"} />
+                    </button>
+                  ) : (
+                    <button className="arrow-icon-btn">
+                      <FaArrowRight
+                        className={"arrow-icon"}
+                        onClick={() =>
+                          setBookCategories((prev) =>
+                            prev.map((category, i) =>
+                              index === i
+                                ? { ...category, page: category.page + 1 }
+                                : category,
+                            ),
+                          )
+                        }
+                      />
+                    </button>
+                  )}
+
+                  <button className="see-all-btn">See All</button>
+                </div>
+              </div>
+              <div className="all-book-container">
+                {/* {console.log(window.outerHeight)} */}
+                {bookData?.map((item) => {
+                  const { author, name, _id, image, price, averageRating } =
+                    item;
+                  return (
+                    <div key={_id} className="book-container">
+                      <img src={image} alt={name} className="book-img" />
+                      <button
+                        className="quick-view-btn"
+                        onClick={() => (
+                          handleSingleBook(_id),
+                          setQuickView(true)
+                        )}
+                      >
+                        QUICK VIEW
+                      </button>
+                      <div className="book-details">
+                        <h2 className="book-name-h2">
+                          {name.length <= 20
+                            ? name
+                            : `${name.substring(0, 15)}...`}
+                        </h2>
+                        <span className="book-author-span">{author}</span>
+                        <div className="average-rating-book-container">
+                          <FaStar className="average-rating-icon" />
+                          <span className="book-average-rating-span">
+                            {averageRating}
+                          </span>
+                        </div>
+                        <span className="book-price-span">${price}</span>
                       </div>
-                      <span className="book-price-span">${price}</span>
                     </div>
-                  </div>
-                );
-              })}
-            </div>
-          </section>
-        );
-      })}
-      <QuickView
-        singleBook={singleBook}
-        width={size.width}
-        height={size.height}
-      />
-    </main>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })}
+        <QuickView
+          singleBook={singleBook}
+          width={size.width}
+          height={size.height}
+        />
+      </main>
+    </>
   );
 }

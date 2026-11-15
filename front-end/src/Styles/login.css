@@ -19,7 +19,7 @@
 
 .login-header {
   background-color: var(--HEADER-BACKGROUND-COLOR);
-  height: 4rem;
+  height: 8%;
 }
 
 .header-arrow {
@@ -59,7 +59,10 @@
 main {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
+}
+
+.login-main {
+  height: 92%;
 }
 
 .form-container {
@@ -68,7 +71,7 @@ main {
   align-content: center;
   flex-flow: column nowrap;
   flex: 1;
-  /* height: 100dvh; */
+  height: 100dvh;
   background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
     var(--BACKGROUND-IMAGE);

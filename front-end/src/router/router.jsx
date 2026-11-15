@@ -11,6 +11,7 @@ import Header from "../components/Header";
 import LoginHeader from "../components/LoginHeader";
 import Book from "../pages/Book";
 import Home from "../pages/Home";
+import Author from "../pages/Author";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +20,14 @@ const router = createBrowserRouter([
     children: [{ index: true, Component: Header }],
   },
   {
+    // change path to '/book/:id'
     path: "/:id",
     element: <Book />,
+    children: [{ index: true, Component: Header }],
+  },
+  {
+    path: "/author/:id",
+    element: <Author />,
     children: [{ index: true, Component: Header }],
   },
   {

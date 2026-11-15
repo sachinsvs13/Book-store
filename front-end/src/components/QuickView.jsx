@@ -63,7 +63,7 @@ export default function QuickView({ singleBook, width, height }) {
   return (
     <>
       {quickView &&
-        singleBook.map((book) => {
+        singleBook?.map((book) => {
           const {
             name,
             image,
