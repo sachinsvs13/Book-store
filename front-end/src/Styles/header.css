@@ -1,0 +1,167 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  border-bottom: 1px solid #fb4573;
+}
+
+.logo-container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #fb4573;
+  margin: 0.5em 1em;
+}
+
+.slogan {
+  padding: 1.2em 1.5em;
+}
+
+.people-slogan {
+  display: block;
+  line-height: 1.5em;
+  color: #fb4573;
+}
+
+.books-search {
+  padding: 0.5em 3em;
+  width: 50%;
+  background-image: url("../assets/search-img.jpg");
+  background-size: 1.5rem;
+  background-position: 0.3rem;
+  background-repeat: no-repeat;
+  border: 1px solid #fb4573;
+  border-radius: 3rem;
+  outline: none;
+}
+
+.btns-container {
+  display: flex;
+  padding-top: 0.5rem;
+}
+
+.icons {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: #fb4573;
+  position: relative;
+}
+
+.icons:nth-child(2) {
+  font-size: 1.8rem;
+}
+
+.icons:last-child {
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+
+.profile-container {
+  position: relative;
+}
+
+.login-info {
+  position: absolute;
+  top: 50px;
+  right: -100px;
+  width: 15rem;
+  display: none;
+  background-color: #ffc2d1;
+}
+
+.login-info::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 50%;
+  border-width: 0 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent #ffc2d1 transparent;
+  /* border-color: #ffc2d1; */
+}
+
+.profile-container:hover .login-info {
+  display: flex;
+  z-index: 100;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container {
+  margin: 1rem;
+}
+.login-btn {
+  padding: 0.6rem 5rem;
+  background-color: #fb4573;
+  color: #ffe5ec;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  opacity: 0.8;
+}
+
+.profile-sign-in {
+  width: 100%;
+  text-align: center;
+  padding: 0 0.7rem;
+}
+
+.sign-in-container {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.sign-in {
+  display: block;
+  color: #ff0040;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ff0040;
+}
+
+.setting-options-container {
+  padding: 0.5rem 1rem;
+}
+
+.settings-options {
+  list-style-type: none;
+}
+
+.settings-options::before {
+  border-top: 1px solid grey;
+}
+
+.options {
+  padding: 0.5rem;
+  color: black;
+}
+
+.options:hover {
+  color: #ff0040;
+}
+
+.options:active {
+  color: #ff658c;
+}
+
+.favorites-amount {
+  position: absolute;
+  top: 7px;
+  left: 27px;
+  font-size: 0.8rem;
+}
+
+.cart-amount {
+  position: absolute;
+  top: -12px;
+  left: 30px;
+  font-size: 1rem;
+}

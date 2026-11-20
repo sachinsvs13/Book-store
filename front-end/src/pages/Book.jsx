@@ -69,11 +69,12 @@ export default function Book() {
   useEffect(() => {
     const handleSingleBook = async () => {
       try {
-        const res = await axios.get(`http://localhost:3000/api/v1/books/${id}`);
-        const data1 = await res.data.book;
+        const res = await axios.post(
+          `http://localhost:3000/api/v1/books/${id}`,
+        );
+        const data = await res.data.book;
 
-        setSingleBook([data1]);
-        console.log("hello world");
+        setSingleBook([data]);
       } catch (error) {
         console.log(error);
       }
@@ -418,9 +419,10 @@ export default function Book() {
                       </span>
                     </h2>
                     <p className="book-info-p">
-                      By: <Link>{author}</Link> (author) | publisher:{" "}
-                      <Link>{publisher}</Link> | Publisher Imprint:{" "}
-                      {publisherImprint}
+                      By:{" "}
+                      <Link to={`/author/${authorData?._id}`}>{author}</Link>{" "}
+                      (author) | publisher: <Link>{publisher}</Link> | Publisher
+                      Imprint: {publisherImprint}
                     </p>
                     <h4 className="book-average-rating-h4">
                       {averageRating}{" "}

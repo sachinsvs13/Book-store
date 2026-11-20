@@ -178,7 +178,7 @@ export default function QuickView({ singleBook, width, height }) {
                       {releasedYear}
                     </p>
                     <p className="book-description">{description}</p>
-                    <Link to={`/${_id}`} className="book-view-link">
+                    <Link to={`book/${_id}`} className="book-view-link">
                       <button className="book-view-btn">
                         View Product Details
                       </button>

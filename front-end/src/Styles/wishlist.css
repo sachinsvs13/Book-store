@@ -166,7 +166,7 @@
   width: clamp(250px, 2vw, 400px);
 }
 
-.active {
+.wishlist-active {
   background-color: #ffa2b9;
   color: #ff2f63;
 }

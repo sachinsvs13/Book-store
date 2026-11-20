@@ -42,7 +42,7 @@ export default function SignIn() {
         localStorage.setItem("token", token);
         setUserData("");
         setIsConfirmPassword(false);
-        navigate("/");
+        navigate("/", { replace: true });
       } catch (error) {
         setError({ ...error });
         setErrorMessage(error?.response?.data?.msg);

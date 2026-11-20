@@ -8,7 +8,6 @@ export default function LoginHeader() {
       <Link to={"/"} className="header-arrow">
         <FaArrowLeft />
       </Link>
-
       <Link to={"/"} className="header-name">
         <h1>Books</h1>
       </Link>

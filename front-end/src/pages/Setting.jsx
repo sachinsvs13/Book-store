@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
 import { FaLocationDot } from "react-icons/fa6";
@@ -6,7 +6,6 @@ import "../Styles/setting.css";
 export default function Setting() {
   return (
     <>
-      <Outlet />
       <main>
         <section className="setting-section">
           <div className="setting-link-container">

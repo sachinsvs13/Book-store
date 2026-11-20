@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
 import LoginIn from "../pages/LoginIn";
 import SignIn from "../pages/SignIn";
 import Setting from "../pages/Setting";
@@ -7,63 +6,37 @@ import Wishlist from "../pages/Wishlist";
 import Address from "../pages/Address";
 import ChangePassword from "../pages/ChangePassword";
 import Cart from "../pages/Cart";
-import Header from "../components/Header";
-import LoginHeader from "../components/LoginHeader";
 import Book from "../pages/Book";
 import Home from "../pages/Home";
-import Author from "../pages/Author";
+import AuthorHome from "../pages/AuthorHome";
+import AuthorAbout from "../pages/AuthorAbout";
+import AuthorAllBooks from "../pages/AuthorAllBooks";
+import AppLayout from "../Layout/AppLayout";
+import AuthLayout from "../Layout/AuthLayout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
-    children: [{ index: true, Component: Header }],
+    element: <AppLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "book/:id", element: <Book /> },
+      { path: "author/:id", element: <AuthorHome /> },
+      { path: "/author/:id/about", element: <AuthorAbout /> },
+      { path: "/author/:id/allBooks", element: <AuthorAllBooks /> },
+      { path: "/setting", element: <Setting /> },
+      { path: "/wishlist", element: <Wishlist /> },
+      { path: "/address", element: <Address /> },
+      { path: "/change-password", element: <ChangePassword /> },
+      { path: "/cart", element: <Cart /> },
+    ],
   },
   {
-    // change path to '/book/:id'
-    path: "/:id",
-    element: <Book />,
-    children: [{ index: true, Component: Header }],
-  },
-  {
-    path: "/author/:id",
-    element: <Author />,
-    children: [{ index: true, Component: Header }],
-  },
-  {
-    path: "/login",
-    element: <LoginIn />,
-    children: [{ index: true, Component: LoginHeader }],
-  },
-  {
-    path: "/sign-in",
-    element: <SignIn />,
-    children: [{ index: true, Component: LoginHeader }],
-  },
-  {
-    path: "/setting",
-    element: <Setting />,
-    children: [{ index: true, Component: Header }],
-  },
-  {
-    path: "/wishlist",
-    element: <Wishlist />,
-    children: [{ index: true, Component: Header }],
-  },
-  {
-    path: "/address",
-    element: <Address />,
-    children: [{ index: true, Component: Header }],
-  },
-  {
-    path: "/change-password",
-    element: <ChangePassword />,
-    children: [{ index: true, Component: Header }],
-  },
-  {
-    path: "/cart",
-    element: <Cart />,
-    children: [{ index: true, Component: Header }],
+    element: <AuthLayout />,
+    children: [
+      { path: "/login", element: <LoginIn /> },
+      { path: "/sign-in", element: <SignIn /> },
+    ],
   },
 ]);
 

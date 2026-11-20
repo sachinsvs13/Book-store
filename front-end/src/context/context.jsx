@@ -1,4 +1,6 @@
+import axios from "axios";
 import { createContext, useState } from "react";
+import { useParams } from "react-router-dom";
 
 // The context must be exported for consumers; this module also exports its provider.
 // eslint-disable-next-line react-refresh/only-export-components
@@ -15,6 +17,7 @@ export const AppProvider = ({ children }) => {
   );
   const [selectWishList, SetSelectWishList] = useState(false);
   const [quickView, setQuickView] = useState(false);
+
   return (
     <AppContext.Provider
       value={{

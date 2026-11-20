@@ -3,10 +3,32 @@ import { Link } from "react-router-dom";
 import { FaRegHeart } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiBookmarklet } from "react-icons/gi";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import "../Styles/header.css";
 
 export default function Header() {
+  const [cartLength, setCartLength] = useState();
+
+  useEffect(() => {
+    const handleCartItems = async () => {
+      const token = localStorage.getItem("token");
+      try {
+        const res = await axios.get("http://localhost:3000/api/v1/cart", {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+        const data = await res.data;
+        setCartLength(data.length);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    handleCartItems();
+  }, []);
   return (
-    <header>
+    <header className="main-header">
       <div className="logo-container">
         <Link to={"/"} className="logo">
           <GiBookmarklet />
@@ -63,7 +85,7 @@ export default function Header() {
           <FaRegHeart />
         </Link>
         <Link to={"/cart"} className="icons">
-          <span className="cart-amount">0</span>
+          <span className="cart-amount">{cartLength}</span>
           <AiOutlineShoppingCart />
         </Link>
       </div>

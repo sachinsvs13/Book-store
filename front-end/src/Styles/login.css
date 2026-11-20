@@ -19,6 +19,8 @@
 
 .login-header {
   background-color: var(--HEADER-BACKGROUND-COLOR);
+  display: flex;
+  align-items: center;
   height: 8%;
 }
 

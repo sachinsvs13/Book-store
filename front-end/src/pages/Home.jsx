@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa6";
-
+import "../Styles/App.css";
 import { Outlet } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
@@ -12,6 +12,7 @@ export default function Home() {
   const { quickView, setQuickView } = useGlobalContext();
 
   const [error, setError] = useState();
+  const [width, setWidth] = useState(window.innerHeight);
   const [loading, setLoading] = useState({
     trending: true,
     bestSeller: true,
@@ -19,6 +20,14 @@ export default function Home() {
     awardWinning: true,
   });
   const [singleBook, setSingleBook] = useState([]);
+
+  useEffect(() => {
+    const onResize = () => setWidth(window.innerHeight);
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
+
+  console.log(width);
 
   const [size, setSize] = useState({
     width: window.innerHeight,
@@ -107,7 +116,7 @@ export default function Home() {
 
   const handleSingleBook = async (id) => {
     try {
-      const res = await axios.get(`http://localhost:3000/api/v1/books/${id}`);
+      const res = await axios.post(`http://localhost:3000/api/v1/books/${id}`);
       const data = res.data.book;
       setSingleBook([data]);
     } catch (error) {

@@ -82,7 +82,7 @@ export default function Wishlist() {
                   <div
                     className={
                       wishlistNamesIndex === index
-                        ? "single-wishlist-container active"
+                        ? "single-wishlist-container wishlist-active"
                         : "single-wishlist-container"
                     }
                     key={index}

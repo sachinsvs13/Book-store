@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { RiLockPasswordFill } from "react-icons/ri";
-import { Link, Outlet, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { VscErrorCompact } from "react-icons/vsc";
 import "../Styles/login.css";
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
@@ -28,7 +28,7 @@ export default function LoginIn() {
       const token = res.data.token;
       localStorage.setItem("token", token);
       setUserData({ email: "", password: "" });
-      navigate("/");
+      navigate("/", { replace: true });
     } catch (error) {
       setError({ ...error });
       setErrorMessage(error?.response?.data?.msg);
@@ -46,7 +46,6 @@ export default function LoginIn() {
 
   return (
     <>
-      <Outlet />
       <main className="login-main">
         <div className="form-container">
           <form
